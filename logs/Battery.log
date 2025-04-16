@@ -1,0 +1,605 @@
+2025-04-16 12:29:13,295 - Battery - INFO - Command: python -u FederateGenerator.py federates/Battery.yaml --loglevel=debug
+2025-04-16 12:29:13,958 - Battery - INFO - Warning: Configuration 'real_period' doesn't match any known HELICS property
+2025-04-16 12:29:13,959 - Battery - INFO - Warning: Configuration 'time_stop' doesn't match any known HELICS property
+2025-04-16 12:29:13,959 - Battery - INFO - Warning: Property 'start_time' not found in HELICS constants
+2025-04-16 12:29:13,959 - Battery - INFO - Warning: Property 'timeout' not found in HELICS constants
+2025-04-16 12:29:15,053 - Battery - INFO - ***************** iteration 0 ********************
+2025-04-16 12:29:15,054 - Battery - INFO - ***************** iteration 0 ********************
+2025-04-16 12:29:15,055 - Battery - INFO - Battery: Published voltage = 0 at time 0
+2025-04-16 12:29:15,056 - Battery - INFO - Battery: Published current = 0 at time 0
+2025-04-16 12:29:15,057 - Battery - INFO - [2025-04-16 12:29:15.053] [console] [warning] Battery (131072)[1.5]::Time mismatch detected: granted time greater than requested time 1.5 vs 1
+2025-04-16 12:29:15,057 - Battery - INFO - Battery: Granted time 1.5
+2025-04-16 12:29:15,058 - Battery - INFO - ***************** iteration 1 ********************
+2025-04-16 12:29:15,059 - Battery - INFO - ***************** iteration 1 ********************
+2025-04-16 12:29:15,060 - Battery - INFO - Battery: Published voltage = 1 at time 1
+2025-04-16 12:29:15,060 - Battery - INFO - Battery: Published current = 1 at time 1
+2025-04-16 12:29:15,061 - Battery - INFO - [2025-04-16 12:29:15.053] [console] [warning] Battery (131072)[2.5]::Time mismatch detected: granted time greater than requested time 2.5 vs 2
+2025-04-16 12:29:15,062 - Battery - INFO - Battery: Granted time 2.5
+2025-04-16 12:29:15,062 - Battery - INFO - ***************** iteration 2 ********************
+2025-04-16 12:29:15,063 - Battery - INFO - ***************** iteration 2 ********************
+2025-04-16 12:29:15,063 - Battery - INFO - Battery: Published voltage = 2 at time 2
+2025-04-16 12:29:15,064 - Battery - INFO - Battery: Published current = 2 at time 2
+2025-04-16 12:29:15,065 - Battery - INFO - [2025-04-16 12:29:15.053] [console] [warning] Battery (131072)[3.5]::Time mismatch detected: granted time greater than requested time 3.5 vs 3
+2025-04-16 12:29:15,065 - Battery - INFO - Battery: Granted time 3.5
+2025-04-16 12:29:15,066 - Battery - INFO - ***************** iteration 3 ********************
+2025-04-16 12:29:15,066 - Battery - INFO - ***************** iteration 3 ********************
+2025-04-16 12:29:15,067 - Battery - INFO - Battery: Published voltage = 3 at time 3
+2025-04-16 12:29:15,067 - Battery - INFO - Battery: Published current = 3 at time 3
+2025-04-16 12:29:15,067 - Battery - INFO - [2025-04-16 12:29:15.053] [console] [warning] Battery (131072)[4.5]::Time mismatch detected: granted time greater than requested time 4.5 vs 4
+2025-04-16 12:29:15,068 - Battery - INFO - Battery: Granted time 4.5
+2025-04-16 12:29:15,068 - Battery - INFO - ***************** iteration 4 ********************
+2025-04-16 12:29:15,069 - Battery - INFO - ***************** iteration 4 ********************
+2025-04-16 12:29:15,069 - Battery - INFO - Battery: Published voltage = 4 at time 4
+2025-04-16 12:29:15,070 - Battery - INFO - Battery: Published current = 4 at time 4
+2025-04-16 12:29:15,070 - Battery - INFO - [2025-04-16 12:29:15.053] [console] [warning] Battery (131072)[5.5]::Time mismatch detected: granted time greater than requested time 5.5 vs 5
+2025-04-16 12:29:15,071 - Battery - INFO - Battery: Granted time 5.5
+2025-04-16 12:29:15,072 - Battery - INFO - ***************** iteration 5 ********************
+2025-04-16 12:29:15,072 - Battery - INFO - ***************** iteration 5 ********************
+2025-04-16 12:29:15,073 - Battery - INFO - Battery: Published voltage = 5 at time 5
+2025-04-16 12:29:15,073 - Battery - INFO - Battery: Published current = 5 at time 5
+2025-04-16 12:29:15,074 - Battery - INFO - [2025-04-16 12:29:15.053] [console] [warning] Battery (131072)[6.5]::Time mismatch detected: granted time greater than requested time 6.5 vs 6
+2025-04-16 12:29:15,075 - Battery - INFO - Battery: Granted time 6.5
+2025-04-16 12:29:15,075 - Battery - INFO - ***************** iteration 6 ********************
+2025-04-16 12:29:15,076 - Battery - INFO - ***************** iteration 6 ********************
+2025-04-16 12:29:15,076 - Battery - INFO - Battery: Published voltage = 6 at time 6
+2025-04-16 12:29:15,077 - Battery - INFO - Battery: Published current = 6 at time 6
+2025-04-16 12:29:15,077 - Battery - INFO - [2025-04-16 12:29:15.054] [console] [warning] Battery (131072)[7.5]::Time mismatch detected: granted time greater than requested time 7.5 vs 7
+2025-04-16 12:29:15,078 - Battery - INFO - Battery: Granted time 7.5
+2025-04-16 12:29:15,079 - Battery - INFO - ***************** iteration 7 ********************
+2025-04-16 12:29:15,079 - Battery - INFO - ***************** iteration 7 ********************
+2025-04-16 12:29:15,080 - Battery - INFO - Battery: Published voltage = 7 at time 7
+2025-04-16 12:29:15,081 - Battery - INFO - Battery: Published current = 7 at time 7
+2025-04-16 12:29:15,082 - Battery - INFO - [2025-04-16 12:29:15.057] [console] [warning] Battery (131072)[8.5]::Time mismatch detected: granted time greater than requested time 8.5 vs 8
+2025-04-16 12:29:15,082 - Battery - INFO - Battery: Granted time 8.5
+2025-04-16 12:29:15,083 - Battery - INFO - ***************** iteration 8 ********************
+2025-04-16 12:29:15,084 - Battery - INFO - ***************** iteration 8 ********************
+2025-04-16 12:29:15,084 - Battery - INFO - Battery: Published voltage = 8 at time 8
+2025-04-16 12:29:15,085 - Battery - INFO - Battery: Published current = 8 at time 8
+2025-04-16 12:29:15,085 - Battery - INFO - [2025-04-16 12:29:15.057] [console] [warning] Battery (131072)[9.5]::Time mismatch detected: granted time greater than requested time 9.5 vs 9
+2025-04-16 12:29:15,086 - Battery - INFO - Battery: Granted time 9.5
+2025-04-16 12:29:15,086 - Battery - INFO - ***************** iteration 9 ********************
+2025-04-16 12:29:15,086 - Battery - INFO - ***************** iteration 9 ********************
+2025-04-16 12:29:15,087 - Battery - INFO - Battery: Published voltage = 9 at time 9
+2025-04-16 12:29:15,087 - Battery - INFO - Battery: Published current = 9 at time 9
+2025-04-16 12:29:15,088 - Battery - INFO - [2025-04-16 12:29:15.057] [console] [warning] Battery (131072)[10.5]::Time mismatch detected: granted time greater than requested time 10.5 vs 10
+2025-04-16 12:29:15,088 - Battery - INFO - Battery: Granted time 10.5
+2025-04-16 12:29:15,089 - Battery - INFO - ***************** iteration 10 ********************
+2025-04-16 12:29:15,089 - Battery - INFO - ***************** iteration 10 ********************
+2025-04-16 12:29:15,089 - Battery - INFO - Battery: Published voltage = 10 at time 10
+2025-04-16 12:29:15,090 - Battery - INFO - Battery: Published current = 10 at time 10
+2025-04-16 12:29:15,090 - Battery - INFO - [2025-04-16 12:29:15.057] [console] [warning] Battery (131072)[11.5]::Time mismatch detected: granted time greater than requested time 11.5 vs 11
+2025-04-16 12:29:15,090 - Battery - INFO - Battery: Granted time 11.5
+2025-04-16 12:29:15,091 - Battery - INFO - ***************** iteration 11 ********************
+2025-04-16 12:29:15,092 - Battery - INFO - ***************** iteration 11 ********************
+2025-04-16 12:29:15,092 - Battery - INFO - Battery: Published voltage = 11 at time 11
+2025-04-16 12:29:15,093 - Battery - INFO - Battery: Published current = 11 at time 11
+2025-04-16 12:29:15,094 - Battery - INFO - [2025-04-16 12:29:15.057] [console] [warning] Battery (131072)[12.5]::Time mismatch detected: granted time greater than requested time 12.5 vs 12
+2025-04-16 12:29:15,094 - Battery - INFO - Battery: Granted time 12.5
+2025-04-16 12:29:15,095 - Battery - INFO - ***************** iteration 12 ********************
+2025-04-16 12:29:15,096 - Battery - INFO - ***************** iteration 12 ********************
+2025-04-16 12:29:15,096 - Battery - INFO - Battery: Published voltage = 12 at time 12
+2025-04-16 12:29:15,097 - Battery - INFO - Battery: Published current = 12 at time 12
+2025-04-16 12:29:15,097 - Battery - INFO - [2025-04-16 12:29:15.057] [console] [warning] Battery (131072)[13.5]::Time mismatch detected: granted time greater than requested time 13.5 vs 13
+2025-04-16 12:29:15,098 - Battery - INFO - Battery: Granted time 13.5
+2025-04-16 12:29:15,098 - Battery - INFO - ***************** iteration 13 ********************
+2025-04-16 12:29:15,099 - Battery - INFO - ***************** iteration 13 ********************
+2025-04-16 12:29:15,099 - Battery - INFO - Battery: Published voltage = 13 at time 13
+2025-04-16 12:29:15,100 - Battery - INFO - Battery: Published current = 13 at time 13
+2025-04-16 12:29:15,100 - Battery - INFO - [2025-04-16 12:29:15.078] [console] [warning] Battery (131072)[14.5]::Time mismatch detected: granted time greater than requested time 14.5 vs 14
+2025-04-16 12:29:15,101 - Battery - INFO - Battery: Granted time 14.5
+2025-04-16 12:29:15,101 - Battery - INFO - ***************** iteration 14 ********************
+2025-04-16 12:29:15,102 - Battery - INFO - ***************** iteration 14 ********************
+2025-04-16 12:29:15,102 - Battery - INFO - Battery: Published voltage = 14 at time 14
+2025-04-16 12:29:15,103 - Battery - INFO - Battery: Published current = 14 at time 14
+2025-04-16 12:29:15,103 - Battery - INFO - [2025-04-16 12:29:15.078] [console] [warning] Battery (131072)[15.5]::Time mismatch detected: granted time greater than requested time 15.5 vs 15
+2025-04-16 12:29:15,104 - Battery - INFO - Battery: Granted time 15.5
+2025-04-16 12:29:15,104 - Battery - INFO - ***************** iteration 15 ********************
+2025-04-16 12:29:15,105 - Battery - INFO - ***************** iteration 15 ********************
+2025-04-16 12:29:15,105 - Battery - INFO - Battery: Published voltage = 15 at time 15
+2025-04-16 12:29:15,106 - Battery - INFO - Battery: Published current = 15 at time 15
+2025-04-16 12:29:15,106 - Battery - INFO - [2025-04-16 12:29:15.078] [console] [warning] Battery (131072)[16.5]::Time mismatch detected: granted time greater than requested time 16.5 vs 16
+2025-04-16 12:29:15,107 - Battery - INFO - Battery: Granted time 16.5
+2025-04-16 12:29:15,107 - Battery - INFO - ***************** iteration 16 ********************
+2025-04-16 12:29:15,108 - Battery - INFO - ***************** iteration 16 ********************
+2025-04-16 12:29:15,108 - Battery - INFO - Battery: Published voltage = 16 at time 16
+2025-04-16 12:29:15,109 - Battery - INFO - Battery: Published current = 16 at time 16
+2025-04-16 12:29:15,109 - Battery - INFO - [2025-04-16 12:29:15.078] [console] [warning] Battery (131072)[17.5]::Time mismatch detected: granted time greater than requested time 17.5 vs 17
+2025-04-16 12:29:15,110 - Battery - INFO - Battery: Granted time 17.5
+2025-04-16 12:29:15,110 - Battery - INFO - ***************** iteration 17 ********************
+2025-04-16 12:29:15,111 - Battery - INFO - ***************** iteration 17 ********************
+2025-04-16 12:29:15,111 - Battery - INFO - Battery: Published voltage = 17 at time 17
+2025-04-16 12:29:15,112 - Battery - INFO - Battery: Published current = 17 at time 17
+2025-04-16 12:29:15,112 - Battery - INFO - [2025-04-16 12:29:15.078] [console] [warning] Battery (131072)[18.5]::Time mismatch detected: granted time greater than requested time 18.5 vs 18
+2025-04-16 12:29:15,113 - Battery - INFO - Battery: Granted time 18.5
+2025-04-16 12:29:15,113 - Battery - INFO - ***************** iteration 18 ********************
+2025-04-16 12:29:15,114 - Battery - INFO - ***************** iteration 18 ********************
+2025-04-16 12:29:15,114 - Battery - INFO - Battery: Published voltage = 18 at time 18
+2025-04-16 12:29:15,115 - Battery - INFO - Battery: Published current = 18 at time 18
+2025-04-16 12:29:15,116 - Battery - INFO - [2025-04-16 12:29:15.079] [console] [warning] Battery (131072)[19.5]::Time mismatch detected: granted time greater than requested time 19.5 vs 19
+2025-04-16 12:29:15,116 - Battery - INFO - Battery: Granted time 19.5
+2025-04-16 12:29:15,116 - Battery - INFO - ***************** iteration 19 ********************
+2025-04-16 12:29:15,117 - Battery - INFO - ***************** iteration 19 ********************
+2025-04-16 12:29:15,117 - Battery - INFO - Battery: Published voltage = 19 at time 19
+2025-04-16 12:29:15,118 - Battery - INFO - Battery: Published current = 19 at time 19
+2025-04-16 12:29:15,119 - Battery - INFO - [2025-04-16 12:29:15.099] [console] [warning] Battery (131072)[20.5]::Time mismatch detected: granted time greater than requested time 20.5 vs 20
+2025-04-16 12:29:15,119 - Battery - INFO - Battery: Granted time 20.5
+2025-04-16 12:29:15,120 - Battery - INFO - ***************** iteration 20 ********************
+2025-04-16 12:29:15,120 - Battery - INFO - ***************** iteration 20 ********************
+2025-04-16 12:29:15,121 - Battery - INFO - Battery: Published voltage = 20 at time 20
+2025-04-16 12:29:15,121 - Battery - INFO - Battery: Published current = 20 at time 20
+2025-04-16 12:29:15,122 - Battery - INFO - [2025-04-16 12:29:15.099] [console] [warning] Battery (131072)[21.5]::Time mismatch detected: granted time greater than requested time 21.5 vs 21
+2025-04-16 12:29:15,123 - Battery - INFO - Battery: Granted time 21.5
+2025-04-16 12:29:15,123 - Battery - INFO - ***************** iteration 21 ********************
+2025-04-16 12:29:15,124 - Battery - INFO - ***************** iteration 21 ********************
+2025-04-16 12:29:15,124 - Battery - INFO - Battery: Published voltage = 21 at time 21
+2025-04-16 12:29:15,125 - Battery - INFO - Battery: Published current = 21 at time 21
+2025-04-16 12:29:15,125 - Battery - INFO - [2025-04-16 12:29:15.100] [console] [warning] Battery (131072)[22.5]::Time mismatch detected: granted time greater than requested time 22.5 vs 22
+2025-04-16 12:29:15,126 - Battery - INFO - Battery: Granted time 22.5
+2025-04-16 12:29:15,126 - Battery - INFO - ***************** iteration 22 ********************
+2025-04-16 12:29:15,126 - Battery - INFO - ***************** iteration 22 ********************
+2025-04-16 12:29:15,127 - Battery - INFO - Battery: Published voltage = 22 at time 22
+2025-04-16 12:29:15,128 - Battery - INFO - Battery: Published current = 22 at time 22
+2025-04-16 12:29:15,128 - Battery - INFO - [2025-04-16 12:29:15.100] [console] [warning] Battery (131072)[23.5]::Time mismatch detected: granted time greater than requested time 23.5 vs 23
+2025-04-16 12:29:15,129 - Battery - INFO - Battery: Granted time 23.5
+2025-04-16 12:29:15,129 - Battery - INFO - ***************** iteration 23 ********************
+2025-04-16 12:29:15,130 - Battery - INFO - ***************** iteration 23 ********************
+2025-04-16 12:29:15,131 - Battery - INFO - Battery: Published voltage = 23 at time 23
+2025-04-16 12:29:15,131 - Battery - INFO - Battery: Published current = 23 at time 23
+2025-04-16 12:29:15,132 - Battery - INFO - [2025-04-16 12:29:15.100] [console] [warning] Battery (131072)[24.5]::Time mismatch detected: granted time greater than requested time 24.5 vs 24
+2025-04-16 12:29:15,132 - Battery - INFO - Battery: Granted time 24.5
+2025-04-16 12:29:15,133 - Battery - INFO - ***************** iteration 24 ********************
+2025-04-16 12:29:15,133 - Battery - INFO - ***************** iteration 24 ********************
+2025-04-16 12:29:15,134 - Battery - INFO - Battery: Published voltage = 24 at time 24
+2025-04-16 12:29:15,134 - Battery - INFO - Battery: Published current = 24 at time 24
+2025-04-16 12:29:15,135 - Battery - INFO - [2025-04-16 12:29:15.100] [console] [warning] Battery (131072)[25.5]::Time mismatch detected: granted time greater than requested time 25.5 vs 25
+2025-04-16 12:29:15,135 - Battery - INFO - Battery: Granted time 25.5
+2025-04-16 12:29:15,136 - Battery - INFO - ***************** iteration 25 ********************
+2025-04-16 12:29:15,136 - Battery - INFO - ***************** iteration 25 ********************
+2025-04-16 12:29:15,137 - Battery - INFO - Battery: Published voltage = 25 at time 25
+2025-04-16 12:29:15,137 - Battery - INFO - Battery: Published current = 25 at time 25
+2025-04-16 12:29:15,138 - Battery - INFO - [2025-04-16 12:29:15.100] [console] [warning] Battery (131072)[26.5]::Time mismatch detected: granted time greater than requested time 26.5 vs 26
+2025-04-16 12:29:15,139 - Battery - INFO - Battery: Granted time 26.5
+2025-04-16 12:29:15,139 - Battery - INFO - ***************** iteration 26 ********************
+2025-04-16 12:29:15,140 - Battery - INFO - ***************** iteration 26 ********************
+2025-04-16 12:29:15,140 - Battery - INFO - Battery: Published voltage = 26 at time 26
+2025-04-16 12:29:15,141 - Battery - INFO - Battery: Published current = 26 at time 26
+2025-04-16 12:29:15,141 - Battery - INFO - [2025-04-16 12:29:15.118] [console] [warning] Battery (131072)[27.5]::Time mismatch detected: granted time greater than requested time 27.5 vs 27
+2025-04-16 12:29:15,142 - Battery - INFO - Battery: Granted time 27.5
+2025-04-16 12:29:15,142 - Battery - INFO - ***************** iteration 27 ********************
+2025-04-16 12:29:15,143 - Battery - INFO - ***************** iteration 27 ********************
+2025-04-16 12:29:15,144 - Battery - INFO - Battery: Published voltage = 27 at time 27
+2025-04-16 12:29:15,145 - Battery - INFO - Battery: Published current = 27 at time 27
+2025-04-16 12:29:15,145 - Battery - INFO - [2025-04-16 12:29:15.119] [console] [warning] Battery (131072)[28.5]::Time mismatch detected: granted time greater than requested time 28.5 vs 28
+2025-04-16 12:29:15,145 - Battery - INFO - Battery: Granted time 28.5
+2025-04-16 12:29:15,146 - Battery - INFO - ***************** iteration 28 ********************
+2025-04-16 12:29:15,147 - Battery - INFO - ***************** iteration 28 ********************
+2025-04-16 12:29:15,147 - Battery - INFO - Battery: Published voltage = 28 at time 28
+2025-04-16 12:29:15,147 - Battery - INFO - Battery: Published current = 28 at time 28
+2025-04-16 12:29:15,148 - Battery - INFO - [2025-04-16 12:29:15.119] [console] [warning] Battery (131072)[29.5]::Time mismatch detected: granted time greater than requested time 29.5 vs 29
+2025-04-16 12:29:15,148 - Battery - INFO - Battery: Granted time 29.5
+2025-04-16 12:29:15,149 - Battery - INFO - ***************** iteration 29 ********************
+2025-04-16 12:29:15,149 - Battery - INFO - ***************** iteration 29 ********************
+2025-04-16 12:29:15,150 - Battery - INFO - Battery: Published voltage = 29 at time 29
+2025-04-16 12:29:15,150 - Battery - INFO - Battery: Published current = 29 at time 29
+2025-04-16 12:29:15,151 - Battery - INFO - [2025-04-16 12:29:15.119] [console] [warning] Battery (131072)[30.5]::Time mismatch detected: granted time greater than requested time 30.5 vs 30
+2025-04-16 12:29:15,151 - Battery - INFO - Battery: Granted time 30.5
+2025-04-16 12:29:15,152 - Battery - INFO - ***************** iteration 30 ********************
+2025-04-16 12:29:15,152 - Battery - INFO - ***************** iteration 30 ********************
+2025-04-16 12:29:15,153 - Battery - INFO - Battery: Published voltage = 30 at time 30
+2025-04-16 12:29:15,153 - Battery - INFO - Battery: Published current = 30 at time 30
+2025-04-16 12:29:15,154 - Battery - INFO - [2025-04-16 12:29:15.119] [console] [warning] Battery (131072)[31.5]::Time mismatch detected: granted time greater than requested time 31.5 vs 31
+2025-04-16 12:29:15,154 - Battery - INFO - Battery: Granted time 31.5
+2025-04-16 12:29:15,155 - Battery - INFO - ***************** iteration 31 ********************
+2025-04-16 12:29:15,156 - Battery - INFO - ***************** iteration 31 ********************
+2025-04-16 12:29:15,156 - Battery - INFO - Battery: Published voltage = 31 at time 31
+2025-04-16 12:29:15,157 - Battery - INFO - Battery: Published current = 31 at time 31
+2025-04-16 12:29:15,157 - Battery - INFO - [2025-04-16 12:29:15.119] [console] [warning] Battery (131072)[32.5]::Time mismatch detected: granted time greater than requested time 32.5 vs 32
+2025-04-16 12:29:15,157 - Battery - INFO - Battery: Granted time 32.5
+2025-04-16 12:29:15,158 - Battery - INFO - ***************** iteration 32 ********************
+2025-04-16 12:29:15,158 - Battery - INFO - ***************** iteration 32 ********************
+2025-04-16 12:29:15,159 - Battery - INFO - Battery: Published voltage = 32 at time 32
+2025-04-16 12:29:15,160 - Battery - INFO - Battery: Published current = 32 at time 32
+2025-04-16 12:29:15,160 - Battery - INFO - [2025-04-16 12:29:15.139] [console] [warning] Battery (131072)[33.5]::Time mismatch detected: granted time greater than requested time 33.5 vs 33
+2025-04-16 12:29:15,161 - Battery - INFO - Battery: Granted time 33.5
+2025-04-16 12:29:15,161 - Battery - INFO - ***************** iteration 33 ********************
+2025-04-16 12:29:15,162 - Battery - INFO - ***************** iteration 33 ********************
+2025-04-16 12:29:15,162 - Battery - INFO - Battery: Published voltage = 33 at time 33
+2025-04-16 12:29:15,163 - Battery - INFO - Battery: Published current = 33 at time 33
+2025-04-16 12:29:15,163 - Battery - INFO - [2025-04-16 12:29:15.139] [console] [warning] Battery (131072)[34.5]::Time mismatch detected: granted time greater than requested time 34.5 vs 34
+2025-04-16 12:29:15,164 - Battery - INFO - Battery: Granted time 34.5
+2025-04-16 12:29:15,164 - Battery - INFO - ***************** iteration 34 ********************
+2025-04-16 12:29:15,165 - Battery - INFO - ***************** iteration 34 ********************
+2025-04-16 12:29:15,165 - Battery - INFO - Battery: Published voltage = 34 at time 34
+2025-04-16 12:29:15,166 - Battery - INFO - Battery: Published current = 34 at time 34
+2025-04-16 12:29:15,166 - Battery - INFO - [2025-04-16 12:29:15.139] [console] [warning] Battery (131072)[35.5]::Time mismatch detected: granted time greater than requested time 35.5 vs 35
+2025-04-16 12:29:15,167 - Battery - INFO - Battery: Granted time 35.5
+2025-04-16 12:29:15,167 - Battery - INFO - ***************** iteration 35 ********************
+2025-04-16 12:29:15,168 - Battery - INFO - ***************** iteration 35 ********************
+2025-04-16 12:29:15,168 - Battery - INFO - Battery: Published voltage = 35 at time 35
+2025-04-16 12:29:15,169 - Battery - INFO - Battery: Published current = 35 at time 35
+2025-04-16 12:29:15,170 - Battery - INFO - [2025-04-16 12:29:15.139] [console] [warning] Battery (131072)[36.5]::Time mismatch detected: granted time greater than requested time 36.5 vs 36
+2025-04-16 12:29:15,170 - Battery - INFO - Battery: Granted time 36.5
+2025-04-16 12:29:15,171 - Battery - INFO - ***************** iteration 36 ********************
+2025-04-16 12:29:15,171 - Battery - INFO - ***************** iteration 36 ********************
+2025-04-16 12:29:15,171 - Battery - INFO - Battery: Published voltage = 36 at time 36
+2025-04-16 12:29:15,172 - Battery - INFO - Battery: Published current = 36 at time 36
+2025-04-16 12:29:15,172 - Battery - INFO - [2025-04-16 12:29:15.139] [console] [warning] Battery (131072)[37.5]::Time mismatch detected: granted time greater than requested time 37.5 vs 37
+2025-04-16 12:29:15,173 - Battery - INFO - Battery: Granted time 37.5
+2025-04-16 12:29:15,173 - Battery - INFO - ***************** iteration 37 ********************
+2025-04-16 12:29:15,174 - Battery - INFO - ***************** iteration 37 ********************
+2025-04-16 12:29:15,174 - Battery - INFO - Battery: Published voltage = 37 at time 37
+2025-04-16 12:29:15,174 - Battery - INFO - Battery: Published current = 37 at time 37
+2025-04-16 12:29:15,175 - Battery - INFO - [2025-04-16 12:29:15.139] [console] [warning] Battery (131072)[38.5]::Time mismatch detected: granted time greater than requested time 38.5 vs 38
+2025-04-16 12:29:15,175 - Battery - INFO - Battery: Granted time 38.5
+2025-04-16 12:29:15,176 - Battery - INFO - ***************** iteration 38 ********************
+2025-04-16 12:29:15,176 - Battery - INFO - ***************** iteration 38 ********************
+2025-04-16 12:29:15,177 - Battery - INFO - Battery: Published voltage = 38 at time 38
+2025-04-16 12:29:15,178 - Battery - INFO - Battery: Published current = 38 at time 38
+2025-04-16 12:29:15,179 - Battery - INFO - [2025-04-16 12:29:15.159] [console] [warning] Battery (131072)[39.5]::Time mismatch detected: granted time greater than requested time 39.5 vs 39
+2025-04-16 12:29:15,180 - Battery - INFO - Battery: Granted time 39.5
+2025-04-16 12:29:15,180 - Battery - INFO - ***************** iteration 39 ********************
+2025-04-16 12:29:15,181 - Battery - INFO - ***************** iteration 39 ********************
+2025-04-16 12:29:15,182 - Battery - INFO - Battery: Published voltage = 39 at time 39
+2025-04-16 12:29:15,182 - Battery - INFO - Battery: Published current = 39 at time 39
+2025-04-16 12:29:15,183 - Battery - INFO - [2025-04-16 12:29:15.159] [console] [warning] Battery (131072)[40.5]::Time mismatch detected: granted time greater than requested time 40.5 vs 40
+2025-04-16 12:29:15,183 - Battery - INFO - Battery: Granted time 40.5
+2025-04-16 12:29:15,184 - Battery - INFO - ***************** iteration 40 ********************
+2025-04-16 12:29:15,184 - Battery - INFO - ***************** iteration 40 ********************
+2025-04-16 12:29:15,184 - Battery - INFO - Battery: Published voltage = 40 at time 40
+2025-04-16 12:29:15,185 - Battery - INFO - Battery: Published current = 40 at time 40
+2025-04-16 12:29:15,185 - Battery - INFO - [2025-04-16 12:29:15.159] [console] [warning] Battery (131072)[41.5]::Time mismatch detected: granted time greater than requested time 41.5 vs 41
+2025-04-16 12:29:15,186 - Battery - INFO - Battery: Granted time 41.5
+2025-04-16 12:29:15,186 - Battery - INFO - ***************** iteration 41 ********************
+2025-04-16 12:29:15,187 - Battery - INFO - ***************** iteration 41 ********************
+2025-04-16 12:29:15,187 - Battery - INFO - Battery: Published voltage = 41 at time 41
+2025-04-16 12:29:15,187 - Battery - INFO - Battery: Published current = 41 at time 41
+2025-04-16 12:29:15,188 - Battery - INFO - [2025-04-16 12:29:15.159] [console] [warning] Battery (131072)[42.5]::Time mismatch detected: granted time greater than requested time 42.5 vs 42
+2025-04-16 12:29:15,189 - Battery - INFO - Battery: Granted time 42.5
+2025-04-16 12:29:15,189 - Battery - INFO - ***************** iteration 42 ********************
+2025-04-16 12:29:15,190 - Battery - INFO - ***************** iteration 42 ********************
+2025-04-16 12:29:15,191 - Battery - INFO - Battery: Published voltage = 42 at time 42
+2025-04-16 12:29:15,191 - Battery - INFO - Battery: Published current = 42 at time 42
+2025-04-16 12:29:15,192 - Battery - INFO - [2025-04-16 12:29:15.159] [console] [warning] Battery (131072)[43.5]::Time mismatch detected: granted time greater than requested time 43.5 vs 43
+2025-04-16 12:29:15,192 - Battery - INFO - Battery: Granted time 43.5
+2025-04-16 12:29:15,192 - Battery - INFO - ***************** iteration 43 ********************
+2025-04-16 12:29:15,193 - Battery - INFO - ***************** iteration 43 ********************
+2025-04-16 12:29:15,194 - Battery - INFO - Battery: Published voltage = 43 at time 43
+2025-04-16 12:29:15,194 - Battery - INFO - Battery: Published current = 43 at time 43
+2025-04-16 12:29:15,195 - Battery - INFO - [2025-04-16 12:29:15.159] [console] [warning] Battery (131072)[44.5]::Time mismatch detected: granted time greater than requested time 44.5 vs 44
+2025-04-16 12:29:15,196 - Battery - INFO - Battery: Granted time 44.5
+2025-04-16 12:29:15,196 - Battery - INFO - ***************** iteration 44 ********************
+2025-04-16 12:29:15,196 - Battery - INFO - ***************** iteration 44 ********************
+2025-04-16 12:29:15,197 - Battery - INFO - Battery: Published voltage = 44 at time 44
+2025-04-16 12:29:15,198 - Battery - INFO - Battery: Published current = 44 at time 44
+2025-04-16 12:29:15,198 - Battery - INFO - [2025-04-16 12:29:15.159] [console] [warning] Battery (131072)[45.5]::Time mismatch detected: granted time greater than requested time 45.5 vs 45
+2025-04-16 12:29:15,199 - Battery - INFO - Battery: Granted time 45.5
+2025-04-16 12:29:15,199 - Battery - INFO - ***************** iteration 45 ********************
+2025-04-16 12:29:15,200 - Battery - INFO - ***************** iteration 45 ********************
+2025-04-16 12:29:15,201 - Battery - INFO - Battery: Published voltage = 45 at time 45
+2025-04-16 12:29:15,201 - Battery - INFO - Battery: Published current = 45 at time 45
+2025-04-16 12:29:15,202 - Battery - INFO - [2025-04-16 12:29:15.178] [console] [warning] Battery (131072)[46.5]::Time mismatch detected: granted time greater than requested time 46.5 vs 46
+2025-04-16 12:29:15,202 - Battery - INFO - Battery: Granted time 46.5
+2025-04-16 12:29:15,202 - Battery - INFO - ***************** iteration 46 ********************
+2025-04-16 12:29:15,203 - Battery - INFO - ***************** iteration 46 ********************
+2025-04-16 12:29:15,203 - Battery - INFO - Battery: Published voltage = 46 at time 46
+2025-04-16 12:29:15,204 - Battery - INFO - Battery: Published current = 46 at time 46
+2025-04-16 12:29:15,204 - Battery - INFO - [2025-04-16 12:29:15.178] [console] [warning] Battery (131072)[47.5]::Time mismatch detected: granted time greater than requested time 47.5 vs 47
+2025-04-16 12:29:15,205 - Battery - INFO - Battery: Granted time 47.5
+2025-04-16 12:29:15,205 - Battery - INFO - ***************** iteration 47 ********************
+2025-04-16 12:29:15,205 - Battery - INFO - ***************** iteration 47 ********************
+2025-04-16 12:29:15,206 - Battery - INFO - Battery: Published voltage = 47 at time 47
+2025-04-16 12:29:15,207 - Battery - INFO - Battery: Published current = 47 at time 47
+2025-04-16 12:29:15,207 - Battery - INFO - [2025-04-16 12:29:15.179] [console] [warning] Battery (131072)[48.5]::Time mismatch detected: granted time greater than requested time 48.5 vs 48
+2025-04-16 12:29:15,207 - Battery - INFO - Battery: Granted time 48.5
+2025-04-16 12:29:15,208 - Battery - INFO - ***************** iteration 48 ********************
+2025-04-16 12:29:15,209 - Battery - INFO - ***************** iteration 48 ********************
+2025-04-16 12:29:15,209 - Battery - INFO - Battery: Published voltage = 48 at time 48
+2025-04-16 12:29:15,209 - Battery - INFO - Battery: Published current = 48 at time 48
+2025-04-16 12:29:15,210 - Battery - INFO - [2025-04-16 12:29:15.179] [console] [warning] Battery (131072)[49.5]::Time mismatch detected: granted time greater than requested time 49.5 vs 49
+2025-04-16 12:29:15,210 - Battery - INFO - Battery: Granted time 49.5
+2025-04-16 12:29:15,211 - Battery - INFO - ***************** iteration 49 ********************
+2025-04-16 12:29:15,211 - Battery - INFO - ***************** iteration 49 ********************
+2025-04-16 12:29:15,211 - Battery - INFO - Battery: Published voltage = 49 at time 49
+2025-04-16 12:29:15,212 - Battery - INFO - Battery: Published current = 49 at time 49
+2025-04-16 12:29:15,212 - Battery - INFO - [2025-04-16 12:29:15.179] [console] [warning] Battery (131072)[50.5]::Time mismatch detected: granted time greater than requested time 50.5 vs 50
+2025-04-16 12:29:15,213 - Battery - INFO - Battery: Granted time 50.5
+2025-04-16 12:29:15,213 - Battery - INFO - ***************** iteration 50 ********************
+2025-04-16 12:29:15,214 - Battery - INFO - ***************** iteration 50 ********************
+2025-04-16 12:29:15,214 - Battery - INFO - Battery: Published voltage = 50 at time 50
+2025-04-16 12:29:15,215 - Battery - INFO - Battery: Published current = 50 at time 50
+2025-04-16 12:29:15,216 - Battery - INFO - [2025-04-16 12:29:15.179] [console] [warning] Battery (131072)[51.5]::Time mismatch detected: granted time greater than requested time 51.5 vs 51
+2025-04-16 12:29:15,216 - Battery - INFO - Battery: Granted time 51.5
+2025-04-16 12:29:15,217 - Battery - INFO - ***************** iteration 51 ********************
+2025-04-16 12:29:15,217 - Battery - INFO - ***************** iteration 51 ********************
+2025-04-16 12:29:15,218 - Battery - INFO - Battery: Published voltage = 51 at time 51
+2025-04-16 12:29:15,218 - Battery - INFO - Battery: Published current = 51 at time 51
+2025-04-16 12:29:15,219 - Battery - INFO - [2025-04-16 12:29:15.199] [console] [warning] Battery (131072)[52.5]::Time mismatch detected: granted time greater than requested time 52.5 vs 52
+2025-04-16 12:29:15,220 - Battery - INFO - Battery: Granted time 52.5
+2025-04-16 12:29:15,220 - Battery - INFO - ***************** iteration 52 ********************
+2025-04-16 12:29:15,221 - Battery - INFO - ***************** iteration 52 ********************
+2025-04-16 12:29:15,222 - Battery - INFO - Battery: Published voltage = 52 at time 52
+2025-04-16 12:29:15,222 - Battery - INFO - Battery: Published current = 52 at time 52
+2025-04-16 12:29:15,222 - Battery - INFO - [2025-04-16 12:29:15.199] [console] [warning] Battery (131072)[53.5]::Time mismatch detected: granted time greater than requested time 53.5 vs 53
+2025-04-16 12:29:15,223 - Battery - INFO - Battery: Granted time 53.5
+2025-04-16 12:29:15,224 - Battery - INFO - ***************** iteration 53 ********************
+2025-04-16 12:29:15,224 - Battery - INFO - ***************** iteration 53 ********************
+2025-04-16 12:29:15,225 - Battery - INFO - Battery: Published voltage = 53 at time 53
+2025-04-16 12:29:15,225 - Battery - INFO - Battery: Published current = 53 at time 53
+2025-04-16 12:29:15,225 - Battery - INFO - [2025-04-16 12:29:15.199] [console] [warning] Battery (131072)[54.5]::Time mismatch detected: granted time greater than requested time 54.5 vs 54
+2025-04-16 12:29:15,227 - Battery - INFO - Battery: Granted time 54.5
+2025-04-16 12:29:15,227 - Battery - INFO - ***************** iteration 54 ********************
+2025-04-16 12:29:15,228 - Battery - INFO - ***************** iteration 54 ********************
+2025-04-16 12:29:15,228 - Battery - INFO - Battery: Published voltage = 54 at time 54
+2025-04-16 12:29:15,228 - Battery - INFO - Battery: Published current = 54 at time 54
+2025-04-16 12:29:15,229 - Battery - INFO - [2025-04-16 12:29:15.199] [console] [warning] Battery (131072)[55.5]::Time mismatch detected: granted time greater than requested time 55.5 vs 55
+2025-04-16 12:29:15,229 - Battery - INFO - Battery: Granted time 55.5
+2025-04-16 12:29:15,229 - Battery - INFO - ***************** iteration 55 ********************
+2025-04-16 12:29:15,230 - Battery - INFO - ***************** iteration 55 ********************
+2025-04-16 12:29:15,230 - Battery - INFO - Battery: Published voltage = 55 at time 55
+2025-04-16 12:29:15,231 - Battery - INFO - Battery: Published current = 55 at time 55
+2025-04-16 12:29:15,231 - Battery - INFO - [2025-04-16 12:29:15.199] [console] [warning] Battery (131072)[56.5]::Time mismatch detected: granted time greater than requested time 56.5 vs 56
+2025-04-16 12:29:15,231 - Battery - INFO - Battery: Granted time 56.5
+2025-04-16 12:29:15,232 - Battery - INFO - ***************** iteration 56 ********************
+2025-04-16 12:29:15,232 - Battery - INFO - ***************** iteration 56 ********************
+2025-04-16 12:29:15,233 - Battery - INFO - Battery: Published voltage = 56 at time 56
+2025-04-16 12:29:15,234 - Battery - INFO - Battery: Published current = 56 at time 56
+2025-04-16 12:29:15,234 - Battery - INFO - [2025-04-16 12:29:15.200] [console] [warning] Battery (131072)[57.5]::Time mismatch detected: granted time greater than requested time 57.5 vs 57
+2025-04-16 12:29:15,234 - Battery - INFO - Battery: Granted time 57.5
+2025-04-16 12:29:15,235 - Battery - INFO - ***************** iteration 57 ********************
+2025-04-16 12:29:15,235 - Battery - INFO - ***************** iteration 57 ********************
+2025-04-16 12:29:15,236 - Battery - INFO - Battery: Published voltage = 57 at time 57
+2025-04-16 12:29:15,237 - Battery - INFO - Battery: Published current = 57 at time 57
+2025-04-16 12:29:15,237 - Battery - INFO - [2025-04-16 12:29:15.218] [console] [warning] Battery (131072)[58.5]::Time mismatch detected: granted time greater than requested time 58.5 vs 58
+2025-04-16 12:29:15,237 - Battery - INFO - Battery: Granted time 58.5
+2025-04-16 12:29:15,238 - Battery - INFO - ***************** iteration 58 ********************
+2025-04-16 12:29:15,238 - Battery - INFO - ***************** iteration 58 ********************
+2025-04-16 12:29:15,239 - Battery - INFO - Battery: Published voltage = 58 at time 58
+2025-04-16 12:29:15,239 - Battery - INFO - Battery: Published current = 58 at time 58
+2025-04-16 12:29:15,240 - Battery - INFO - [2025-04-16 12:29:15.218] [console] [warning] Battery (131072)[59.5]::Time mismatch detected: granted time greater than requested time 59.5 vs 59
+2025-04-16 12:29:15,240 - Battery - INFO - Battery: Granted time 59.5
+2025-04-16 12:29:15,241 - Battery - INFO - ***************** iteration 59 ********************
+2025-04-16 12:29:15,241 - Battery - INFO - ***************** iteration 59 ********************
+2025-04-16 12:29:15,242 - Battery - INFO - Battery: Published voltage = 59 at time 59
+2025-04-16 12:29:15,242 - Battery - INFO - Battery: Published current = 59 at time 59
+2025-04-16 12:29:15,243 - Battery - INFO - [2025-04-16 12:29:15.218] [console] [warning] Battery (131072)[60.5]::Time mismatch detected: granted time greater than requested time 60.5 vs 60
+2025-04-16 12:29:15,243 - Battery - INFO - Battery: Granted time 60.5
+2025-04-16 12:29:15,243 - Battery - INFO - ***************** iteration 60 ********************
+2025-04-16 12:29:15,244 - Battery - INFO - ***************** iteration 60 ********************
+2025-04-16 12:29:15,245 - Battery - INFO - Battery: Published voltage = 60 at time 60
+2025-04-16 12:29:15,245 - Battery - INFO - Battery: Published current = 60 at time 60
+2025-04-16 12:29:15,246 - Battery - INFO - [2025-04-16 12:29:15.218] [console] [warning] Battery (131072)[61.5]::Time mismatch detected: granted time greater than requested time 61.5 vs 61
+2025-04-16 12:29:15,247 - Battery - INFO - Battery: Granted time 61.5
+2025-04-16 12:29:15,247 - Battery - INFO - ***************** iteration 61 ********************
+2025-04-16 12:29:15,248 - Battery - INFO - ***************** iteration 61 ********************
+2025-04-16 12:29:15,248 - Battery - INFO - Battery: Published voltage = 61 at time 61
+2025-04-16 12:29:15,249 - Battery - INFO - Battery: Published current = 61 at time 61
+2025-04-16 12:29:15,249 - Battery - INFO - [2025-04-16 12:29:15.218] [console] [warning] Battery (131072)[62.5]::Time mismatch detected: granted time greater than requested time 62.5 vs 62
+2025-04-16 12:29:15,249 - Battery - INFO - Battery: Granted time 62.5
+2025-04-16 12:29:15,250 - Battery - INFO - ***************** iteration 62 ********************
+2025-04-16 12:29:15,250 - Battery - INFO - ***************** iteration 62 ********************
+2025-04-16 12:29:15,251 - Battery - INFO - Battery: Published voltage = 62 at time 62
+2025-04-16 12:29:15,251 - Battery - INFO - Battery: Published current = 62 at time 62
+2025-04-16 12:29:15,252 - Battery - INFO - [2025-04-16 12:29:15.218] [console] [warning] Battery (131072)[63.5]::Time mismatch detected: granted time greater than requested time 63.5 vs 63
+2025-04-16 12:29:15,252 - Battery - INFO - Battery: Granted time 63.5
+2025-04-16 12:29:15,253 - Battery - INFO - ***************** iteration 63 ********************
+2025-04-16 12:29:15,253 - Battery - INFO - ***************** iteration 63 ********************
+2025-04-16 12:29:15,254 - Battery - INFO - Battery: Published voltage = 63 at time 63
+2025-04-16 12:29:15,254 - Battery - INFO - Battery: Published current = 63 at time 63
+2025-04-16 12:29:15,255 - Battery - INFO - [2025-04-16 12:29:15.218] [console] [warning] Battery (131072)[64.5]::Time mismatch detected: granted time greater than requested time 64.5 vs 64
+2025-04-16 12:29:15,255 - Battery - INFO - Battery: Granted time 64.5
+2025-04-16 12:29:15,256 - Battery - INFO - ***************** iteration 64 ********************
+2025-04-16 12:29:15,256 - Battery - INFO - ***************** iteration 64 ********************
+2025-04-16 12:29:15,256 - Battery - INFO - Battery: Published voltage = 64 at time 64
+2025-04-16 12:29:15,257 - Battery - INFO - Battery: Published current = 64 at time 64
+2025-04-16 12:29:15,257 - Battery - INFO - [2025-04-16 12:29:15.237] [console] [warning] Battery (131072)[65.5]::Time mismatch detected: granted time greater than requested time 65.5 vs 65
+2025-04-16 12:29:15,258 - Battery - INFO - Battery: Granted time 65.5
+2025-04-16 12:29:15,258 - Battery - INFO - ***************** iteration 65 ********************
+2025-04-16 12:29:15,259 - Battery - INFO - ***************** iteration 65 ********************
+2025-04-16 12:29:15,259 - Battery - INFO - Battery: Published voltage = 65 at time 65
+2025-04-16 12:29:15,260 - Battery - INFO - Battery: Published current = 65 at time 65
+2025-04-16 12:29:15,261 - Battery - INFO - [2025-04-16 12:29:15.237] [console] [warning] Battery (131072)[66.5]::Time mismatch detected: granted time greater than requested time 66.5 vs 66
+2025-04-16 12:29:15,261 - Battery - INFO - Battery: Granted time 66.5
+2025-04-16 12:29:15,262 - Battery - INFO - ***************** iteration 66 ********************
+2025-04-16 12:29:15,262 - Battery - INFO - ***************** iteration 66 ********************
+2025-04-16 12:29:15,263 - Battery - INFO - Battery: Published voltage = 66 at time 66
+2025-04-16 12:29:15,263 - Battery - INFO - Battery: Published current = 66 at time 66
+2025-04-16 12:29:15,264 - Battery - INFO - [2025-04-16 12:29:15.237] [console] [warning] Battery (131072)[67.5]::Time mismatch detected: granted time greater than requested time 67.5 vs 67
+2025-04-16 12:29:15,264 - Battery - INFO - Battery: Granted time 67.5
+2025-04-16 12:29:15,265 - Battery - INFO - ***************** iteration 67 ********************
+2025-04-16 12:29:15,265 - Battery - INFO - ***************** iteration 67 ********************
+2025-04-16 12:29:15,266 - Battery - INFO - Battery: Published voltage = 67 at time 67
+2025-04-16 12:29:15,266 - Battery - INFO - Battery: Published current = 67 at time 67
+2025-04-16 12:29:15,267 - Battery - INFO - [2025-04-16 12:29:15.237] [console] [warning] Battery (131072)[68.5]::Time mismatch detected: granted time greater than requested time 68.5 vs 68
+2025-04-16 12:29:15,267 - Battery - INFO - Battery: Granted time 68.5
+2025-04-16 12:29:15,267 - Battery - INFO - ***************** iteration 68 ********************
+2025-04-16 12:29:15,268 - Battery - INFO - ***************** iteration 68 ********************
+2025-04-16 12:29:15,269 - Battery - INFO - Battery: Published voltage = 68 at time 68
+2025-04-16 12:29:15,269 - Battery - INFO - Battery: Published current = 68 at time 68
+2025-04-16 12:29:15,270 - Battery - INFO - [2025-04-16 12:29:15.237] [console] [warning] Battery (131072)[69.5]::Time mismatch detected: granted time greater than requested time 69.5 vs 69
+2025-04-16 12:29:15,271 - Battery - INFO - Battery: Granted time 69.5
+2025-04-16 12:29:15,271 - Battery - INFO - ***************** iteration 69 ********************
+2025-04-16 12:29:15,272 - Battery - INFO - ***************** iteration 69 ********************
+2025-04-16 12:29:15,272 - Battery - INFO - Battery: Published voltage = 69 at time 69
+2025-04-16 12:29:15,273 - Battery - INFO - Battery: Published current = 69 at time 69
+2025-04-16 12:29:15,273 - Battery - INFO - [2025-04-16 12:29:15.237] [console] [warning] Battery (131072)[70.5]::Time mismatch detected: granted time greater than requested time 70.5 vs 70
+2025-04-16 12:29:15,274 - Battery - INFO - Battery: Granted time 70.5
+2025-04-16 12:29:15,274 - Battery - INFO - ***************** iteration 70 ********************
+2025-04-16 12:29:15,275 - Battery - INFO - ***************** iteration 70 ********************
+2025-04-16 12:29:15,275 - Battery - INFO - Battery: Published voltage = 70 at time 70
+2025-04-16 12:29:15,276 - Battery - INFO - Battery: Published current = 70 at time 70
+2025-04-16 12:29:15,276 - Battery - INFO - [2025-04-16 12:29:15.255] [console] [warning] Battery (131072)[71.5]::Time mismatch detected: granted time greater than requested time 71.5 vs 71
+2025-04-16 12:29:15,277 - Battery - INFO - Battery: Granted time 71.5
+2025-04-16 12:29:15,277 - Battery - INFO - ***************** iteration 71 ********************
+2025-04-16 12:29:15,278 - Battery - INFO - ***************** iteration 71 ********************
+2025-04-16 12:29:15,278 - Battery - INFO - Battery: Published voltage = 71 at time 71
+2025-04-16 12:29:15,279 - Battery - INFO - Battery: Published current = 71 at time 71
+2025-04-16 12:29:15,279 - Battery - INFO - [2025-04-16 12:29:15.255] [console] [warning] Battery (131072)[72.5]::Time mismatch detected: granted time greater than requested time 72.5 vs 72
+2025-04-16 12:29:15,280 - Battery - INFO - Battery: Granted time 72.5
+2025-04-16 12:29:15,281 - Battery - INFO - ***************** iteration 72 ********************
+2025-04-16 12:29:15,281 - Battery - INFO - ***************** iteration 72 ********************
+2025-04-16 12:29:15,282 - Battery - INFO - Battery: Published voltage = 72 at time 72
+2025-04-16 12:29:15,282 - Battery - INFO - Battery: Published current = 72 at time 72
+2025-04-16 12:29:15,283 - Battery - INFO - [2025-04-16 12:29:15.255] [console] [warning] Battery (131072)[73.5]::Time mismatch detected: granted time greater than requested time 73.5 vs 73
+2025-04-16 12:29:15,283 - Battery - INFO - Battery: Granted time 73.5
+2025-04-16 12:29:15,283 - Battery - INFO - ***************** iteration 73 ********************
+2025-04-16 12:29:15,284 - Battery - INFO - ***************** iteration 73 ********************
+2025-04-16 12:29:15,285 - Battery - INFO - Battery: Published voltage = 73 at time 73
+2025-04-16 12:29:15,286 - Battery - INFO - Battery: Published current = 73 at time 73
+2025-04-16 12:29:15,286 - Battery - INFO - [2025-04-16 12:29:15.255] [console] [warning] Battery (131072)[74.5]::Time mismatch detected: granted time greater than requested time 74.5 vs 74
+2025-04-16 12:29:15,286 - Battery - INFO - Battery: Granted time 74.5
+2025-04-16 12:29:15,287 - Battery - INFO - ***************** iteration 74 ********************
+2025-04-16 12:29:15,287 - Battery - INFO - ***************** iteration 74 ********************
+2025-04-16 12:29:15,288 - Battery - INFO - Battery: Published voltage = 74 at time 74
+2025-04-16 12:29:15,288 - Battery - INFO - Battery: Published current = 74 at time 74
+2025-04-16 12:29:15,289 - Battery - INFO - [2025-04-16 12:29:15.256] [console] [warning] Battery (131072)[75.5]::Time mismatch detected: granted time greater than requested time 75.5 vs 75
+2025-04-16 12:29:15,289 - Battery - INFO - Battery: Granted time 75.5
+2025-04-16 12:29:15,290 - Battery - INFO - ***************** iteration 75 ********************
+2025-04-16 12:29:15,290 - Battery - INFO - ***************** iteration 75 ********************
+2025-04-16 12:29:15,291 - Battery - INFO - Battery: Published voltage = 75 at time 75
+2025-04-16 12:29:15,291 - Battery - INFO - Battery: Published current = 75 at time 75
+2025-04-16 12:29:15,291 - Battery - INFO - [2025-04-16 12:29:15.256] [console] [warning] Battery (131072)[76.5]::Time mismatch detected: granted time greater than requested time 76.5 vs 76
+2025-04-16 12:29:15,292 - Battery - INFO - Battery: Granted time 76.5
+2025-04-16 12:29:15,293 - Battery - INFO - ***************** iteration 76 ********************
+2025-04-16 12:29:15,293 - Battery - INFO - ***************** iteration 76 ********************
+2025-04-16 12:29:15,293 - Battery - INFO - Battery: Published voltage = 76 at time 76
+2025-04-16 12:29:15,294 - Battery - INFO - Battery: Published current = 76 at time 76
+2025-04-16 12:29:15,295 - Battery - INFO - [2025-04-16 12:29:15.275] [console] [warning] Battery (131072)[77.5]::Time mismatch detected: granted time greater than requested time 77.5 vs 77
+2025-04-16 12:29:15,295 - Battery - INFO - Battery: Granted time 77.5
+2025-04-16 12:29:15,296 - Battery - INFO - ***************** iteration 77 ********************
+2025-04-16 12:29:15,296 - Battery - INFO - ***************** iteration 77 ********************
+2025-04-16 12:29:15,297 - Battery - INFO - Battery: Published voltage = 77 at time 77
+2025-04-16 12:29:15,297 - Battery - INFO - Battery: Published current = 77 at time 77
+2025-04-16 12:29:15,298 - Battery - INFO - [2025-04-16 12:29:15.275] [console] [warning] Battery (131072)[78.5]::Time mismatch detected: granted time greater than requested time 78.5 vs 78
+2025-04-16 12:29:15,298 - Battery - INFO - Battery: Granted time 78.5
+2025-04-16 12:29:15,298 - Battery - INFO - ***************** iteration 78 ********************
+2025-04-16 12:29:15,299 - Battery - INFO - ***************** iteration 78 ********************
+2025-04-16 12:29:15,299 - Battery - INFO - Battery: Published voltage = 78 at time 78
+2025-04-16 12:29:15,300 - Battery - INFO - Battery: Published current = 78 at time 78
+2025-04-16 12:29:15,300 - Battery - INFO - [2025-04-16 12:29:15.276] [console] [warning] Battery (131072)[79.5]::Time mismatch detected: granted time greater than requested time 79.5 vs 79
+2025-04-16 12:29:15,301 - Battery - INFO - Battery: Granted time 79.5
+2025-04-16 12:29:15,301 - Battery - INFO - ***************** iteration 79 ********************
+2025-04-16 12:29:15,302 - Battery - INFO - ***************** iteration 79 ********************
+2025-04-16 12:29:15,302 - Battery - INFO - Battery: Published voltage = 79 at time 79
+2025-04-16 12:29:15,302 - Battery - INFO - Battery: Published current = 79 at time 79
+2025-04-16 12:29:15,303 - Battery - INFO - [2025-04-16 12:29:15.276] [console] [warning] Battery (131072)[80.5]::Time mismatch detected: granted time greater than requested time 80.5 vs 80
+2025-04-16 12:29:15,304 - Battery - INFO - Battery: Granted time 80.5
+2025-04-16 12:29:15,304 - Battery - INFO - ***************** iteration 80 ********************
+2025-04-16 12:29:15,304 - Battery - INFO - ***************** iteration 80 ********************
+2025-04-16 12:29:15,305 - Battery - INFO - Battery: Published voltage = 80 at time 80
+2025-04-16 12:29:15,305 - Battery - INFO - Battery: Published current = 80 at time 80
+2025-04-16 12:29:15,306 - Battery - INFO - [2025-04-16 12:29:15.276] [console] [warning] Battery (131072)[81.5]::Time mismatch detected: granted time greater than requested time 81.5 vs 81
+2025-04-16 12:29:15,306 - Battery - INFO - Battery: Granted time 81.5
+2025-04-16 12:29:15,307 - Battery - INFO - ***************** iteration 81 ********************
+2025-04-16 12:29:15,308 - Battery - INFO - ***************** iteration 81 ********************
+2025-04-16 12:29:15,308 - Battery - INFO - Battery: Published voltage = 81 at time 81
+2025-04-16 12:29:15,308 - Battery - INFO - Battery: Published current = 81 at time 81
+2025-04-16 12:29:15,309 - Battery - INFO - [2025-04-16 12:29:15.276] [console] [warning] Battery (131072)[82.5]::Time mismatch detected: granted time greater than requested time 82.5 vs 82
+2025-04-16 12:29:15,309 - Battery - INFO - Battery: Granted time 82.5
+2025-04-16 12:29:15,310 - Battery - INFO - ***************** iteration 82 ********************
+2025-04-16 12:29:15,311 - Battery - INFO - ***************** iteration 82 ********************
+2025-04-16 12:29:15,312 - Battery - INFO - Battery: Published voltage = 82 at time 82
+2025-04-16 12:29:15,312 - Battery - INFO - Battery: Published current = 82 at time 82
+2025-04-16 12:29:15,313 - Battery - INFO - [2025-04-16 12:29:15.276] [console] [warning] Battery (131072)[83.5]::Time mismatch detected: granted time greater than requested time 83.5 vs 83
+2025-04-16 12:29:15,313 - Battery - INFO - Battery: Granted time 83.5
+2025-04-16 12:29:15,314 - Battery - INFO - ***************** iteration 83 ********************
+2025-04-16 12:29:15,315 - Battery - INFO - ***************** iteration 83 ********************
+2025-04-16 12:29:15,315 - Battery - INFO - Battery: Published voltage = 83 at time 83
+2025-04-16 12:29:15,316 - Battery - INFO - Battery: Published current = 83 at time 83
+2025-04-16 12:29:15,316 - Battery - INFO - [2025-04-16 12:29:15.294] [console] [warning] Battery (131072)[84.5]::Time mismatch detected: granted time greater than requested time 84.5 vs 84
+2025-04-16 12:29:15,317 - Battery - INFO - Battery: Granted time 84.5
+2025-04-16 12:29:15,317 - Battery - INFO - ***************** iteration 84 ********************
+2025-04-16 12:29:15,318 - Battery - INFO - ***************** iteration 84 ********************
+2025-04-16 12:29:15,318 - Battery - INFO - Battery: Published voltage = 84 at time 84
+2025-04-16 12:29:15,319 - Battery - INFO - Battery: Published current = 84 at time 84
+2025-04-16 12:29:15,319 - Battery - INFO - [2025-04-16 12:29:15.294] [console] [warning] Battery (131072)[85.5]::Time mismatch detected: granted time greater than requested time 85.5 vs 85
+2025-04-16 12:29:15,320 - Battery - INFO - Battery: Granted time 85.5
+2025-04-16 12:29:15,320 - Battery - INFO - ***************** iteration 85 ********************
+2025-04-16 12:29:15,320 - Battery - INFO - ***************** iteration 85 ********************
+2025-04-16 12:29:15,321 - Battery - INFO - Battery: Published voltage = 85 at time 85
+2025-04-16 12:29:15,321 - Battery - INFO - Battery: Published current = 85 at time 85
+2025-04-16 12:29:15,322 - Battery - INFO - [2025-04-16 12:29:15.294] [console] [warning] Battery (131072)[86.5]::Time mismatch detected: granted time greater than requested time 86.5 vs 86
+2025-04-16 12:29:15,322 - Battery - INFO - Battery: Granted time 86.5
+2025-04-16 12:29:15,323 - Battery - INFO - ***************** iteration 86 ********************
+2025-04-16 12:29:15,323 - Battery - INFO - ***************** iteration 86 ********************
+2025-04-16 12:29:15,324 - Battery - INFO - Battery: Published voltage = 86 at time 86
+2025-04-16 12:29:15,325 - Battery - INFO - Battery: Published current = 86 at time 86
+2025-04-16 12:29:15,325 - Battery - INFO - [2025-04-16 12:29:15.294] [console] [warning] Battery (131072)[87.5]::Time mismatch detected: granted time greater than requested time 87.5 vs 87
+2025-04-16 12:29:15,325 - Battery - INFO - Battery: Granted time 87.5
+2025-04-16 12:29:15,326 - Battery - INFO - ***************** iteration 87 ********************
+2025-04-16 12:29:15,326 - Battery - INFO - ***************** iteration 87 ********************
+2025-04-16 12:29:15,327 - Battery - INFO - Battery: Published voltage = 87 at time 87
+2025-04-16 12:29:15,328 - Battery - INFO - Battery: Published current = 87 at time 87
+2025-04-16 12:29:15,328 - Battery - INFO - [2025-04-16 12:29:15.294] [console] [warning] Battery (131072)[88.5]::Time mismatch detected: granted time greater than requested time 88.5 vs 88
+2025-04-16 12:29:15,329 - Battery - INFO - Battery: Granted time 88.5
+2025-04-16 12:29:15,329 - Battery - INFO - ***************** iteration 88 ********************
+2025-04-16 12:29:15,330 - Battery - INFO - ***************** iteration 88 ********************
+2025-04-16 12:29:15,330 - Battery - INFO - Battery: Published voltage = 88 at time 88
+2025-04-16 12:29:15,331 - Battery - INFO - Battery: Published current = 88 at time 88
+2025-04-16 12:29:15,332 - Battery - INFO - [2025-04-16 12:29:15.295] [console] [warning] Battery (131072)[89.5]::Time mismatch detected: granted time greater than requested time 89.5 vs 89
+2025-04-16 12:29:15,332 - Battery - INFO - Battery: Granted time 89.5
+2025-04-16 12:29:15,333 - Battery - INFO - ***************** iteration 89 ********************
+2025-04-16 12:29:15,333 - Battery - INFO - ***************** iteration 89 ********************
+2025-04-16 12:29:15,333 - Battery - INFO - Battery: Published voltage = 89 at time 89
+2025-04-16 12:29:15,334 - Battery - INFO - Battery: Published current = 89 at time 89
+2025-04-16 12:29:15,335 - Battery - INFO - [2025-04-16 12:29:15.313] [console] [warning] Battery (131072)[90.5]::Time mismatch detected: granted time greater than requested time 90.5 vs 90
+2025-04-16 12:29:15,335 - Battery - INFO - Battery: Granted time 90.5
+2025-04-16 12:29:15,336 - Battery - INFO - ***************** iteration 90 ********************
+2025-04-16 12:29:15,336 - Battery - INFO - ***************** iteration 90 ********************
+2025-04-16 12:29:15,337 - Battery - INFO - Battery: Published voltage = 90 at time 90
+2025-04-16 12:29:15,337 - Battery - INFO - Battery: Published current = 90 at time 90
+2025-04-16 12:29:15,338 - Battery - INFO - [2025-04-16 12:29:15.314] [console] [warning] Battery (131072)[91.5]::Time mismatch detected: granted time greater than requested time 91.5 vs 91
+2025-04-16 12:29:15,338 - Battery - INFO - Battery: Granted time 91.5
+2025-04-16 12:29:15,339 - Battery - INFO - ***************** iteration 91 ********************
+2025-04-16 12:29:15,339 - Battery - INFO - ***************** iteration 91 ********************
+2025-04-16 12:29:15,340 - Battery - INFO - Battery: Published voltage = 91 at time 91
+2025-04-16 12:29:15,340 - Battery - INFO - Battery: Published current = 91 at time 91
+2025-04-16 12:29:15,340 - Battery - INFO - [2025-04-16 12:29:15.314] [console] [warning] Battery (131072)[92.5]::Time mismatch detected: granted time greater than requested time 92.5 vs 92
+2025-04-16 12:29:15,341 - Battery - INFO - Battery: Granted time 92.5
+2025-04-16 12:29:15,342 - Battery - INFO - ***************** iteration 92 ********************
+2025-04-16 12:29:15,343 - Battery - INFO - ***************** iteration 92 ********************
+2025-04-16 12:29:15,343 - Battery - INFO - Battery: Published voltage = 92 at time 92
+2025-04-16 12:29:15,344 - Battery - INFO - Battery: Published current = 92 at time 92
+2025-04-16 12:29:15,344 - Battery - INFO - [2025-04-16 12:29:15.314] [console] [warning] Battery (131072)[93.5]::Time mismatch detected: granted time greater than requested time 93.5 vs 93
+2025-04-16 12:29:15,345 - Battery - INFO - Battery: Granted time 93.5
+2025-04-16 12:29:15,345 - Battery - INFO - ***************** iteration 93 ********************
+2025-04-16 12:29:15,346 - Battery - INFO - ***************** iteration 93 ********************
+2025-04-16 12:29:15,346 - Battery - INFO - Battery: Published voltage = 93 at time 93
+2025-04-16 12:29:15,347 - Battery - INFO - Battery: Published current = 93 at time 93
+2025-04-16 12:29:15,347 - Battery - INFO - [2025-04-16 12:29:15.314] [console] [warning] Battery (131072)[94.5]::Time mismatch detected: granted time greater than requested time 94.5 vs 94
+2025-04-16 12:29:15,347 - Battery - INFO - Battery: Granted time 94.5
+2025-04-16 12:29:15,348 - Battery - INFO - ***************** iteration 94 ********************
+2025-04-16 12:29:15,348 - Battery - INFO - ***************** iteration 94 ********************
+2025-04-16 12:29:15,349 - Battery - INFO - Battery: Published voltage = 94 at time 94
+2025-04-16 12:29:15,349 - Battery - INFO - Battery: Published current = 94 at time 94
+2025-04-16 12:29:15,350 - Battery - INFO - [2025-04-16 12:29:15.314] [console] [warning] Battery (131072)[95.5]::Time mismatch detected: granted time greater than requested time 95.5 vs 95
+2025-04-16 12:29:15,350 - Battery - INFO - Battery: Granted time 95.5
+2025-04-16 12:29:15,351 - Battery - INFO - ***************** iteration 95 ********************
+2025-04-16 12:29:15,351 - Battery - INFO - ***************** iteration 95 ********************
+2025-04-16 12:29:15,352 - Battery - INFO - Battery: Published voltage = 95 at time 95
+2025-04-16 12:29:15,352 - Battery - INFO - Battery: Published current = 95 at time 95
+2025-04-16 12:29:15,353 - Battery - INFO - [2025-04-16 12:29:15.333] [console] [warning] Battery (131072)[96.5]::Time mismatch detected: granted time greater than requested time 96.5 vs 96
+2025-04-16 12:29:15,353 - Battery - INFO - Battery: Granted time 96.5
+2025-04-16 12:29:15,354 - Battery - INFO - ***************** iteration 96 ********************
+2025-04-16 12:29:15,355 - Battery - INFO - ***************** iteration 96 ********************
+2025-04-16 12:29:15,355 - Battery - INFO - Battery: Published voltage = 96 at time 96
+2025-04-16 12:29:15,356 - Battery - INFO - Battery: Published current = 96 at time 96
+2025-04-16 12:29:15,356 - Battery - INFO - [2025-04-16 12:29:15.334] [console] [warning] Battery (131072)[97.5]::Time mismatch detected: granted time greater than requested time 97.5 vs 97
+2025-04-16 12:29:15,356 - Battery - INFO - Battery: Granted time 97.5
+2025-04-16 12:29:15,357 - Battery - INFO - ***************** iteration 97 ********************
+2025-04-16 12:29:15,358 - Battery - INFO - ***************** iteration 97 ********************
+2025-04-16 12:29:15,358 - Battery - INFO - Battery: Published voltage = 97 at time 97
+2025-04-16 12:29:15,359 - Battery - INFO - Battery: Published current = 97 at time 97
+2025-04-16 12:29:15,360 - Battery - INFO - [2025-04-16 12:29:15.334] [console] [warning] Battery (131072)[98.5]::Time mismatch detected: granted time greater than requested time 98.5 vs 98
+2025-04-16 12:29:15,360 - Battery - INFO - Battery: Granted time 98.5
+2025-04-16 12:29:15,360 - Battery - INFO - ***************** iteration 98 ********************
+2025-04-16 12:29:15,361 - Battery - INFO - ***************** iteration 98 ********************
+2025-04-16 12:29:15,361 - Battery - INFO - Battery: Published voltage = 98 at time 98
+2025-04-16 12:29:15,362 - Battery - INFO - Battery: Published current = 98 at time 98
+2025-04-16 12:29:15,362 - Battery - INFO - [2025-04-16 12:29:15.334] [console] [warning] Battery (131072)[99.5]::Time mismatch detected: granted time greater than requested time 99.5 vs 99
+2025-04-16 12:29:15,363 - Battery - INFO - Battery: Granted time 99.5
+2025-04-16 12:29:15,363 - Battery - INFO - ***************** iteration 99 ********************
+2025-04-16 12:29:15,364 - Battery - INFO - ***************** iteration 99 ********************
+2025-04-16 12:29:15,364 - Battery - INFO - Battery: Published voltage = 99 at time 99
+2025-04-16 12:29:15,365 - Battery - INFO - Battery: Published current = 99 at time 99
+2025-04-16 12:29:15,365 - Battery - INFO - [2025-04-16 12:29:15.334] [console] [warning] Battery (131072)[100.5]::Time mismatch detected: granted time greater than requested time 100.5 vs 100
+2025-04-16 12:29:15,365 - Battery - INFO - Battery: Granted time 100.5

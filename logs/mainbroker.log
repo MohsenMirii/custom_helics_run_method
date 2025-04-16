@@ -1,0 +1,35 @@
+2025-04-16 12:29:11,288 - mainbroker - INFO - Command: helics_broker -f 3 --loglevel=debug --name=mainbroker
+2025-04-16 12:29:11,696 - mainbroker - INFO - [2025-04-16 12:29:11.695] [console] [info] mainbroker (0)[connecting]::connecting
+2025-04-16 12:29:11,716 - mainbroker - INFO - [2025-04-16 12:29:11.716] [console] [info] mainbroker::Broker mainbroker connected on tcp://127.0.0.1:23404
+2025-04-16 12:29:13,997 - mainbroker - INFO - [2025-04-16 12:29:13.996] [console] [info] mainbroker (1)[connected]::registering broker Battery(1879048192) on route 1
+2025-04-16 12:29:14,090 - mainbroker - INFO - [2025-04-16 12:29:14.090] [console] [info] mainbroker (1)[connected]::registering federate Battery(131072) on route 1
+2025-04-16 12:29:14,471 - mainbroker - INFO - [2025-04-16 12:29:14.470] [console] [info] mainbroker (1)[connected]::registering broker Envelope(1879048193) on route 2
+2025-04-16 12:29:14,584 - mainbroker - INFO - [2025-04-16 12:29:14.583] [console] [info] mainbroker (1)[connected]::registering federate Envelope(131073) on route 2
+2025-04-16 12:29:14,937 - mainbroker - INFO - [2025-04-16 12:29:14.937] [console] [info] mainbroker (1)[connected]::registering broker HeatPump(1879048194) on route 3
+2025-04-16 12:29:15,051 - mainbroker - INFO - [2025-04-16 12:29:15.050] [console] [info] mainbroker (1)[connected]::registering federate HeatPump(131074) on route 3
+2025-04-16 12:29:15,052 - mainbroker - INFO - [2025-04-16 12:29:15.052] [console] [info] root (1)[connected]::{
+2025-04-16 12:29:15,052 - mainbroker - INFO - "attributes" :
+2025-04-16 12:29:15,053 - mainbroker - INFO - {
+2025-04-16 12:29:15,055 - mainbroker - INFO - "id" : 1,
+2025-04-16 12:29:15,056 - mainbroker - INFO - "name" : "mainbroker",
+2025-04-16 12:29:15,056 - mainbroker - INFO - "parent" : 0
+2025-04-16 12:29:15,057 - mainbroker - INFO - },
+2025-04-16 12:29:15,058 - mainbroker - INFO - "summary" :
+2025-04-16 12:29:15,059 - mainbroker - INFO - {
+2025-04-16 12:29:15,059 - mainbroker - INFO - "allowed_brokers" : [ 0, 2147483647 ],
+2025-04-16 12:29:15,060 - mainbroker - INFO - "allowed_federates" : [ 3, 2147483647 ],
+2025-04-16 12:29:15,061 - mainbroker - INFO - "brokers" : 0,
+2025-04-16 12:29:15,061 - mainbroker - INFO - "cores" : 3,
+2025-04-16 12:29:15,062 - mainbroker - INFO - "countable_federates" : 3,
+2025-04-16 12:29:15,063 - mainbroker - INFO - "endpoints" : 0,
+2025-04-16 12:29:15,063 - mainbroker - INFO - "federates" : 3,
+2025-04-16 12:29:15,064 - mainbroker - INFO - "filters" : 0,
+2025-04-16 12:29:15,064 - mainbroker - INFO - "inputs" : 0,
+2025-04-16 12:29:15,066 - mainbroker - INFO - "publications" : 4,
+2025-04-16 12:29:15,066 - mainbroker - INFO - "translators" : 0
+2025-04-16 12:29:15,067 - mainbroker - INFO - }
+2025-04-16 12:29:15,067 - mainbroker - INFO - }
+2025-04-16 12:29:15,334 - mainbroker - INFO - [2025-04-16 12:29:15.334] [console] [info] mainbroker::got disconnect from Battery(1879048192)
+2025-04-16 12:29:15,426 - mainbroker - INFO - [2025-04-16 12:29:15.426] [console] [info] mainbroker::got disconnect from HeatPump(1879048194)
+2025-04-16 12:29:15,427 - mainbroker - INFO - [2025-04-16 12:29:15.426] [console] [info] mainbroker::got disconnect from Envelope(1879048193)
+2025-04-16 12:29:15,480 - mainbroker - INFO - [2025-04-16 12:29:15.480] [console] [info] mainbroker::||disconnecting
