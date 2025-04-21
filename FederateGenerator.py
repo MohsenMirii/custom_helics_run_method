@@ -1,10 +1,17 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Mar 17 14:53:29 2025
+
+@author: Mohsen
+"""
+
 import argparse
 import yaml
 import helics as h
 import time
 import json
-from FederateConfig import FederateConfig,ConnectionEndpoint
+from FederateConfig import FederateConfig,ConnectionEndpoint,TimingConfigs
 from TimingUtilities import apply_timing_configs  
 from FlagUtilities import apply_flag_configs 
 import logging
@@ -79,33 +86,47 @@ def create_federate(config: FederateConfig):
     
     return fed, publications, subscriptions, endpoints
 
-def run_federate(fed, config, publications, subscriptions, endpoints):
+
+def run_federate(fed, config: FederateConfig, publications, subscriptions, endpoints):
+    
     # Enter execution mode
     h.helicsFederateEnterExecutingMode(fed)
     
-    total_time = 100  # simulation time in seconds
-    update_interval = 1  # time interval between updates
-    
-    for t in range(0, total_time, update_interval):
+    timing_config = TimingConfigs(**config.timing_configs)
+
+    total_time = timing_config.int_max_iterations  # simulation time in seconds
+    period = timing_config.time_period  # time interval between updates    
+    granted_time=0.0
+    start_time=0.0
+    real_period=timing_config.real_period
+    request_time=0.0
+    while start_time < total_time:
+
         # For publishers, publish values
 
-        print(f"***************** iteration {t} ********************")        
-        print(f"***************** iteration {t} ********************")
+        print(f"*********************************************************************************")        
+        print(f"***************** iteration with real period is {start_time} ********************")        
+        
+        print(f"request time is {request_time}")
+        print(f"granted time is {granted_time}")
+        
         if publications:
             for key, pub in publications.items():
-                value = t  # Simple example: publish the current time as value
+                value = start_time  # Simple example: publish the current time as value
                 h.helicsPublicationPublishDouble(pub, value)
-                print(f"{config['name']}: Published {key} = {value} at time {t}")
+                print(f"{config.name}: Published {key} = {value} at time {start_time}")
         
         # For subscribers, get subscribed values
         if subscriptions:
             for key, sub in subscriptions.items():
                 value = h.helicsInputGetDouble(sub)
-                print(f"{config['name']}: Received {key} = {value} at time {t}")
+                print(f"{config.name}: Received {key} = {value} at time {start_time}")
         
         # Request time advance
-        granted_time = h.helicsFederateRequestTime(fed, t + update_interval)
-        print(f"{config['name']}: Granted time {granted_time}")
+        request_time = granted_time + period
+        granted_time = h.helicsFederateRequestTime(fed, request_time)
+        start_time += real_period
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -126,7 +147,7 @@ def main():
     fed, publications, subscriptions, endpoints = create_federate(result)
     
     try:
-        run_federate(fed, config, publications, subscriptions, endpoints)
+        run_federate(fed, result, publications, subscriptions, endpoints)
     except Exception as e:
         print(f"Error: {e}")
     finally:

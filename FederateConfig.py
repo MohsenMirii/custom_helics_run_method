@@ -15,8 +15,8 @@ from typing import List, Dict, Optional, Union
 
 @dataclass
 class TimingConfigs:
-    time_period: int
-    real_period: int
+    time_period: float
+    real_period: float
     time_offset: float
     time_stop: float
     time_delta: float

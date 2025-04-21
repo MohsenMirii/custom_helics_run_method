@@ -30,8 +30,7 @@ def main_run(run_path):
     except KeyboardInterrupt:
         print("\nInterrupt received...")
     finally:
-        if runner.is_running():
-            runner.stop()
+        runner.stop()
    
 
 

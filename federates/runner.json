@@ -3,29 +3,29 @@
   "federates": [
     {
       "directory": "..",
-      "exec": "helics_broker -f 3 --loglevel=debug --name=mainbroker",
+      "exec": "helics_broker -f 3 --loglevel=warning --name=mainbroker",
       "name": "mainbroker"
     },
     {
       "directory": ".",
-      "exec": "python -u FederateGenerator.py federates/Battery.yaml --loglevel=debug",
+      "exec": "python -u RunnerType1.py federates/Battery.yaml --loglevel=warning",
       "host": "localhost",
-      "name": "Battery",
-      "wait_for": ["mainbroker"]
+      "name": "Battery"
+
     },
     {
       "directory": ".",
-      "exec": "python -u FederateGenerator.py federates/Envelope.yaml --loglevel=debug",
+      "exec": "python -u RunnerType2.py federates/Envelope.yaml --loglevel=warning",
       "host": "localhost",
-      "name": "Envelope",
-      "wait_for": ["mainbroker"]
+      "name": "Envelope"
+
     },
     {
       "directory": ".",
-      "exec": "python -u FederateGenerator.py federates/HeatPump.yaml --loglevel=debug",
+      "exec": "python -u RunnerType3.py federates/HeatPump.yaml --loglevel=warning",
       "host": "localhost",
-      "name": "HeatPump",
-      "wait_for": ["mainbroker"]
+      "name": "HeatPump"
+
     }
-  ]
+]
 }

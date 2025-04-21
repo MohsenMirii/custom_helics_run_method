@@ -1,10 +1,10 @@
 name: HeatPump
 core_type: zmq
-log_level: debug
+log_level: warning
 
 timing_configs:
   time_period: 1.0
-  real_period: 100.0
+  real_period: 1.0
   time_offset: 0.5
   time_stop: 172800.0
   time_delta: 1.0
