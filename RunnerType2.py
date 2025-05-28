@@ -29,24 +29,26 @@ class RunnerType2(BaseFederate):
             print(f"*********************************************************************************")        
             print(f"***************** iteration with real period is {start_time} ********************")        
             
-            print(f"request time is {request_time}")
-            print(f"granted time is {granted_time}")
+           
             
             if self.publications:
                 for key, pub in self.publications.items():
                     value = start_time  # Your battery-specific value calculation
                     h.helicsPublicationPublishDouble(pub, value)
-                    print(f"{self.federate_config.name}: Published {key} = {value} at time {start_time}")
+                    print(f"{self.federate_config.name}: Published {key} = {value} at time {granted_time}")
                     
             # Federate-specific logic here
             request_time = granted_time + period
             granted_time = h.helicsFederateRequestTime(self.fed, request_time)
             
+            print(f"request time is {request_time}")
+            print(f"granted time is {granted_time}")
+            
             
             if self.subscriptions:
                 for key, sub in self.subscriptions.items():
                     value = h.helicsInputGetDouble(sub)
-                    print(f"{self.federate_config.name}: Received {key} = {value} at time {start_time}")
+                    print(f"{self.federate_config.name}: Received {key} = {value} at time {granted_time}")
             
             start_time += real_period
 

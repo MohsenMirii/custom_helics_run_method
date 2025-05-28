@@ -1,0 +1,39 @@
+{
+  "name": "helics_co_simulation",
+  "federates": [
+    {
+      "directory": "..",
+      "exec": "helics_broker -f 3 --loglevel=debug --name=mainbroker",
+      "name": "mainbroker"
+    },
+    {
+      "directory": ".",
+      "exec": "python -u FederateGenerator.py federates/Battery.yaml --loglevel=debug",
+      "host": "localhost",
+      "name": "Battery",
+
+    },
+    {
+      "directory": ".",
+      "exec": "python -u FederateGenerator.py federates/Envelope.yaml --loglevel=debug",
+      "host": "localhost",
+      "name": "Envelope",
+
+    },
+    {
+      "directory": ".",
+      "exec": "python -u Fedet.py federates/HeatPump.yaml --loglevel=debug",
+      "host": "localhost",
+      "name": "HeatPump",
+
+    },
+    
+    {
+      "directory": ".",
+      "exec": "python -u Fedtype1.py federates/HeatPump.yaml --loglevel=debug",
+      "host": "localhost",
+      "name": "HeatPump",
+
+    }
+  ]
+}

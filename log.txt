@@ -36434,3 +36434,1500 @@
 2025-04-21 21:20:30,405 - INFO - Stopping all federates...
 2025-04-21 21:20:30,407 - INFO - All federates stopped
 2025-04-21 21:20:30,408 - INFO - broker is stoped
+2025-05-20 14:36:27,592 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-20 14:36:27,593 - INFO - Starting federate: mainbroker
+2025-05-20 14:36:28,682 - INFO - Starting federate: Battery
+2025-05-20 14:36:29,189 - INFO - Starting federate: Envelope
+2025-05-20 14:36:29,696 - INFO - Starting federate: HeatPump
+2025-05-20 14:36:30,202 - INFO - All federates started. Monitoring output...
+2025-05-20 14:36:30,716 - INFO - All federates have completed
+2025-05-20 14:36:30,717 - INFO - Stopping all federates...
+2025-05-20 14:36:30,718 - INFO - All federates stopped
+2025-05-20 14:36:30,719 - INFO - Stopping all federates...
+2025-05-20 14:36:30,728 - INFO - All federates stopped
+2025-05-20 14:36:30,728 - INFO - broker is stoped
+2025-05-21 11:33:25,942 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 11:33:25,943 - INFO - Starting federate: mainbroker
+2025-05-21 11:33:27,092 - INFO - Starting federate: Battery
+2025-05-21 11:33:27,601 - INFO - Starting federate: Envelope
+2025-05-21 11:33:28,111 - INFO - Starting federate: HeatPump
+2025-05-21 11:33:28,629 - INFO - All federates started. Monitoring output...
+2025-05-21 11:35:19,081 - INFO - Received termination signal. Shutting down...
+2025-05-21 11:35:19,081 - INFO - Stopping all federates...
+2025-05-21 11:35:19,082 - INFO - Terminating mainbroker...
+2025-05-21 11:35:19,087 - INFO - mainbroker terminated
+2025-05-21 11:35:19,091 - INFO - All federates stopped
+2025-05-21 11:35:19,096 - INFO - Stopping all federates...
+2025-05-21 11:35:19,097 - INFO - All federates stopped
+2025-05-21 11:37:50,615 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 11:37:50,616 - INFO - Starting federate: mainbroker
+2025-05-21 11:37:51,627 - INFO - Starting federate: Battery
+2025-05-21 11:37:52,169 - INFO - Starting federate: Envelope
+2025-05-21 11:37:52,679 - INFO - Starting federate: HeatPump
+2025-05-21 11:37:53,187 - INFO - All federates started. Monitoring output...
+2025-05-21 11:37:57,076 - INFO - Received termination signal. Shutting down...
+2025-05-21 11:37:57,077 - INFO - Stopping all federates...
+2025-05-21 11:37:57,078 - INFO - Terminating mainbroker...
+2025-05-21 11:37:57,081 - INFO - mainbroker terminated
+2025-05-21 11:37:57,083 - INFO - All federates stopped
+2025-05-21 11:37:57,083 - INFO - Stopping all federates...
+2025-05-21 11:37:57,084 - INFO - All federates stopped
+2025-05-21 11:38:03,988 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 11:38:03,989 - INFO - Starting federate: mainbroker
+2025-05-21 11:38:04,998 - INFO - Starting federate: Battery
+2025-05-21 11:38:05,517 - INFO - Starting federate: Envelope
+2025-05-21 11:38:06,031 - INFO - Starting federate: HeatPump
+2025-05-21 11:38:06,542 - INFO - All federates started. Monitoring output...
+2025-05-21 11:41:16,079 - INFO - Received termination signal. Shutting down...
+2025-05-21 11:41:16,081 - INFO - Stopping all federates...
+2025-05-21 11:41:16,082 - INFO - Terminating mainbroker...
+2025-05-21 11:41:16,093 - INFO - mainbroker terminated
+2025-05-21 11:41:16,102 - INFO - All federates stopped
+2025-05-21 11:41:16,103 - INFO - Stopping all federates...
+2025-05-21 11:41:16,104 - INFO - All federates stopped
+2025-05-21 11:41:26,577 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 11:41:26,578 - INFO - Starting federate: mainbroker
+2025-05-21 11:41:27,589 - INFO - Starting federate: Battery
+2025-05-21 11:41:28,116 - INFO - Starting federate: Envelope
+2025-05-21 11:41:28,628 - INFO - Starting federate: HeatPump
+2025-05-21 11:41:29,137 - INFO - All federates started. Monitoring output...
+2025-05-21 11:41:30,251 - INFO - All federates have completed
+2025-05-21 11:41:30,252 - INFO - Stopping all federates...
+2025-05-21 11:41:30,254 - INFO - All federates stopped
+2025-05-21 11:41:30,255 - INFO - Stopping all federates...
+2025-05-21 11:41:30,260 - INFO - All federates stopped
+2025-05-21 11:41:30,260 - INFO - broker is stoped
+2025-05-21 11:47:56,635 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 11:47:56,636 - INFO - Starting federate: mainbroker
+2025-05-21 11:47:57,646 - INFO - Starting federate: Battery
+2025-05-21 11:47:58,171 - INFO - Starting federate: Envelope
+2025-05-21 11:47:58,700 - INFO - Starting federate: HeatPump
+2025-05-21 11:47:59,209 - INFO - All federates started. Monitoring output...
+2025-05-21 11:48:08,152 - INFO - Received termination signal. Shutting down...
+2025-05-21 11:48:08,153 - INFO - Stopping all federates...
+2025-05-21 11:48:08,153 - INFO - Terminating mainbroker...
+2025-05-21 11:48:08,156 - INFO - mainbroker terminated
+2025-05-21 11:48:08,167 - INFO - All federates stopped
+2025-05-21 11:48:08,168 - INFO - Stopping all federates...
+2025-05-21 11:48:08,168 - INFO - All federates stopped
+2025-05-21 11:48:41,749 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 11:48:41,750 - INFO - Starting federate: mainbroker
+2025-05-21 11:48:42,766 - INFO - Starting federate: Battery
+2025-05-21 11:48:43,304 - INFO - Starting federate: Envelope
+2025-05-21 11:48:43,817 - INFO - Starting federate: HeatPump
+2025-05-21 11:48:44,329 - INFO - All federates started. Monitoring output...
+2025-05-21 11:49:01,576 - INFO - Received termination signal. Shutting down...
+2025-05-21 11:49:01,577 - INFO - Stopping all federates...
+2025-05-21 11:49:01,577 - INFO - Terminating mainbroker...
+2025-05-21 11:49:01,581 - INFO - mainbroker terminated
+2025-05-21 11:49:01,591 - INFO - All federates stopped
+2025-05-21 11:49:01,591 - INFO - Stopping all federates...
+2025-05-21 11:49:01,592 - INFO - All federates stopped
+2025-05-21 11:49:38,795 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 11:49:38,796 - INFO - Starting federate: mainbroker
+2025-05-21 11:49:39,813 - INFO - Starting federate: Battery
+2025-05-21 11:49:40,398 - INFO - Starting federate: Envelope
+2025-05-21 11:49:40,923 - INFO - Starting federate: HeatPump
+2025-05-21 11:49:41,448 - INFO - All federates started. Monitoring output...
+2025-05-21 11:50:07,186 - INFO - Received termination signal. Shutting down...
+2025-05-21 11:50:07,187 - INFO - Stopping all federates...
+2025-05-21 11:50:07,188 - INFO - Terminating mainbroker...
+2025-05-21 11:50:07,191 - INFO - mainbroker terminated
+2025-05-21 11:50:07,202 - INFO - All federates stopped
+2025-05-21 11:50:07,202 - INFO - Stopping all federates...
+2025-05-21 11:50:07,203 - INFO - All federates stopped
+2025-05-21 11:50:15,012 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 11:50:15,013 - INFO - Starting federate: mainbroker
+2025-05-21 11:50:16,022 - INFO - Starting federate: Battery
+2025-05-21 11:50:16,532 - INFO - Starting federate: Envelope
+2025-05-21 11:50:17,043 - INFO - Starting federate: HeatPump
+2025-05-21 11:50:17,553 - INFO - All federates started. Monitoring output...
+2025-05-21 11:50:18,648 - INFO - All federates have completed
+2025-05-21 11:50:18,649 - INFO - Stopping all federates...
+2025-05-21 11:50:18,650 - INFO - All federates stopped
+2025-05-21 11:50:18,651 - INFO - Stopping all federates...
+2025-05-21 11:50:18,660 - INFO - All federates stopped
+2025-05-21 11:50:18,661 - INFO - broker is stoped
+2025-05-21 11:52:35,792 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 11:52:35,794 - INFO - Starting federate: mainbroker
+2025-05-21 11:52:36,804 - INFO - Starting federate: Battery
+2025-05-21 11:52:37,324 - INFO - Starting federate: Envelope
+2025-05-21 11:52:37,838 - INFO - Starting federate: HeatPump
+2025-05-21 11:52:38,349 - INFO - All federates started. Monitoring output...
+2025-05-21 11:52:39,440 - INFO - All federates have completed
+2025-05-21 11:52:39,441 - INFO - Stopping all federates...
+2025-05-21 11:52:39,442 - INFO - All federates stopped
+2025-05-21 11:52:39,443 - INFO - Stopping all federates...
+2025-05-21 11:52:39,452 - INFO - All federates stopped
+2025-05-21 11:52:39,453 - INFO - broker is stoped
+2025-05-21 11:54:18,616 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 11:54:18,616 - INFO - Starting federate: mainbroker
+2025-05-21 11:54:19,625 - INFO - Starting federate: Battery
+2025-05-21 11:54:20,170 - INFO - Starting federate: Envelope
+2025-05-21 11:54:20,681 - INFO - Starting federate: HeatPump
+2025-05-21 11:54:21,194 - INFO - All federates started. Monitoring output...
+2025-05-21 11:54:22,373 - INFO - All federates have completed
+2025-05-21 11:54:22,375 - INFO - Stopping all federates...
+2025-05-21 11:54:22,376 - INFO - All federates stopped
+2025-05-21 11:54:22,400 - INFO - Stopping all federates...
+2025-05-21 11:54:22,410 - INFO - All federates stopped
+2025-05-21 11:54:22,410 - INFO - broker is stoped
+2025-05-21 12:15:19,818 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 12:15:19,819 - INFO - Starting federate: mainbroker
+2025-05-21 12:15:20,835 - INFO - Starting federate: Battery
+2025-05-21 12:15:21,355 - INFO - Starting federate: Envelope
+2025-05-21 12:15:21,884 - INFO - Starting federate: HeatPump
+2025-05-21 12:15:22,403 - INFO - All federates started. Monitoring output...
+2025-05-21 12:15:23,499 - INFO - All federates have completed
+2025-05-21 12:15:23,500 - INFO - Stopping all federates...
+2025-05-21 12:15:23,500 - INFO - All federates stopped
+2025-05-21 12:15:23,502 - INFO - Stopping all federates...
+2025-05-21 12:15:23,511 - INFO - All federates stopped
+2025-05-21 12:15:23,512 - INFO - broker is stoped
+2025-05-21 13:24:14,814 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 13:24:14,814 - INFO - Starting federate: mainbroker
+2025-05-21 13:24:15,820 - INFO - Starting federate: Battery
+2025-05-21 13:24:16,327 - INFO - Starting federate: Envelope
+2025-05-21 13:24:16,833 - INFO - Starting federate: HeatPump
+2025-05-21 13:24:17,340 - INFO - All federates started. Monitoring output...
+2025-05-21 13:24:33,272 - INFO - Received termination signal. Shutting down...
+2025-05-21 13:24:33,273 - INFO - Stopping all federates...
+2025-05-21 13:24:33,273 - INFO - Terminating HeatPump...
+2025-05-21 13:24:33,281 - INFO - HeatPump terminated
+2025-05-21 13:24:33,281 - INFO - Terminating Envelope...
+2025-05-21 13:24:33,287 - INFO - Envelope terminated
+2025-05-21 13:24:33,288 - INFO - All federates stopped
+2025-05-21 13:24:33,289 - INFO - Stopping all federates...
+2025-05-21 13:24:33,290 - INFO - All federates stopped
+2025-05-21 13:27:41,032 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 13:27:41,033 - INFO - Starting federate: mainbroker
+2025-05-21 13:27:42,039 - INFO - Starting federate: Battery
+2025-05-21 13:27:42,546 - INFO - Starting federate: Envelope
+2025-05-21 13:27:43,053 - INFO - Starting federate: HeatPump
+2025-05-21 13:27:43,561 - INFO - All federates started. Monitoring output...
+2025-05-21 13:27:48,099 - INFO - Received termination signal. Shutting down...
+2025-05-21 13:27:48,099 - INFO - Stopping all federates...
+2025-05-21 13:27:48,100 - INFO - Terminating HeatPump...
+2025-05-21 13:27:48,107 - INFO - HeatPump terminated
+2025-05-21 13:27:48,116 - INFO - Terminating Envelope...
+2025-05-21 13:27:48,124 - INFO - Envelope terminated
+2025-05-21 13:27:48,125 - INFO - All federates stopped
+2025-05-21 13:27:48,125 - INFO - Stopping all federates...
+2025-05-21 13:27:48,126 - INFO - All federates stopped
+2025-05-21 13:35:41,802 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 13:35:41,803 - INFO - Starting federate: mainbroker
+2025-05-21 13:35:42,808 - INFO - Starting federate: Battery
+2025-05-21 13:35:43,316 - INFO - Starting federate: Envelope
+2025-05-21 13:35:43,822 - INFO - Starting federate: HeatPump
+2025-05-21 13:35:44,330 - INFO - All federates started. Monitoring output...
+2025-05-21 13:35:49,547 - INFO - Received termination signal. Shutting down...
+2025-05-21 13:35:49,547 - INFO - Stopping all federates...
+2025-05-21 13:35:49,548 - INFO - Terminating HeatPump...
+2025-05-21 13:35:49,554 - INFO - HeatPump terminated
+2025-05-21 13:35:49,564 - INFO - Terminating Envelope...
+2025-05-21 13:35:49,571 - INFO - Envelope terminated
+2025-05-21 13:35:49,572 - INFO - All federates stopped
+2025-05-21 13:35:49,573 - INFO - Stopping all federates...
+2025-05-21 13:35:49,573 - INFO - All federates stopped
+2025-05-21 13:36:31,250 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 13:36:31,251 - INFO - Starting federate: mainbroker
+2025-05-21 13:36:32,257 - INFO - Starting federate: Battery
+2025-05-21 13:36:32,764 - INFO - Starting federate: Envelope
+2025-05-21 13:36:33,272 - INFO - Starting federate: HeatPump
+2025-05-21 13:36:33,780 - INFO - All federates started. Monitoring output...
+2025-05-21 13:36:37,199 - INFO - Received termination signal. Shutting down...
+2025-05-21 13:36:37,200 - INFO - Stopping all federates...
+2025-05-21 13:36:37,200 - INFO - Terminating HeatPump...
+2025-05-21 13:36:37,206 - INFO - HeatPump terminated
+2025-05-21 13:36:37,215 - INFO - Terminating Envelope...
+2025-05-21 13:36:37,223 - INFO - Envelope terminated
+2025-05-21 13:36:37,224 - INFO - All federates stopped
+2025-05-21 13:36:37,225 - INFO - Stopping all federates...
+2025-05-21 13:36:37,225 - INFO - All federates stopped
+2025-05-21 13:36:58,387 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 13:36:58,387 - INFO - Starting federate: mainbroker
+2025-05-21 13:36:59,394 - INFO - Starting federate: Battery
+2025-05-21 13:36:59,901 - INFO - Starting federate: Envelope
+2025-05-21 13:37:00,408 - INFO - Starting federate: HeatPump
+2025-05-21 13:37:00,915 - INFO - All federates started. Monitoring output...
+2025-05-21 13:37:04,349 - INFO - Received termination signal. Shutting down...
+2025-05-21 13:37:04,349 - INFO - Stopping all federates...
+2025-05-21 13:37:04,349 - INFO - Terminating HeatPump...
+2025-05-21 13:37:04,356 - INFO - HeatPump terminated
+2025-05-21 13:37:04,366 - INFO - Terminating Envelope...
+2025-05-21 13:37:04,373 - INFO - Envelope terminated
+2025-05-21 13:37:04,374 - INFO - All federates stopped
+2025-05-21 13:37:04,375 - INFO - Stopping all federates...
+2025-05-21 13:37:04,375 - INFO - All federates stopped
+2025-05-21 13:38:18,391 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 13:38:18,391 - INFO - Starting federate: mainbroker
+2025-05-21 13:38:19,398 - INFO - Starting federate: Battery
+2025-05-21 13:38:19,905 - INFO - Starting federate: Envelope
+2025-05-21 13:38:20,414 - INFO - Starting federate: HeatPump
+2025-05-21 13:38:20,921 - INFO - All federates started. Monitoring output...
+2025-05-21 13:38:23,475 - INFO - Received termination signal. Shutting down...
+2025-05-21 13:38:23,475 - INFO - Stopping all federates...
+2025-05-21 13:38:23,476 - INFO - Terminating HeatPump...
+2025-05-21 13:38:23,482 - INFO - HeatPump terminated
+2025-05-21 13:38:23,484 - INFO - Terminating Envelope...
+2025-05-21 13:38:23,490 - INFO - Envelope terminated
+2025-05-21 13:38:23,491 - INFO - All federates stopped
+2025-05-21 13:38:23,491 - INFO - Stopping all federates...
+2025-05-21 13:38:23,492 - INFO - All federates stopped
+2025-05-21 13:39:23,058 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 13:39:23,059 - INFO - Starting federate: mainbroker
+2025-05-21 13:39:24,065 - INFO - Starting federate: Battery
+2025-05-21 13:39:24,573 - INFO - Starting federate: Envelope
+2025-05-21 13:39:25,080 - INFO - Starting federate: HeatPump
+2025-05-21 13:39:25,587 - INFO - All federates started. Monitoring output...
+2025-05-21 13:39:29,594 - INFO - Received termination signal. Shutting down...
+2025-05-21 13:39:29,595 - INFO - Stopping all federates...
+2025-05-21 13:39:29,595 - INFO - Terminating HeatPump...
+2025-05-21 13:39:29,601 - INFO - HeatPump terminated
+2025-05-21 13:39:29,610 - INFO - Terminating Envelope...
+2025-05-21 13:39:29,618 - INFO - Envelope terminated
+2025-05-21 13:39:29,619 - INFO - All federates stopped
+2025-05-21 13:39:29,619 - INFO - Stopping all federates...
+2025-05-21 13:39:29,620 - INFO - All federates stopped
+2025-05-21 13:40:25,429 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 13:40:25,430 - INFO - Starting federate: mainbroker
+2025-05-21 13:40:26,436 - INFO - Starting federate: Battery
+2025-05-21 13:40:26,943 - INFO - Starting federate: Envelope
+2025-05-21 13:40:27,451 - INFO - Starting federate: HeatPump
+2025-05-21 13:40:27,960 - INFO - All federates started. Monitoring output...
+2025-05-21 13:40:29,709 - INFO - Received termination signal. Shutting down...
+2025-05-21 13:40:29,709 - INFO - Stopping all federates...
+2025-05-21 13:40:29,709 - INFO - Terminating HeatPump...
+2025-05-21 13:40:29,715 - INFO - HeatPump terminated
+2025-05-21 13:40:29,724 - INFO - Terminating Envelope...
+2025-05-21 13:40:29,731 - INFO - Envelope terminated
+2025-05-21 13:40:29,732 - INFO - All federates stopped
+2025-05-21 13:40:29,732 - INFO - Stopping all federates...
+2025-05-21 13:40:29,732 - INFO - All federates stopped
+2025-05-21 13:59:14,656 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 13:59:14,656 - INFO - Starting federate: mainbroker
+2025-05-21 13:59:15,662 - INFO - Starting federate: Battery
+2025-05-21 13:59:16,169 - INFO - Starting federate: Envelope
+2025-05-21 13:59:16,677 - INFO - Starting federate: HeatPump
+2025-05-21 13:59:17,184 - INFO - All federates started. Monitoring output...
+2025-05-21 13:59:35,311 - INFO - Received termination signal. Shutting down...
+2025-05-21 13:59:35,311 - INFO - Stopping all federates...
+2025-05-21 13:59:35,312 - INFO - Terminating mainbroker...
+2025-05-21 13:59:35,313 - INFO - mainbroker terminated
+2025-05-21 13:59:35,323 - INFO - All federates stopped
+2025-05-21 13:59:35,323 - INFO - Stopping all federates...
+2025-05-21 13:59:35,323 - INFO - All federates stopped
+2025-05-21 14:01:31,307 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 14:01:31,308 - INFO - Starting federate: mainbroker
+2025-05-21 14:01:32,313 - INFO - Starting federate: Battery
+2025-05-21 14:01:32,820 - INFO - Starting federate: Envelope
+2025-05-21 14:01:33,328 - INFO - Starting federate: HeatPump
+2025-05-21 14:01:33,835 - INFO - All federates started. Monitoring output...
+2025-05-21 14:01:38,220 - INFO - Received termination signal. Shutting down...
+2025-05-21 14:01:38,220 - INFO - Stopping all federates...
+2025-05-21 14:01:38,221 - INFO - Terminating HeatPump...
+2025-05-21 14:01:38,227 - INFO - HeatPump terminated
+2025-05-21 14:01:38,236 - INFO - Terminating Envelope...
+2025-05-21 14:01:38,243 - INFO - Envelope terminated
+2025-05-21 14:01:38,244 - INFO - All federates stopped
+2025-05-21 14:01:38,245 - INFO - Stopping all federates...
+2025-05-21 14:01:38,245 - INFO - All federates stopped
+2025-05-21 14:02:51,309 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 14:02:51,309 - INFO - Starting federate: mainbroker
+2025-05-21 14:02:52,315 - INFO - Starting federate: Battery
+2025-05-21 14:02:52,823 - INFO - Starting federate: Envelope
+2025-05-21 14:02:53,329 - INFO - Starting federate: HeatPump
+2025-05-21 14:02:53,836 - INFO - All federates started. Monitoring output...
+2025-05-21 14:02:59,435 - INFO - Received termination signal. Shutting down...
+2025-05-21 14:02:59,435 - INFO - Stopping all federates...
+2025-05-21 14:02:59,436 - INFO - Terminating HeatPump...
+2025-05-21 14:02:59,442 - INFO - HeatPump terminated
+2025-05-21 14:02:59,451 - INFO - Terminating Envelope...
+2025-05-21 14:02:59,458 - INFO - Envelope terminated
+2025-05-21 14:02:59,459 - INFO - All federates stopped
+2025-05-21 14:02:59,459 - INFO - Stopping all federates...
+2025-05-21 14:02:59,459 - INFO - All federates stopped
+2025-05-21 14:07:29,493 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 14:07:29,494 - INFO - Starting federate: mainbroker
+2025-05-21 14:07:30,500 - INFO - Starting federate: Battery
+2025-05-21 14:07:31,007 - INFO - Starting federate: Envelope
+2025-05-21 14:07:31,515 - INFO - Starting federate: HeatPump
+2025-05-21 14:07:32,023 - INFO - All federates started. Monitoring output...
+2025-05-21 14:07:39,675 - INFO - Received termination signal. Shutting down...
+2025-05-21 14:07:39,675 - INFO - Stopping all federates...
+2025-05-21 14:07:39,676 - INFO - Terminating HeatPump...
+2025-05-21 14:07:39,682 - INFO - HeatPump terminated
+2025-05-21 14:07:39,692 - INFO - Terminating Envelope...
+2025-05-21 14:07:39,699 - INFO - Envelope terminated
+2025-05-21 14:07:39,700 - INFO - All federates stopped
+2025-05-21 14:07:39,700 - INFO - Stopping all federates...
+2025-05-21 14:07:39,701 - INFO - All federates stopped
+2025-05-21 14:08:42,126 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 14:08:42,127 - INFO - Starting federate: mainbroker
+2025-05-21 14:08:43,133 - INFO - Starting federate: Battery
+2025-05-21 14:08:43,640 - INFO - Starting federate: Envelope
+2025-05-21 14:08:44,153 - INFO - Starting federate: HeatPump
+2025-05-21 14:08:44,659 - INFO - All federates started. Monitoring output...
+2025-05-21 14:08:47,653 - INFO - Received termination signal. Shutting down...
+2025-05-21 14:08:47,654 - INFO - Stopping all federates...
+2025-05-21 14:08:47,654 - INFO - Terminating HeatPump...
+2025-05-21 14:08:47,660 - INFO - HeatPump terminated
+2025-05-21 14:08:47,661 - INFO - Terminating Envelope...
+2025-05-21 14:08:47,668 - INFO - Envelope terminated
+2025-05-21 14:08:47,669 - INFO - All federates stopped
+2025-05-21 14:08:47,669 - INFO - Stopping all federates...
+2025-05-21 14:08:47,669 - INFO - All federates stopped
+2025-05-21 14:12:17,773 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 14:12:17,774 - INFO - Starting federate: mainbroker
+2025-05-21 14:12:18,859 - INFO - Starting federate: Battery
+2025-05-21 14:12:19,365 - INFO - Starting federate: Envelope
+2025-05-21 14:12:19,874 - INFO - Starting federate: HeatPump
+2025-05-21 14:12:20,383 - INFO - All federates started. Monitoring output...
+2025-05-21 14:14:12,352 - INFO - All federates have completed
+2025-05-21 14:14:12,353 - INFO - Stopping all federates...
+2025-05-21 14:14:12,353 - INFO - All federates stopped
+2025-05-21 14:14:12,354 - INFO - Stopping all federates...
+2025-05-21 14:14:12,355 - INFO - All federates stopped
+2025-05-21 14:14:12,355 - INFO - broker is stoped
+2025-05-21 14:18:02,054 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 14:18:02,055 - INFO - Starting federate: mainbroker
+2025-05-21 14:18:03,184 - INFO - Starting federate: Battery
+2025-05-21 14:18:03,694 - INFO - Starting federate: Envelope
+2025-05-21 14:18:04,205 - INFO - Starting federate: HeatPump
+2025-05-21 14:18:04,719 - INFO - All federates started. Monitoring output...
+2025-05-21 14:18:08,851 - INFO - Received termination signal. Shutting down...
+2025-05-21 14:18:08,852 - INFO - Stopping all federates...
+2025-05-21 14:18:08,852 - INFO - Terminating HeatPump...
+2025-05-21 14:18:08,868 - INFO - HeatPump terminated
+2025-05-21 14:18:08,878 - INFO - Terminating Envelope...
+2025-05-21 14:18:08,894 - INFO - Envelope terminated
+2025-05-21 14:18:08,895 - INFO - All federates stopped
+2025-05-21 14:18:08,897 - INFO - Stopping all federates...
+2025-05-21 14:18:08,897 - INFO - All federates stopped
+2025-05-21 14:19:44,645 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 14:19:44,646 - INFO - Starting federate: mainbroker
+2025-05-21 14:19:45,655 - INFO - Starting federate: Battery
+2025-05-21 14:19:46,167 - INFO - Starting federate: Envelope
+2025-05-21 14:19:46,679 - INFO - Starting federate: HeatPump
+2025-05-21 14:19:47,188 - INFO - All federates started. Monitoring output...
+2025-05-21 14:19:49,859 - INFO - Received termination signal. Shutting down...
+2025-05-21 14:19:49,860 - INFO - Stopping all federates...
+2025-05-21 14:19:49,860 - INFO - Terminating HeatPump...
+2025-05-21 14:19:49,876 - INFO - HeatPump terminated
+2025-05-21 14:19:49,885 - INFO - Terminating Envelope...
+2025-05-21 14:19:49,903 - INFO - Envelope terminated
+2025-05-21 14:19:49,904 - INFO - All federates stopped
+2025-05-21 14:19:49,905 - INFO - Stopping all federates...
+2025-05-21 14:19:49,906 - INFO - All federates stopped
+2025-05-21 14:21:59,035 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 14:21:59,037 - INFO - Starting federate: mainbroker
+2025-05-21 14:22:00,045 - INFO - Starting federate: Battery
+2025-05-21 14:22:00,558 - INFO - Starting federate: Envelope
+2025-05-21 14:22:01,068 - INFO - Starting federate: HeatPump
+2025-05-21 14:22:01,577 - INFO - All federates started. Monitoring output...
+2025-05-21 14:22:02,664 - INFO - All federates have completed
+2025-05-21 14:22:02,665 - INFO - Stopping all federates...
+2025-05-21 14:22:02,666 - INFO - All federates stopped
+2025-05-21 14:22:02,667 - INFO - Stopping all federates...
+2025-05-21 14:22:02,667 - INFO - All federates stopped
+2025-05-21 14:22:02,668 - INFO - broker is stoped
+2025-05-21 14:23:12,709 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 14:23:12,710 - INFO - Starting federate: mainbroker
+2025-05-21 14:23:13,718 - INFO - Starting federate: Battery
+2025-05-21 14:23:14,231 - INFO - Starting federate: Envelope
+2025-05-21 14:23:14,740 - INFO - Starting federate: HeatPump
+2025-05-21 14:23:15,249 - INFO - All federates started. Monitoring output...
+2025-05-21 14:23:16,316 - INFO - All federates have completed
+2025-05-21 14:23:16,317 - INFO - Stopping all federates...
+2025-05-21 14:23:16,318 - INFO - All federates stopped
+2025-05-21 14:23:16,319 - INFO - Stopping all federates...
+2025-05-21 14:23:16,320 - INFO - All federates stopped
+2025-05-21 14:23:16,320 - INFO - broker is stoped
+2025-05-21 14:26:12,892 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 14:26:12,893 - INFO - Starting federate: mainbroker
+2025-05-21 14:26:13,901 - INFO - Starting federate: Battery
+2025-05-21 14:26:14,415 - INFO - Starting federate: Envelope
+2025-05-21 14:26:14,923 - INFO - Starting federate: HeatPump
+2025-05-21 14:26:15,435 - INFO - All federates started. Monitoring output...
+2025-05-21 14:26:21,981 - INFO - Received termination signal. Shutting down...
+2025-05-21 14:26:21,983 - INFO - Stopping all federates...
+2025-05-21 14:26:21,984 - INFO - Terminating mainbroker...
+2025-05-21 14:26:21,988 - INFO - mainbroker terminated
+2025-05-21 14:26:21,999 - INFO - All federates stopped
+2025-05-21 14:26:21,999 - INFO - Stopping all federates...
+2025-05-21 14:26:22,000 - INFO - All federates stopped
+2025-05-21 14:29:06,232 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 14:29:06,233 - INFO - Starting federate: mainbroker
+2025-05-21 14:29:07,242 - INFO - Starting federate: Battery
+2025-05-21 14:29:07,756 - INFO - Starting federate: Envelope
+2025-05-21 14:29:08,267 - INFO - Starting federate: HeatPump
+2025-05-21 14:29:08,776 - INFO - All federates started. Monitoring output...
+2025-05-21 14:29:11,882 - INFO - Received termination signal. Shutting down...
+2025-05-21 14:29:11,884 - INFO - Stopping all federates...
+2025-05-21 14:29:11,885 - INFO - Terminating mainbroker...
+2025-05-21 14:29:11,887 - INFO - mainbroker terminated
+2025-05-21 14:29:11,900 - INFO - All federates stopped
+2025-05-21 14:29:11,900 - INFO - Stopping all federates...
+2025-05-21 14:29:11,900 - INFO - All federates stopped
+2025-05-21 14:41:28,056 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 14:41:28,057 - INFO - Starting federate: mainbroker
+2025-05-21 14:41:29,070 - INFO - Starting federate: Battery
+2025-05-21 14:41:29,589 - INFO - Starting federate: Envelope
+2025-05-21 14:41:30,100 - INFO - Starting federate: HeatPump
+2025-05-21 14:41:30,609 - INFO - All federates started. Monitoring output...
+2025-05-21 14:41:34,857 - INFO - Received termination signal. Shutting down...
+2025-05-21 14:41:34,859 - INFO - Stopping all federates...
+2025-05-21 14:41:34,860 - INFO - Terminating mainbroker...
+2025-05-21 14:41:34,864 - INFO - mainbroker terminated
+2025-05-21 14:41:34,868 - INFO - All federates stopped
+2025-05-21 14:41:34,869 - INFO - Stopping all federates...
+2025-05-21 14:41:34,870 - INFO - All federates stopped
+2025-05-21 14:46:05,486 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 14:46:05,487 - INFO - Starting federate: mainbroker
+2025-05-21 14:46:06,496 - INFO - Starting federate: Battery
+2025-05-21 14:46:07,011 - INFO - Starting federate: Envelope
+2025-05-21 14:46:07,523 - INFO - Starting federate: HeatPump
+2025-05-21 14:46:08,035 - INFO - All federates started. Monitoring output...
+2025-05-21 14:46:09,143 - INFO - All federates have completed
+2025-05-21 14:46:09,143 - INFO - Stopping all federates...
+2025-05-21 14:46:09,145 - INFO - All federates stopped
+2025-05-21 14:46:09,149 - INFO - Stopping all federates...
+2025-05-21 14:46:09,152 - INFO - All federates stopped
+2025-05-21 14:46:09,152 - INFO - broker is stoped
+2025-05-21 14:47:00,026 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 14:47:00,027 - INFO - Starting federate: mainbroker
+2025-05-21 14:47:01,037 - INFO - Starting federate: Battery
+2025-05-21 14:47:01,550 - INFO - Starting federate: Envelope
+2025-05-21 14:47:02,059 - INFO - Starting federate: HeatPump
+2025-05-21 14:47:02,569 - INFO - All federates started. Monitoring output...
+2025-05-21 14:47:03,678 - INFO - All federates have completed
+2025-05-21 14:47:03,680 - INFO - Stopping all federates...
+2025-05-21 14:47:03,681 - INFO - All federates stopped
+2025-05-21 14:47:03,681 - INFO - Stopping all federates...
+2025-05-21 14:47:03,683 - INFO - All federates stopped
+2025-05-21 14:47:03,683 - INFO - broker is stoped
+2025-05-21 14:48:27,509 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 14:48:27,510 - INFO - Starting federate: mainbroker
+2025-05-21 14:48:28,520 - INFO - Starting federate: Battery
+2025-05-21 14:48:29,039 - INFO - Starting federate: Envelope
+2025-05-21 14:48:29,551 - INFO - Starting federate: HeatPump
+2025-05-21 14:48:30,062 - INFO - All federates started. Monitoring output...
+2025-05-21 14:48:31,157 - INFO - All federates have completed
+2025-05-21 14:48:31,157 - INFO - Stopping all federates...
+2025-05-21 14:48:31,158 - INFO - All federates stopped
+2025-05-21 14:48:31,159 - INFO - Stopping all federates...
+2025-05-21 14:48:31,159 - INFO - All federates stopped
+2025-05-21 14:48:31,159 - INFO - broker is stoped
+2025-05-21 15:05:21,363 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 15:05:21,364 - INFO - Starting federate: mainbroker
+2025-05-21 15:05:22,374 - INFO - Starting federate: Battery
+2025-05-21 15:05:22,890 - INFO - Starting federate: Envelope
+2025-05-21 15:05:23,401 - INFO - Starting federate: HeatPump
+2025-05-21 15:05:23,912 - INFO - All federates started. Monitoring output...
+2025-05-21 15:05:25,060 - INFO - All federates have completed
+2025-05-21 15:05:25,061 - INFO - Stopping all federates...
+2025-05-21 15:05:25,062 - INFO - All federates stopped
+2025-05-21 15:05:25,063 - INFO - Stopping all federates...
+2025-05-21 15:05:25,065 - INFO - All federates stopped
+2025-05-21 15:05:25,066 - INFO - broker is stoped
+2025-05-21 15:27:42,823 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 15:27:42,824 - INFO - Starting federate: mainbroker
+2025-05-21 15:27:43,834 - INFO - Starting federate: Battery
+2025-05-21 15:27:44,347 - INFO - Starting federate: Envelope
+2025-05-21 15:27:44,858 - INFO - Starting federate: HeatPump
+2025-05-21 15:27:45,366 - INFO - All federates started. Monitoring output...
+2025-05-21 15:27:46,407 - INFO - All federates have completed
+2025-05-21 15:27:46,408 - INFO - Stopping all federates...
+2025-05-21 15:27:46,409 - INFO - All federates stopped
+2025-05-21 15:27:46,410 - INFO - Stopping all federates...
+2025-05-21 15:27:46,412 - INFO - All federates stopped
+2025-05-21 15:27:46,412 - INFO - broker is stoped
+2025-05-21 15:28:28,390 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 15:28:28,390 - INFO - Starting federate: mainbroker
+2025-05-21 15:28:29,399 - INFO - Starting federate: Battery
+2025-05-21 15:28:29,914 - INFO - Starting federate: Envelope
+2025-05-21 15:28:30,424 - INFO - Starting federate: HeatPump
+2025-05-21 15:28:30,937 - INFO - All federates started. Monitoring output...
+2025-05-21 15:28:32,003 - INFO - All federates have completed
+2025-05-21 15:28:32,003 - INFO - Stopping all federates...
+2025-05-21 15:28:32,004 - INFO - All federates stopped
+2025-05-21 15:28:32,005 - INFO - Stopping all federates...
+2025-05-21 15:28:32,015 - INFO - All federates stopped
+2025-05-21 15:28:32,016 - INFO - broker is stoped
+2025-05-21 15:31:02,711 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 15:31:02,712 - INFO - Starting federate: mainbroker
+2025-05-21 15:31:03,724 - INFO - Starting federate: Battery
+2025-05-21 15:31:04,238 - INFO - Starting federate: Envelope
+2025-05-21 15:31:04,754 - INFO - Starting federate: HeatPump
+2025-05-21 15:31:05,265 - INFO - All federates started. Monitoring output...
+2025-05-21 15:31:09,788 - INFO - Received termination signal. Shutting down...
+2025-05-21 15:31:09,789 - INFO - Stopping all federates...
+2025-05-21 15:31:09,790 - INFO - Terminating mainbroker...
+2025-05-21 15:31:09,794 - INFO - mainbroker terminated
+2025-05-21 15:31:09,796 - INFO - All federates stopped
+2025-05-21 15:31:09,796 - INFO - Stopping all federates...
+2025-05-21 15:31:09,797 - INFO - All federates stopped
+2025-05-21 15:32:07,951 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 15:32:07,952 - INFO - Starting federate: mainbroker
+2025-05-21 15:32:08,960 - INFO - Starting federate: Battery
+2025-05-21 15:32:09,476 - INFO - Starting federate: Envelope
+2025-05-21 15:32:09,986 - INFO - Starting federate: HeatPump
+2025-05-21 15:32:10,500 - INFO - All federates started. Monitoring output...
+2025-05-21 15:32:11,607 - INFO - All federates have completed
+2025-05-21 15:32:11,608 - INFO - Stopping all federates...
+2025-05-21 15:32:11,609 - INFO - All federates stopped
+2025-05-21 15:32:11,610 - INFO - Stopping all federates...
+2025-05-21 15:32:11,610 - INFO - All federates stopped
+2025-05-21 15:32:11,611 - INFO - broker is stoped
+2025-05-21 15:32:58,708 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 15:32:58,710 - INFO - Starting federate: mainbroker
+2025-05-21 15:32:59,720 - INFO - Starting federate: Battery
+2025-05-21 15:33:00,237 - INFO - Starting federate: Envelope
+2025-05-21 15:33:00,754 - INFO - Starting federate: HeatPump
+2025-05-21 15:33:01,266 - INFO - All federates started. Monitoring output...
+2025-05-21 15:33:02,360 - INFO - All federates have completed
+2025-05-21 15:33:02,361 - INFO - Stopping all federates...
+2025-05-21 15:33:02,362 - INFO - All federates stopped
+2025-05-21 15:33:02,362 - INFO - Stopping all federates...
+2025-05-21 15:33:02,363 - INFO - All federates stopped
+2025-05-21 15:33:02,363 - INFO - broker is stoped
+2025-05-21 15:34:32,291 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 15:34:32,292 - INFO - Starting federate: mainbroker
+2025-05-21 15:34:33,303 - INFO - Starting federate: Battery
+2025-05-21 15:34:33,814 - INFO - Starting federate: Envelope
+2025-05-21 15:34:34,324 - INFO - Starting federate: HeatPump
+2025-05-21 15:34:34,836 - INFO - All federates started. Monitoring output...
+2025-05-21 15:34:35,923 - INFO - All federates have completed
+2025-05-21 15:34:35,924 - INFO - Stopping all federates...
+2025-05-21 15:34:35,925 - INFO - All federates stopped
+2025-05-21 15:34:35,926 - INFO - Stopping all federates...
+2025-05-21 15:34:35,926 - INFO - All federates stopped
+2025-05-21 15:34:35,927 - INFO - broker is stoped
+2025-05-21 15:34:45,835 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 15:34:45,835 - INFO - Starting federate: mainbroker
+2025-05-21 15:34:46,844 - INFO - Starting federate: Battery
+2025-05-21 15:34:47,361 - INFO - Starting federate: Envelope
+2025-05-21 15:34:47,870 - INFO - Starting federate: HeatPump
+2025-05-21 15:34:48,381 - INFO - All federates started. Monitoring output...
+2025-05-21 15:34:49,456 - INFO - All federates have completed
+2025-05-21 15:34:49,458 - INFO - Stopping all federates...
+2025-05-21 15:34:49,459 - INFO - All federates stopped
+2025-05-21 15:34:49,460 - INFO - Stopping all federates...
+2025-05-21 15:34:49,469 - INFO - All federates stopped
+2025-05-21 15:34:49,470 - INFO - broker is stoped
+2025-05-21 15:36:22,292 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 15:36:22,293 - INFO - Starting federate: mainbroker
+2025-05-21 15:36:23,303 - INFO - Starting federate: Battery
+2025-05-21 15:36:23,819 - INFO - Starting federate: Envelope
+2025-05-21 15:36:24,330 - INFO - Starting federate: HeatPump
+2025-05-21 15:36:24,840 - INFO - All federates started. Monitoring output...
+2025-05-21 15:36:25,916 - INFO - All federates have completed
+2025-05-21 15:36:25,917 - INFO - Stopping all federates...
+2025-05-21 15:36:25,917 - INFO - All federates stopped
+2025-05-21 15:36:25,918 - INFO - Stopping all federates...
+2025-05-21 15:36:25,920 - INFO - All federates stopped
+2025-05-21 15:36:25,921 - INFO - broker is stoped
+2025-05-21 15:36:55,429 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 15:36:55,430 - INFO - Starting federate: mainbroker
+2025-05-21 15:36:56,438 - INFO - Starting federate: Battery
+2025-05-21 15:36:56,953 - INFO - Starting federate: Envelope
+2025-05-21 15:36:57,464 - INFO - Starting federate: HeatPump
+2025-05-21 15:36:57,975 - INFO - All federates started. Monitoring output...
+2025-05-21 15:36:59,069 - INFO - All federates have completed
+2025-05-21 15:36:59,070 - INFO - Stopping all federates...
+2025-05-21 15:36:59,071 - INFO - All federates stopped
+2025-05-21 15:36:59,072 - INFO - Stopping all federates...
+2025-05-21 15:36:59,072 - INFO - All federates stopped
+2025-05-21 15:36:59,072 - INFO - broker is stoped
+2025-05-21 15:37:05,354 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 15:37:05,355 - INFO - Starting federate: mainbroker
+2025-05-21 15:37:06,367 - INFO - Starting federate: Battery
+2025-05-21 15:37:06,876 - INFO - Starting federate: Envelope
+2025-05-21 15:37:07,386 - INFO - Starting federate: HeatPump
+2025-05-21 15:37:07,896 - INFO - All federates started. Monitoring output...
+2025-05-21 15:37:08,974 - INFO - All federates have completed
+2025-05-21 15:37:08,974 - INFO - Stopping all federates...
+2025-05-21 15:37:08,976 - INFO - All federates stopped
+2025-05-21 15:37:08,977 - INFO - Stopping all federates...
+2025-05-21 15:37:08,978 - INFO - All federates stopped
+2025-05-21 15:37:08,984 - INFO - broker is stoped
+2025-05-21 15:37:43,999 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 15:37:44,000 - INFO - Starting federate: mainbroker
+2025-05-21 15:37:45,009 - INFO - Starting federate: Battery
+2025-05-21 15:37:45,524 - INFO - Starting federate: Envelope
+2025-05-21 15:37:46,035 - INFO - Starting federate: HeatPump
+2025-05-21 15:37:46,544 - INFO - All federates started. Monitoring output...
+2025-05-21 15:37:47,658 - INFO - All federates have completed
+2025-05-21 15:37:47,659 - INFO - Stopping all federates...
+2025-05-21 15:37:47,660 - INFO - All federates stopped
+2025-05-21 15:37:47,661 - INFO - Stopping all federates...
+2025-05-21 15:37:47,671 - INFO - All federates stopped
+2025-05-21 15:37:47,671 - INFO - broker is stoped
+2025-05-21 15:38:17,187 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 15:38:17,188 - INFO - Starting federate: mainbroker
+2025-05-21 15:38:18,198 - INFO - Starting federate: Battery
+2025-05-21 15:38:18,711 - INFO - Starting federate: Envelope
+2025-05-21 15:38:19,222 - INFO - Starting federate: HeatPump
+2025-05-21 15:38:19,733 - INFO - All federates started. Monitoring output...
+2025-05-21 15:38:20,810 - INFO - All federates have completed
+2025-05-21 15:38:20,811 - INFO - Stopping all federates...
+2025-05-21 15:38:20,812 - INFO - All federates stopped
+2025-05-21 15:38:20,813 - INFO - Stopping all federates...
+2025-05-21 15:38:20,822 - INFO - All federates stopped
+2025-05-21 15:38:20,822 - INFO - broker is stoped
+2025-05-21 15:39:22,411 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 15:39:22,412 - INFO - Starting federate: mainbroker
+2025-05-21 15:39:23,421 - INFO - Starting federate: Battery
+2025-05-21 15:39:23,933 - INFO - Starting federate: Envelope
+2025-05-21 15:39:24,444 - INFO - Starting federate: HeatPump
+2025-05-21 15:39:24,955 - INFO - All federates started. Monitoring output...
+2025-05-21 15:39:26,030 - INFO - All federates have completed
+2025-05-21 15:39:26,036 - INFO - Stopping all federates...
+2025-05-21 15:39:26,046 - INFO - All federates stopped
+2025-05-21 15:39:26,048 - INFO - Stopping all federates...
+2025-05-21 15:39:26,056 - INFO - All federates stopped
+2025-05-21 15:39:26,057 - INFO - broker is stoped
+2025-05-21 15:42:18,757 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 15:42:18,758 - INFO - Stopping all federates...
+2025-05-21 15:42:18,758 - INFO - All federates stopped
+2025-05-21 15:45:31,091 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 15:45:31,092 - INFO - Starting federate: mainbroker
+2025-05-21 15:45:32,102 - INFO - Starting federate: Battery
+2025-05-21 15:45:32,614 - INFO - Starting federate: Envelope
+2025-05-21 15:45:33,125 - INFO - Starting federate: HeatPump
+2025-05-21 15:45:33,635 - INFO - All federates started. Monitoring output...
+2025-05-21 15:45:34,723 - INFO - All federates have completed
+2025-05-21 15:45:34,725 - INFO - Stopping all federates...
+2025-05-21 15:45:34,726 - INFO - All federates stopped
+2025-05-21 15:45:34,727 - INFO - Stopping all federates...
+2025-05-21 15:45:34,737 - INFO - All federates stopped
+2025-05-21 15:45:34,737 - INFO - broker is stoped
+2025-05-21 15:53:48,963 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 15:53:48,975 - INFO - Starting federate: mainbroker with command: helics_broker -f 3 --loglevel=warning --name=mainbroker
+2025-05-21 15:53:49,984 - INFO - Starting federate: Battery with command: python -u RunnerType1.py federates/Battery.yaml --loglevel=debug
+2025-05-21 15:53:50,501 - INFO - Starting federate: Envelope with command: python -u RunnerType2.py federates/Envelope.yaml --loglevel=debug
+2025-05-21 15:53:51,012 - INFO - Starting federate: HeatPump with command: python -u RunnerType3.py federates/HeatPump.yaml --loglevel=warning
+2025-05-21 15:53:51,530 - INFO - All federates started. Monitoring output...
+2025-05-21 15:53:52,632 - INFO - All federates have completed
+2025-05-21 15:53:52,633 - INFO - Stopping all federates...
+2025-05-21 15:53:52,634 - INFO - All federates stopped
+2025-05-21 15:53:52,635 - INFO - Stopping all federates...
+2025-05-21 15:53:52,635 - INFO - All federates stopped
+2025-05-21 15:53:52,637 - INFO - broker is stoped
+2025-05-21 15:54:47,142 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 15:54:47,145 - INFO - Starting federate: mainbroker with command: helics_broker -f 3 --loglevel=warning --name=mainbroker
+2025-05-21 15:54:48,155 - INFO - Starting federate: Battery with command: python -u RunnerType1.py federates/Battery.yaml --loglevel=debug
+2025-05-21 15:54:48,671 - INFO - Starting federate: Envelope with command: python -u RunnerType2.py federates/Envelope.yaml --loglevel=debug
+2025-05-21 15:54:49,182 - INFO - Starting federate: HeatPump with command: python -u RunnerType3.py federates/HeatPump.yaml --loglevel=warning
+2025-05-21 15:54:49,694 - INFO - All federates started. Monitoring output...
+2025-05-21 15:54:50,791 - INFO - All federates have completed
+2025-05-21 15:54:50,792 - INFO - Stopping all federates...
+2025-05-21 15:54:50,793 - INFO - All federates stopped
+2025-05-21 15:54:50,793 - INFO - Stopping all federates...
+2025-05-21 15:54:50,794 - INFO - All federates stopped
+2025-05-21 15:54:50,794 - INFO - broker is stoped
+2025-05-21 15:56:37,195 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 15:56:37,198 - INFO - Starting federate: mainbroker with command: helics_broker -f 3 --loglevel=warning --name=mainbroker
+2025-05-21 15:56:38,209 - INFO - Starting federate: Battery with command: python -u RunnerType1.py federates/Battery.yaml --loglevel=debug
+2025-05-21 15:56:38,726 - INFO - Starting federate: Envelope with command: python -u RunnerType2.py federates/Envelope.yaml --loglevel=debug
+2025-05-21 15:56:39,239 - INFO - Starting federate: HeatPump with command: python -u RunnerType3.py federates/HeatPump.yaml --loglevel=warning
+2025-05-21 15:56:39,749 - INFO - All federates started. Monitoring output...
+2025-05-21 15:56:49,348 - INFO - Received termination signal. Shutting down...
+2025-05-21 15:56:49,349 - INFO - Stopping all federates...
+2025-05-21 15:56:49,350 - INFO - Terminating mainbroker...
+2025-05-21 15:56:49,357 - INFO - mainbroker terminated
+2025-05-21 15:56:49,358 - INFO - All federates stopped
+2025-05-21 15:56:49,358 - INFO - Stopping all federates...
+2025-05-21 15:56:49,358 - INFO - All federates stopped
+2025-05-21 15:57:20,475 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 15:57:20,478 - INFO - Starting federate: mainbroker with command: helics_broker -f 3 --loglevel=warning --name=mainbroker
+2025-05-21 15:57:21,490 - INFO - Starting federate: Battery with command: python -u RunnerType1.py federates/Battery.yaml --loglevel=debug
+2025-05-21 15:57:22,007 - INFO - Starting federate: Envelope with command: python -u RunnerType2.py federates/Envelope.yaml --loglevel=debug
+2025-05-21 15:57:22,517 - INFO - Starting federate: HeatPump with command: python -u RunnerType3.py federates/HeatPump.yaml --loglevel=warning
+2025-05-21 15:57:23,028 - INFO - All federates started. Monitoring output...
+2025-05-21 15:57:26,662 - INFO - Received termination signal. Shutting down...
+2025-05-21 15:57:26,662 - INFO - Stopping all federates...
+2025-05-21 15:57:26,663 - INFO - Terminating mainbroker...
+2025-05-21 15:57:26,665 - INFO - mainbroker terminated
+2025-05-21 15:57:26,666 - INFO - All federates stopped
+2025-05-21 15:57:26,667 - INFO - Stopping all federates...
+2025-05-21 15:57:26,667 - INFO - All federates stopped
+2025-05-21 15:58:11,353 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 15:58:11,356 - INFO - Starting federate: mainbroker with command: helics_broker -f 3 --loglevel=warning --name=mainbroker
+2025-05-21 15:58:12,365 - INFO - Starting federate: Battery with command: python -u RunnerType1.py federates/Battery.yaml --loglevel=debug
+2025-05-21 15:58:12,881 - INFO - Starting federate: Envelope with command: python -u RunnerType2.py federates/Envelope.yaml --loglevel=debug
+2025-05-21 15:58:13,392 - INFO - Starting federate: HeatPump with command: python -u RunnerType3.py federates/HeatPump.yaml --loglevel=warning
+2025-05-21 15:58:13,905 - INFO - All federates started. Monitoring output...
+2025-05-21 15:58:16,637 - INFO - Received termination signal. Shutting down...
+2025-05-21 15:58:16,638 - INFO - Stopping all federates...
+2025-05-21 15:58:16,639 - INFO - Terminating mainbroker...
+2025-05-21 15:58:16,642 - INFO - mainbroker terminated
+2025-05-21 15:58:16,643 - INFO - All federates stopped
+2025-05-21 15:58:16,643 - INFO - Stopping all federates...
+2025-05-21 15:58:16,644 - INFO - All federates stopped
+2025-05-21 16:02:12,406 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 16:02:12,409 - INFO - Starting federate: mainbroker with command: helics_broker -f 3 --loglevel=warning --name=mainbroker
+2025-05-21 16:02:13,421 - INFO - Starting federate: Battery with command: python -u RunnerType1.py federates/Battery.yaml --loglevel=debug
+2025-05-21 16:02:13,936 - INFO - Starting federate: Envelope with command: python -u RunnerType2.py federates/Envelope.yaml --loglevel=debug
+2025-05-21 16:02:14,447 - INFO - Starting federate: HeatPump with command: python -u RunnerType3.py federates/HeatPump.yaml --loglevel=warning
+2025-05-21 16:02:14,957 - INFO - All federates started. Monitoring output...
+2025-05-21 16:02:16,047 - INFO - All federates have completed
+2025-05-21 16:02:16,057 - INFO - Stopping all federates...
+2025-05-21 16:02:16,061 - INFO - All federates stopped
+2025-05-21 16:02:16,061 - INFO - Stopping all federates...
+2025-05-21 16:02:16,062 - INFO - All federates stopped
+2025-05-21 16:02:16,062 - INFO - broker is stoped
+2025-05-21 16:03:33,387 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 16:03:33,390 - INFO - Starting federate: mainbroker with command: helics_broker -f 3 --loglevel=warning --name=mainbroker
+2025-05-21 16:03:34,401 - INFO - Starting federate: Battery with command: python -u RunnerType1.py federates/Battery.yaml --loglevel=debug
+2025-05-21 16:03:34,915 - INFO - Starting federate: Envelope with command: python -u RunnerType2.py federates/Envelope.yaml --loglevel=debug
+2025-05-21 16:03:35,426 - INFO - Starting federate: HeatPump with command: python -u RunnerType3.py federates/HeatPump.yaml --loglevel=warning
+2025-05-21 16:03:35,938 - INFO - All federates started. Monitoring output...
+2025-05-21 16:03:37,062 - INFO - All federates have completed
+2025-05-21 16:03:37,063 - INFO - Stopping all federates...
+2025-05-21 16:03:37,064 - INFO - All federates stopped
+2025-05-21 16:03:37,065 - INFO - Stopping all federates...
+2025-05-21 16:03:37,066 - INFO - All federates stopped
+2025-05-21 16:03:37,066 - INFO - broker is stoped
+2025-05-21 16:06:19,988 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 16:06:19,991 - INFO - Starting federate: mainbroker with command: helics_broker -f 3 --loglevel=warning --name=mainbroker
+2025-05-21 16:06:21,002 - INFO - Starting federate: Battery with command: python -u RunnerType1.py federates/Battery.yaml --loglevel=debug
+2025-05-21 16:06:21,516 - INFO - Starting federate: Envelope with command: python -u RunnerType2.py federates/Envelope.yaml --loglevel=debug
+2025-05-21 16:06:22,032 - INFO - Starting federate: HeatPump with command: python -u RunnerType3.py federates/HeatPump.yaml --loglevel=warning
+2025-05-21 16:06:22,541 - INFO - All federates started. Monitoring output...
+2025-05-21 16:06:23,668 - INFO - All federates have completed
+2025-05-21 16:06:23,669 - INFO - Stopping all federates...
+2025-05-21 16:06:23,669 - INFO - All federates stopped
+2025-05-21 16:06:23,670 - INFO - Stopping all federates...
+2025-05-21 16:06:23,671 - INFO - All federates stopped
+2025-05-21 16:06:23,672 - INFO - broker is stoped
+2025-05-21 16:07:31,525 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 16:07:31,531 - INFO - Starting federate: mainbroker with command: helics_broker -f 3 --loglevel=warning --name=mainbroker
+2025-05-21 16:07:32,540 - INFO - Starting federate: Battery with command: python -u RunnerType1.py federates/Battery.yaml --loglevel=debug
+2025-05-21 16:07:33,057 - INFO - Starting federate: Envelope with command: python -u RunnerType2.py federates/Envelope.yaml --loglevel=debug
+2025-05-21 16:07:33,567 - INFO - Starting federate: HeatPump with command: python -u RunnerType3.py federates/HeatPump.yaml --loglevel=warning
+2025-05-21 16:07:34,078 - INFO - All federates started. Monitoring output...
+2025-05-21 16:07:35,176 - INFO - All federates have completed
+2025-05-21 16:07:35,177 - INFO - Stopping all federates...
+2025-05-21 16:07:35,178 - INFO - All federates stopped
+2025-05-21 16:07:35,182 - INFO - Stopping all federates...
+2025-05-21 16:07:35,183 - INFO - All federates stopped
+2025-05-21 16:07:35,184 - INFO - broker is stoped
+2025-05-21 16:09:07,656 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 16:09:07,657 - INFO - Starting federate: mainbroker
+2025-05-21 16:09:08,666 - INFO - Starting federate: Battery
+2025-05-21 16:09:09,179 - INFO - Starting federate: Envelope
+2025-05-21 16:09:09,689 - INFO - Starting federate: HeatPump
+2025-05-21 16:09:10,204 - INFO - All federates started. Monitoring output...
+2025-05-21 16:09:11,337 - INFO - All federates have completed
+2025-05-21 16:09:11,338 - INFO - Stopping all federates...
+2025-05-21 16:09:11,340 - INFO - All federates stopped
+2025-05-21 16:09:11,341 - INFO - Stopping all federates...
+2025-05-21 16:09:11,351 - INFO - All federates stopped
+2025-05-21 16:09:11,352 - INFO - broker is stoped
+2025-05-21 16:10:37,463 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 16:10:37,464 - INFO - Starting federate: mainbroker
+2025-05-21 16:10:38,474 - INFO - Starting federate: Battery
+2025-05-21 16:10:38,989 - INFO - Starting federate: Envelope
+2025-05-21 16:10:39,502 - INFO - Starting federate: HeatPump
+2025-05-21 16:10:40,012 - INFO - All federates started. Monitoring output...
+2025-05-21 16:10:41,120 - INFO - All federates have completed
+2025-05-21 16:10:41,121 - INFO - Stopping all federates...
+2025-05-21 16:10:41,122 - INFO - All federates stopped
+2025-05-21 16:10:41,123 - INFO - Stopping all federates...
+2025-05-21 16:10:41,133 - INFO - All federates stopped
+2025-05-21 16:10:41,133 - INFO - broker is stoped
+2025-05-21 16:13:28,661 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 16:13:28,662 - INFO - Starting federate: mainbroker
+2025-05-21 16:13:29,673 - INFO - Starting federate: Battery
+2025-05-21 16:13:30,189 - INFO - Starting federate: Envelope
+2025-05-21 16:13:30,705 - INFO - Starting federate: HeatPump
+2025-05-21 16:13:31,215 - INFO - All federates started. Monitoring output...
+2025-05-21 16:13:32,313 - INFO - All federates have completed
+2025-05-21 16:13:32,314 - INFO - Stopping all federates...
+2025-05-21 16:13:32,315 - INFO - All federates stopped
+2025-05-21 16:13:32,316 - INFO - Stopping all federates...
+2025-05-21 16:13:32,325 - INFO - All federates stopped
+2025-05-21 16:13:32,327 - INFO - broker is stoped
+2025-05-21 16:14:23,695 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 16:14:23,696 - INFO - Starting federate: mainbroker
+2025-05-21 16:14:24,704 - INFO - Starting federate: Battery
+2025-05-21 16:14:25,220 - INFO - Starting federate: Envelope
+2025-05-21 16:14:25,731 - INFO - Starting federate: HeatPump
+2025-05-21 16:14:26,242 - INFO - All federates started. Monitoring output...
+2025-05-21 16:14:27,316 - INFO - All federates have completed
+2025-05-21 16:14:27,317 - INFO - Stopping all federates...
+2025-05-21 16:14:27,318 - INFO - All federates stopped
+2025-05-21 16:14:27,319 - INFO - Stopping all federates...
+2025-05-21 16:14:27,329 - INFO - All federates stopped
+2025-05-21 16:14:27,330 - INFO - broker is stoped
+2025-05-21 16:16:18,263 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 16:16:18,264 - INFO - Starting federate: mainbroker
+2025-05-21 16:16:19,273 - INFO - Starting federate: Battery
+2025-05-21 16:16:19,790 - INFO - Starting federate: Envelope
+2025-05-21 16:16:20,305 - INFO - Starting federate: HeatPump
+2025-05-21 16:16:20,819 - INFO - All federates started. Monitoring output...
+2025-05-21 16:16:21,915 - INFO - All federates have completed
+2025-05-21 16:16:21,916 - INFO - Stopping all federates...
+2025-05-21 16:16:21,917 - INFO - All federates stopped
+2025-05-21 16:16:21,918 - INFO - Stopping all federates...
+2025-05-21 16:16:21,927 - INFO - All federates stopped
+2025-05-21 16:16:21,927 - INFO - broker is stoped
+2025-05-21 16:22:36,962 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 16:22:36,963 - INFO - Starting federate: mainbroker
+2025-05-21 16:22:37,968 - INFO - Starting federate: Battery
+2025-05-21 16:22:38,475 - INFO - Starting federate: Envelope
+2025-05-21 16:22:38,982 - INFO - Starting federate: HeatPump
+2025-05-21 16:22:39,490 - INFO - All federates started. Monitoring output...
+2025-05-21 16:22:40,006 - INFO - All federates have completed
+2025-05-21 16:22:40,006 - INFO - Stopping all federates...
+2025-05-21 16:22:40,007 - INFO - All federates stopped
+2025-05-21 16:22:40,007 - INFO - Stopping all federates...
+2025-05-21 16:22:40,010 - INFO - All federates stopped
+2025-05-21 16:22:40,011 - INFO - broker is stoped
+2025-05-21 16:26:05,871 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 16:26:05,871 - INFO - Starting federate: mainbroker
+2025-05-21 16:26:06,877 - INFO - Starting federate: Battery
+2025-05-21 16:26:07,384 - INFO - Starting federate: Envelope
+2025-05-21 16:26:07,892 - INFO - Starting federate: HeatPump
+2025-05-21 16:26:08,398 - INFO - All federates started. Monitoring output...
+2025-05-21 16:26:08,914 - INFO - All federates have completed
+2025-05-21 16:26:08,915 - INFO - Stopping all federates...
+2025-05-21 16:26:08,916 - INFO - All federates stopped
+2025-05-21 16:26:08,916 - INFO - Stopping all federates...
+2025-05-21 16:26:08,925 - INFO - All federates stopped
+2025-05-21 16:26:08,926 - INFO - broker is stoped
+2025-05-21 16:31:05,594 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 16:31:05,594 - INFO - Starting federate: mainbroker
+2025-05-21 16:31:06,600 - INFO - Starting federate: Battery
+2025-05-21 16:31:07,106 - INFO - Starting federate: Envelope
+2025-05-21 16:31:07,615 - INFO - Starting federate: HeatPump
+2025-05-21 16:31:08,122 - INFO - All federates started. Monitoring output...
+2025-05-21 16:31:08,648 - INFO - All federates have completed
+2025-05-21 16:31:08,649 - INFO - Stopping all federates...
+2025-05-21 16:31:08,650 - INFO - All federates stopped
+2025-05-21 16:31:08,650 - INFO - Stopping all federates...
+2025-05-21 16:31:08,652 - INFO - All federates stopped
+2025-05-21 16:31:08,652 - INFO - broker is stoped
+2025-05-21 16:48:03,399 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 16:48:03,400 - INFO - Starting federate: mainbroker
+2025-05-21 16:48:04,405 - INFO - Starting federate: Battery
+2025-05-21 16:48:04,914 - INFO - Starting federate: Envelope
+2025-05-21 16:48:05,422 - INFO - Starting federate: HeatPump
+2025-05-21 16:48:05,935 - INFO - All federates started. Monitoring output...
+2025-05-21 16:48:06,460 - INFO - All federates have completed
+2025-05-21 16:48:06,462 - INFO - Stopping all federates...
+2025-05-21 16:48:06,462 - INFO - All federates stopped
+2025-05-21 16:48:06,463 - INFO - Stopping all federates...
+2025-05-21 16:48:06,472 - INFO - All federates stopped
+2025-05-21 16:48:06,472 - INFO - broker is stoped
+2025-05-21 16:50:02,021 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 16:50:02,021 - INFO - Starting federate: mainbroker
+2025-05-21 16:50:03,027 - INFO - Starting federate: Battery
+2025-05-21 16:50:03,534 - INFO - Starting federate: Envelope
+2025-05-21 16:50:04,041 - INFO - Starting federate: HeatPump
+2025-05-21 16:50:04,547 - INFO - All federates started. Monitoring output...
+2025-05-21 16:50:05,068 - INFO - All federates have completed
+2025-05-21 16:50:05,069 - INFO - Stopping all federates...
+2025-05-21 16:50:05,070 - INFO - All federates stopped
+2025-05-21 16:50:05,070 - INFO - Stopping all federates...
+2025-05-21 16:50:05,070 - INFO - All federates stopped
+2025-05-21 16:50:05,070 - INFO - broker is stoped
+2025-05-21 16:51:53,924 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 16:51:53,924 - INFO - Starting federate: mainbroker
+2025-05-21 16:51:54,930 - INFO - Starting federate: Battery
+2025-05-21 16:51:55,437 - INFO - Starting federate: Envelope
+2025-05-21 16:51:55,945 - INFO - Starting federate: HeatPump
+2025-05-21 16:51:56,453 - INFO - All federates started. Monitoring output...
+2025-05-21 16:51:56,961 - INFO - All federates have completed
+2025-05-21 16:51:56,961 - INFO - Stopping all federates...
+2025-05-21 16:51:56,962 - INFO - All federates stopped
+2025-05-21 16:51:56,962 - INFO - Stopping all federates...
+2025-05-21 16:51:56,971 - INFO - All federates stopped
+2025-05-21 16:51:56,971 - INFO - broker is stoped
+2025-05-21 16:52:48,804 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 16:52:48,806 - INFO - Starting federate: mainbroker
+2025-05-21 16:52:49,819 - INFO - Starting federate: Battery
+2025-05-21 16:52:50,328 - INFO - Starting federate: Envelope
+2025-05-21 16:52:50,835 - INFO - Starting federate: HeatPump
+2025-05-21 16:52:51,342 - INFO - All federates started. Monitoring output...
+2025-05-21 16:52:51,852 - INFO - All federates have completed
+2025-05-21 16:52:51,852 - INFO - Stopping all federates...
+2025-05-21 16:52:51,853 - INFO - All federates stopped
+2025-05-21 16:52:51,853 - INFO - Stopping all federates...
+2025-05-21 16:52:51,862 - INFO - All federates stopped
+2025-05-21 16:52:51,862 - INFO - broker is stoped
+2025-05-21 16:53:35,197 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 16:53:35,197 - INFO - Starting federate: mainbroker
+2025-05-21 16:53:36,202 - INFO - Starting federate: Battery
+2025-05-21 16:53:36,712 - INFO - Starting federate: Envelope
+2025-05-21 16:53:37,218 - INFO - Starting federate: HeatPump
+2025-05-21 16:53:37,726 - INFO - All federates started. Monitoring output...
+2025-05-21 16:53:38,233 - INFO - All federates have completed
+2025-05-21 16:53:38,234 - INFO - Stopping all federates...
+2025-05-21 16:53:38,235 - INFO - All federates stopped
+2025-05-21 16:53:38,235 - INFO - Stopping all federates...
+2025-05-21 16:53:38,244 - INFO - All federates stopped
+2025-05-21 16:53:38,245 - INFO - broker is stoped
+2025-05-21 16:54:27,485 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 16:54:27,485 - INFO - Starting federate: mainbroker
+2025-05-21 16:54:28,492 - INFO - Starting federate: Battery
+2025-05-21 16:54:29,000 - INFO - Starting federate: Envelope
+2025-05-21 16:54:29,507 - INFO - Starting federate: HeatPump
+2025-05-21 16:54:30,014 - INFO - All federates started. Monitoring output...
+2025-05-21 16:54:30,522 - INFO - All federates have completed
+2025-05-21 16:54:30,522 - INFO - Stopping all federates...
+2025-05-21 16:54:30,523 - INFO - All federates stopped
+2025-05-21 16:54:30,525 - INFO - Stopping all federates...
+2025-05-21 16:54:30,534 - INFO - All federates stopped
+2025-05-21 16:54:30,534 - INFO - broker is stoped
+2025-05-21 16:56:03,185 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 16:56:03,187 - INFO - Starting federate: mainbroker
+2025-05-21 16:56:04,193 - INFO - Starting federate: Battery
+2025-05-21 16:56:04,699 - INFO - Starting federate: Envelope
+2025-05-21 16:56:05,214 - INFO - Starting federate: HeatPump
+2025-05-21 16:56:05,722 - INFO - All federates started. Monitoring output...
+2025-05-21 16:56:06,230 - INFO - All federates have completed
+2025-05-21 16:56:06,231 - INFO - Stopping all federates...
+2025-05-21 16:56:06,231 - INFO - All federates stopped
+2025-05-21 16:56:06,232 - INFO - Stopping all federates...
+2025-05-21 16:56:06,241 - INFO - All federates stopped
+2025-05-21 16:56:06,241 - INFO - broker is stoped
+2025-05-21 17:33:57,746 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 17:33:57,747 - INFO - Starting federate: mainbroker
+2025-05-21 17:33:58,833 - INFO - Starting federate: Battery
+2025-05-21 17:33:59,341 - INFO - Starting federate: Envelope
+2025-05-21 17:33:59,854 - INFO - Starting federate: HeatPump
+2025-05-21 17:34:00,362 - INFO - All federates started. Monitoring output...
+2025-05-21 17:34:27,706 - INFO - Received termination signal. Shutting down...
+2025-05-21 17:34:27,707 - INFO - Stopping all federates...
+2025-05-21 17:34:27,707 - INFO - Terminating Envelope...
+2025-05-21 17:34:27,714 - INFO - Envelope terminated
+2025-05-21 17:34:27,723 - INFO - Terminating Battery...
+2025-05-21 17:34:27,730 - INFO - Battery terminated
+2025-05-21 17:34:27,731 - INFO - Terminating mainbroker...
+2025-05-21 17:34:27,732 - INFO - mainbroker terminated
+2025-05-21 17:34:27,733 - INFO - All federates stopped
+2025-05-21 17:34:27,733 - INFO - Stopping all federates...
+2025-05-21 17:34:27,733 - INFO - All federates stopped
+2025-05-21 17:34:32,940 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 17:34:32,940 - INFO - Starting federate: mainbroker
+2025-05-21 17:34:33,947 - INFO - Starting federate: Battery
+2025-05-21 17:34:34,453 - INFO - Starting federate: Envelope
+2025-05-21 17:34:34,960 - INFO - Starting federate: HeatPump
+2025-05-21 17:34:35,467 - INFO - All federates started. Monitoring output...
+2025-05-21 17:34:45,235 - INFO - Received termination signal. Shutting down...
+2025-05-21 17:34:45,236 - INFO - Stopping all federates...
+2025-05-21 17:34:45,236 - INFO - Terminating Envelope...
+2025-05-21 17:34:45,243 - INFO - Envelope terminated
+2025-05-21 17:34:45,253 - INFO - Terminating Battery...
+2025-05-21 17:34:45,261 - INFO - Battery terminated
+2025-05-21 17:34:45,261 - INFO - Terminating mainbroker...
+2025-05-21 17:34:45,263 - INFO - mainbroker terminated
+2025-05-21 17:34:45,263 - INFO - All federates stopped
+2025-05-21 17:34:45,264 - INFO - Stopping all federates...
+2025-05-21 17:34:45,264 - INFO - All federates stopped
+2025-05-21 17:35:19,177 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 17:35:19,178 - INFO - Starting federate: mainbroker
+2025-05-21 17:35:20,183 - INFO - Starting federate: Battery
+2025-05-21 17:35:20,691 - INFO - Starting federate: Envelope
+2025-05-21 17:35:21,201 - INFO - Starting federate: HeatPump
+2025-05-21 17:35:21,709 - INFO - All federates started. Monitoring output...
+2025-05-21 17:35:22,215 - INFO - All federates have completed
+2025-05-21 17:35:22,216 - INFO - Stopping all federates...
+2025-05-21 17:35:22,217 - INFO - All federates stopped
+2025-05-21 17:35:22,217 - INFO - Stopping all federates...
+2025-05-21 17:35:22,227 - INFO - All federates stopped
+2025-05-21 17:35:22,227 - INFO - broker is stoped
+2025-05-21 17:41:32,262 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 17:41:32,263 - INFO - Starting federate: mainbroker
+2025-05-21 17:41:33,269 - INFO - Starting federate: Battery
+2025-05-21 17:41:33,777 - INFO - Starting federate: Envelope
+2025-05-21 17:41:34,284 - INFO - Starting federate: HeatPump
+2025-05-21 17:41:34,793 - INFO - All federates started. Monitoring output...
+2025-05-21 17:41:38,931 - INFO - Received termination signal. Shutting down...
+2025-05-21 17:41:38,931 - INFO - Stopping all federates...
+2025-05-21 17:41:38,932 - INFO - Terminating mainbroker...
+2025-05-21 17:41:38,934 - INFO - mainbroker terminated
+2025-05-21 17:41:38,935 - INFO - All federates stopped
+2025-05-21 17:41:38,935 - INFO - Stopping all federates...
+2025-05-21 17:41:38,935 - INFO - All federates stopped
+2025-05-21 17:44:56,635 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 17:44:56,636 - INFO - Starting federate: mainbroker
+2025-05-21 17:44:57,641 - INFO - Starting federate: Battery
+2025-05-21 17:44:58,149 - INFO - Starting federate: Envelope
+2025-05-21 17:44:58,656 - INFO - Starting federate: HeatPump
+2025-05-21 17:44:59,163 - INFO - All federates started. Monitoring output...
+2025-05-21 17:45:03,655 - INFO - Received termination signal. Shutting down...
+2025-05-21 17:45:03,655 - INFO - Stopping all federates...
+2025-05-21 17:45:03,656 - INFO - Terminating Envelope...
+2025-05-21 17:45:03,663 - INFO - Envelope terminated
+2025-05-21 17:45:03,670 - INFO - Terminating Battery...
+2025-05-21 17:45:03,677 - INFO - Battery terminated
+2025-05-21 17:45:03,677 - INFO - Terminating mainbroker...
+2025-05-21 17:45:03,679 - INFO - mainbroker terminated
+2025-05-21 17:45:03,680 - INFO - All federates stopped
+2025-05-21 17:45:03,680 - INFO - Stopping all federates...
+2025-05-21 17:45:03,680 - INFO - All federates stopped
+2025-05-21 17:45:55,401 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-21 17:45:55,402 - INFO - Starting federate: mainbroker
+2025-05-21 17:45:56,409 - INFO - Starting federate: Battery
+2025-05-21 17:45:56,916 - INFO - Starting federate: Envelope
+2025-05-21 17:45:57,424 - INFO - Starting federate: HeatPump
+2025-05-21 17:45:57,931 - INFO - All federates started. Monitoring output...
+2025-05-21 17:45:58,448 - INFO - All federates have completed
+2025-05-21 17:45:58,449 - INFO - Stopping all federates...
+2025-05-21 17:45:58,450 - INFO - All federates stopped
+2025-05-21 17:45:58,450 - INFO - Stopping all federates...
+2025-05-21 17:45:58,459 - INFO - All federates stopped
+2025-05-21 17:45:58,459 - INFO - broker is stoped
+2025-05-27 09:35:47,649 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 09:35:47,651 - INFO - Starting federate: mainbroker
+2025-05-27 09:35:48,733 - INFO - Starting federate: Battery
+2025-05-27 09:35:49,241 - INFO - Starting federate: Envelope
+2025-05-27 09:35:49,747 - INFO - Starting federate: HeatPump
+2025-05-27 09:35:50,254 - INFO - All federates started. Monitoring output...
+2025-05-27 09:35:50,786 - INFO - All federates have completed
+2025-05-27 09:35:50,787 - INFO - Stopping all federates...
+2025-05-27 09:35:50,787 - INFO - All federates stopped
+2025-05-27 09:35:50,787 - INFO - Stopping all federates...
+2025-05-27 09:35:50,788 - INFO - All federates stopped
+2025-05-27 09:35:50,788 - INFO - broker is stoped
+2025-05-27 09:39:00,763 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 09:39:00,764 - INFO - Starting federate: mainbroker
+2025-05-27 09:39:01,769 - INFO - Starting federate: Battery
+2025-05-27 09:39:02,276 - INFO - Starting federate: Envelope
+2025-05-27 09:39:02,783 - INFO - Starting federate: HeatPump
+2025-05-27 09:39:03,290 - INFO - All federates started. Monitoring output...
+2025-05-27 09:39:03,800 - INFO - All federates have completed
+2025-05-27 09:39:03,801 - INFO - Stopping all federates...
+2025-05-27 09:39:03,802 - INFO - All federates stopped
+2025-05-27 09:39:03,802 - INFO - Stopping all federates...
+2025-05-27 09:39:03,803 - INFO - All federates stopped
+2025-05-27 09:39:03,804 - INFO - broker is stoped
+2025-05-27 09:47:47,423 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 09:47:47,423 - INFO - Starting federate: mainbroker
+2025-05-27 09:47:48,429 - INFO - Starting federate: Battery
+2025-05-27 09:47:48,936 - INFO - Starting federate: Envelope
+2025-05-27 09:47:49,447 - INFO - Starting federate: HeatPump
+2025-05-27 09:47:49,959 - INFO - All federates started. Monitoring output...
+2025-05-27 09:47:50,470 - INFO - All federates have completed
+2025-05-27 09:47:50,471 - INFO - Stopping all federates...
+2025-05-27 09:47:50,472 - INFO - All federates stopped
+2025-05-27 09:47:50,473 - INFO - Stopping all federates...
+2025-05-27 09:47:50,482 - INFO - All federates stopped
+2025-05-27 09:47:50,482 - INFO - broker is stoped
+2025-05-27 09:48:28,907 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 09:48:28,908 - INFO - Starting federate: mainbroker
+2025-05-27 09:48:29,913 - INFO - Starting federate: Battery
+2025-05-27 09:48:30,420 - INFO - Starting federate: Envelope
+2025-05-27 09:48:30,927 - INFO - Starting federate: HeatPump
+2025-05-27 09:48:31,434 - INFO - All federates started. Monitoring output...
+2025-05-27 09:48:31,942 - INFO - All federates have completed
+2025-05-27 09:48:31,942 - INFO - Stopping all federates...
+2025-05-27 09:48:31,943 - INFO - All federates stopped
+2025-05-27 09:48:31,943 - INFO - Stopping all federates...
+2025-05-27 09:48:31,953 - INFO - All federates stopped
+2025-05-27 09:48:31,953 - INFO - broker is stoped
+2025-05-27 09:54:19,037 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 09:54:19,037 - INFO - Starting federate: mainbroker
+2025-05-27 09:54:20,042 - INFO - Starting federate: Battery
+2025-05-27 09:54:20,550 - INFO - Starting federate: Envelope
+2025-05-27 09:54:21,058 - INFO - Starting federate: HeatPump
+2025-05-27 09:54:21,564 - INFO - All federates started. Monitoring output...
+2025-05-27 09:54:22,070 - INFO - All federates have completed
+2025-05-27 09:54:22,070 - INFO - Stopping all federates...
+2025-05-27 09:54:22,071 - INFO - All federates stopped
+2025-05-27 09:54:22,071 - INFO - Stopping all federates...
+2025-05-27 09:54:22,081 - INFO - All federates stopped
+2025-05-27 09:54:22,082 - INFO - broker is stoped
+2025-05-27 10:01:34,878 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 10:01:34,878 - INFO - Starting federate: mainbroker
+2025-05-27 10:01:35,883 - INFO - Starting federate: Battery
+2025-05-27 10:01:36,391 - INFO - Starting federate: Envelope
+2025-05-27 10:01:36,899 - INFO - Starting federate: HeatPump
+2025-05-27 10:01:37,406 - INFO - All federates started. Monitoring output...
+2025-05-27 10:01:37,914 - INFO - All federates have completed
+2025-05-27 10:01:37,914 - INFO - Stopping all federates...
+2025-05-27 10:01:37,915 - INFO - All federates stopped
+2025-05-27 10:01:37,915 - INFO - Stopping all federates...
+2025-05-27 10:01:37,924 - INFO - All federates stopped
+2025-05-27 10:01:37,925 - INFO - broker is stoped
+2025-05-27 10:07:31,757 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 10:07:31,758 - INFO - Starting federate: mainbroker
+2025-05-27 10:07:32,764 - INFO - Starting federate: Battery
+2025-05-27 10:07:33,271 - INFO - Starting federate: Envelope
+2025-05-27 10:07:33,783 - INFO - Starting federate: HeatPump
+2025-05-27 10:07:34,290 - INFO - All federates started. Monitoring output...
+2025-05-27 10:07:34,798 - INFO - All federates have completed
+2025-05-27 10:07:34,799 - INFO - Stopping all federates...
+2025-05-27 10:07:34,799 - INFO - All federates stopped
+2025-05-27 10:07:34,800 - INFO - Stopping all federates...
+2025-05-27 10:07:34,808 - INFO - All federates stopped
+2025-05-27 10:07:34,809 - INFO - broker is stoped
+2025-05-27 10:08:13,410 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 10:08:13,410 - INFO - Starting federate: mainbroker
+2025-05-27 10:08:14,415 - INFO - Starting federate: Battery
+2025-05-27 10:08:14,922 - INFO - Starting federate: Envelope
+2025-05-27 10:08:15,430 - INFO - Starting federate: HeatPump
+2025-05-27 10:08:15,937 - INFO - All federates started. Monitoring output...
+2025-05-27 10:08:16,444 - INFO - All federates have completed
+2025-05-27 10:08:16,445 - INFO - Stopping all federates...
+2025-05-27 10:08:16,445 - INFO - All federates stopped
+2025-05-27 10:08:16,446 - INFO - Stopping all federates...
+2025-05-27 10:08:16,446 - INFO - All federates stopped
+2025-05-27 10:08:16,446 - INFO - broker is stoped
+2025-05-27 10:09:00,528 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 10:09:00,528 - INFO - Starting federate: mainbroker
+2025-05-27 10:09:01,534 - INFO - Starting federate: Battery
+2025-05-27 10:09:02,042 - INFO - Starting federate: Envelope
+2025-05-27 10:09:02,554 - INFO - Starting federate: HeatPump
+2025-05-27 10:09:03,063 - INFO - All federates started. Monitoring output...
+2025-05-27 10:09:03,578 - INFO - All federates have completed
+2025-05-27 10:09:03,579 - INFO - Stopping all federates...
+2025-05-27 10:09:03,579 - INFO - All federates stopped
+2025-05-27 10:09:03,580 - INFO - Stopping all federates...
+2025-05-27 10:09:03,589 - INFO - All federates stopped
+2025-05-27 10:09:03,590 - INFO - broker is stoped
+2025-05-27 10:13:54,060 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 10:13:54,060 - INFO - Starting federate: mainbroker
+2025-05-27 10:13:55,066 - INFO - Starting federate: Battery
+2025-05-27 10:13:55,574 - INFO - Starting federate: Envelope
+2025-05-27 10:13:56,082 - INFO - Starting federate: HeatPump
+2025-05-27 10:13:56,590 - INFO - All federates started. Monitoring output...
+2025-05-27 10:13:57,113 - INFO - All federates have completed
+2025-05-27 10:13:57,113 - INFO - Stopping all federates...
+2025-05-27 10:13:57,114 - INFO - All federates stopped
+2025-05-27 10:13:57,114 - INFO - Stopping all federates...
+2025-05-27 10:13:57,123 - INFO - All federates stopped
+2025-05-27 10:13:57,124 - INFO - broker is stoped
+2025-05-27 10:15:54,342 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 10:15:54,342 - INFO - Starting federate: mainbroker
+2025-05-27 10:15:55,348 - INFO - Starting federate: Battery
+2025-05-27 10:15:55,855 - INFO - Starting federate: Envelope
+2025-05-27 10:15:56,367 - INFO - Starting federate: HeatPump
+2025-05-27 10:15:56,875 - INFO - All federates started. Monitoring output...
+2025-05-27 10:15:57,397 - INFO - All federates have completed
+2025-05-27 10:15:57,398 - INFO - Stopping all federates...
+2025-05-27 10:15:57,398 - INFO - All federates stopped
+2025-05-27 10:15:57,398 - INFO - Stopping all federates...
+2025-05-27 10:15:57,407 - INFO - All federates stopped
+2025-05-27 10:15:57,408 - INFO - broker is stoped
+2025-05-27 10:17:17,175 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 10:17:17,176 - INFO - Starting federate: mainbroker
+2025-05-27 10:17:18,181 - INFO - Starting federate: Battery
+2025-05-27 10:17:18,688 - INFO - Starting federate: Envelope
+2025-05-27 10:17:19,199 - INFO - Starting federate: HeatPump
+2025-05-27 10:17:19,708 - INFO - All federates started. Monitoring output...
+2025-05-27 10:17:20,233 - INFO - All federates have completed
+2025-05-27 10:17:20,234 - INFO - Stopping all federates...
+2025-05-27 10:17:20,234 - INFO - All federates stopped
+2025-05-27 10:17:20,235 - INFO - Stopping all federates...
+2025-05-27 10:17:20,235 - INFO - All federates stopped
+2025-05-27 10:17:20,235 - INFO - broker is stoped
+2025-05-27 10:24:36,086 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 10:24:36,086 - INFO - Starting federate: mainbroker
+2025-05-27 10:24:37,092 - INFO - Starting federate: Battery
+2025-05-27 10:24:37,604 - INFO - Starting federate: Envelope
+2025-05-27 10:24:38,112 - INFO - Starting federate: HeatPump
+2025-05-27 10:24:38,621 - INFO - All federates started. Monitoring output...
+2025-05-27 10:24:39,145 - INFO - All federates have completed
+2025-05-27 10:24:39,145 - INFO - Stopping all federates...
+2025-05-27 10:24:39,146 - INFO - All federates stopped
+2025-05-27 10:24:39,146 - INFO - Stopping all federates...
+2025-05-27 10:24:39,156 - INFO - All federates stopped
+2025-05-27 10:24:39,156 - INFO - broker is stoped
+2025-05-27 10:33:13,984 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 10:33:13,984 - INFO - Starting federate: mainbroker
+2025-05-27 10:33:14,990 - INFO - Starting federate: Battery
+2025-05-27 10:33:15,498 - INFO - Starting federate: Envelope
+2025-05-27 10:33:16,007 - INFO - Starting federate: HeatPump
+2025-05-27 10:33:16,514 - INFO - All federates started. Monitoring output...
+2025-05-27 10:34:11,035 - INFO - Received termination signal. Shutting down...
+2025-05-27 10:34:11,036 - INFO - Stopping all federates...
+2025-05-27 10:34:11,036 - INFO - Terminating mainbroker...
+2025-05-27 10:34:11,039 - INFO - mainbroker terminated
+2025-05-27 10:34:11,039 - INFO - All federates stopped
+2025-05-27 10:34:11,040 - INFO - Stopping all federates...
+2025-05-27 10:34:11,040 - INFO - All federates stopped
+2025-05-27 10:34:16,113 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 10:34:16,114 - INFO - Starting federate: mainbroker
+2025-05-27 10:34:17,120 - INFO - Starting federate: Battery
+2025-05-27 10:34:17,628 - INFO - Starting federate: Envelope
+2025-05-27 10:34:18,140 - INFO - Starting federate: HeatPump
+2025-05-27 10:34:18,647 - INFO - All federates started. Monitoring output...
+2025-05-27 10:36:12,282 - INFO - Received termination signal. Shutting down...
+2025-05-27 10:36:12,283 - INFO - Stopping all federates...
+2025-05-27 10:36:12,284 - INFO - Terminating mainbroker...
+2025-05-27 10:36:12,286 - INFO - mainbroker terminated
+2025-05-27 10:36:12,296 - INFO - All federates stopped
+2025-05-27 10:36:12,297 - INFO - Stopping all federates...
+2025-05-27 10:36:12,297 - INFO - All federates stopped
+2025-05-27 10:36:16,568 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 10:36:16,568 - INFO - Starting federate: mainbroker
+2025-05-27 10:36:17,574 - INFO - Starting federate: Battery
+2025-05-27 10:36:18,082 - INFO - Starting federate: Envelope
+2025-05-27 10:36:18,590 - INFO - Starting federate: HeatPump
+2025-05-27 10:36:19,097 - INFO - All federates started. Monitoring output...
+2025-05-27 10:37:47,071 - INFO - Received termination signal. Shutting down...
+2025-05-27 10:37:47,071 - INFO - Stopping all federates...
+2025-05-27 10:37:47,072 - INFO - Terminating mainbroker...
+2025-05-27 10:37:47,073 - INFO - mainbroker terminated
+2025-05-27 10:37:47,082 - INFO - All federates stopped
+2025-05-27 10:37:47,082 - INFO - Stopping all federates...
+2025-05-27 10:37:47,082 - INFO - All federates stopped
+2025-05-27 10:37:59,315 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 10:37:59,316 - INFO - Starting federate: mainbroker
+2025-05-27 10:38:00,322 - INFO - Starting federate: Battery
+2025-05-27 10:38:00,829 - INFO - Starting federate: Envelope
+2025-05-27 10:38:01,336 - INFO - Starting federate: HeatPump
+2025-05-27 10:38:01,843 - INFO - All federates started. Monitoring output...
+2025-05-27 10:38:02,368 - INFO - All federates have completed
+2025-05-27 10:38:02,369 - INFO - Stopping all federates...
+2025-05-27 10:38:02,370 - INFO - All federates stopped
+2025-05-27 10:38:02,370 - INFO - Stopping all federates...
+2025-05-27 10:38:02,379 - INFO - All federates stopped
+2025-05-27 10:38:02,379 - INFO - broker is stoped
+2025-05-27 10:39:25,574 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 10:39:25,574 - INFO - Starting federate: mainbroker
+2025-05-27 10:39:26,580 - INFO - Starting federate: Battery
+2025-05-27 10:39:27,088 - INFO - Starting federate: Envelope
+2025-05-27 10:39:27,597 - INFO - Starting federate: HeatPump
+2025-05-27 10:39:28,104 - INFO - All federates started. Monitoring output...
+2025-05-27 10:39:28,629 - INFO - All federates have completed
+2025-05-27 10:39:28,629 - INFO - Stopping all federates...
+2025-05-27 10:39:28,630 - INFO - All federates stopped
+2025-05-27 10:39:28,630 - INFO - Stopping all federates...
+2025-05-27 10:39:28,639 - INFO - All federates stopped
+2025-05-27 10:39:28,639 - INFO - broker is stoped
+2025-05-27 10:41:34,761 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 10:41:34,761 - INFO - Starting federate: mainbroker
+2025-05-27 10:41:35,768 - INFO - Starting federate: Battery
+2025-05-27 10:41:36,276 - INFO - Starting federate: Envelope
+2025-05-27 10:41:36,787 - INFO - Starting federate: HeatPump
+2025-05-27 10:41:37,294 - INFO - All federates started. Monitoring output...
+2025-05-27 10:41:37,817 - INFO - All federates have completed
+2025-05-27 10:41:37,818 - INFO - Stopping all federates...
+2025-05-27 10:41:37,818 - INFO - All federates stopped
+2025-05-27 10:41:37,819 - INFO - Stopping all federates...
+2025-05-27 10:41:37,828 - INFO - All federates stopped
+2025-05-27 10:41:37,828 - INFO - broker is stoped
+2025-05-27 11:15:34,959 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 11:15:34,960 - INFO - Starting federate: mainbroker
+2025-05-27 11:15:35,966 - INFO - Starting federate: Battery
+2025-05-27 11:15:36,474 - INFO - Starting federate: Envelope
+2025-05-27 11:15:36,982 - INFO - Starting federate: HeatPump
+2025-05-27 11:15:37,490 - INFO - All federates started. Monitoring output...
+2025-05-27 11:15:38,013 - INFO - All federates have completed
+2025-05-27 11:15:38,013 - INFO - Stopping all federates...
+2025-05-27 11:15:38,014 - INFO - All federates stopped
+2025-05-27 11:15:38,014 - INFO - Stopping all federates...
+2025-05-27 11:15:38,016 - INFO - All federates stopped
+2025-05-27 11:15:38,016 - INFO - broker is stoped
+2025-05-27 11:16:17,853 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 11:16:17,854 - INFO - Starting federate: mainbroker
+2025-05-27 11:16:18,859 - INFO - Starting federate: Battery
+2025-05-27 11:16:19,366 - INFO - Starting federate: Envelope
+2025-05-27 11:16:19,874 - INFO - Starting federate: HeatPump
+2025-05-27 11:16:20,380 - INFO - All federates started. Monitoring output...
+2025-05-27 11:16:20,903 - INFO - All federates have completed
+2025-05-27 11:16:20,904 - INFO - Stopping all federates...
+2025-05-27 11:16:20,904 - INFO - All federates stopped
+2025-05-27 11:16:20,905 - INFO - Stopping all federates...
+2025-05-27 11:16:20,913 - INFO - All federates stopped
+2025-05-27 11:16:20,914 - INFO - broker is stoped
+2025-05-27 11:28:54,443 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 11:28:54,443 - INFO - Starting federate: mainbroker
+2025-05-27 11:28:55,449 - INFO - Starting federate: Battery
+2025-05-27 11:28:55,956 - INFO - Starting federate: Envelope
+2025-05-27 11:28:56,465 - INFO - Starting federate: HeatPump
+2025-05-27 11:28:56,978 - INFO - All federates started. Monitoring output...
+2025-05-27 11:29:21,125 - INFO - All federates have completed
+2025-05-27 11:29:21,126 - INFO - Stopping all federates...
+2025-05-27 11:29:21,126 - INFO - All federates stopped
+2025-05-27 11:29:21,126 - INFO - Stopping all federates...
+2025-05-27 11:29:21,127 - INFO - All federates stopped
+2025-05-27 11:29:21,127 - INFO - broker is stoped
+2025-05-27 11:29:49,867 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 11:29:49,867 - INFO - Starting federate: mainbroker
+2025-05-27 11:29:50,874 - INFO - Starting federate: Battery
+2025-05-27 11:29:51,382 - INFO - Starting federate: Envelope
+2025-05-27 11:29:51,893 - INFO - Starting federate: HeatPump
+2025-05-27 11:29:52,401 - INFO - All federates started. Monitoring output...
+2025-05-27 11:30:15,824 - INFO - Received termination signal. Shutting down...
+2025-05-27 11:30:15,825 - INFO - Stopping all federates...
+2025-05-27 11:30:15,825 - INFO - Terminating HeatPump...
+2025-05-27 11:30:15,834 - INFO - HeatPump terminated
+2025-05-27 11:30:15,843 - INFO - Terminating Envelope...
+2025-05-27 11:30:15,849 - INFO - Envelope terminated
+2025-05-27 11:30:15,850 - INFO - All federates stopped
+2025-05-27 11:30:15,850 - INFO - Stopping all federates...
+2025-05-27 11:30:15,850 - INFO - All federates stopped
+2025-05-27 11:30:21,549 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 11:30:21,550 - INFO - Starting federate: mainbroker
+2025-05-27 11:30:22,556 - INFO - Starting federate: Battery
+2025-05-27 11:30:23,063 - INFO - Starting federate: Envelope
+2025-05-27 11:30:23,571 - INFO - Starting federate: HeatPump
+2025-05-27 11:30:24,079 - INFO - All federates started. Monitoring output...
+2025-05-27 11:30:24,604 - INFO - All federates have completed
+2025-05-27 11:30:24,605 - INFO - Stopping all federates...
+2025-05-27 11:30:24,606 - INFO - All federates stopped
+2025-05-27 11:30:24,606 - INFO - Stopping all federates...
+2025-05-27 11:30:24,615 - INFO - All federates stopped
+2025-05-27 11:30:24,616 - INFO - broker is stoped
+2025-05-27 11:31:21,641 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 11:31:21,642 - INFO - Starting federate: mainbroker
+2025-05-27 11:31:22,648 - INFO - Starting federate: Battery
+2025-05-27 11:31:23,156 - INFO - Starting federate: Envelope
+2025-05-27 11:31:23,668 - INFO - Starting federate: HeatPump
+2025-05-27 11:31:24,175 - INFO - All federates started. Monitoring output...
+2025-05-27 11:31:24,699 - INFO - All federates have completed
+2025-05-27 11:31:24,700 - INFO - Stopping all federates...
+2025-05-27 11:31:24,701 - INFO - All federates stopped
+2025-05-27 11:31:24,701 - INFO - Stopping all federates...
+2025-05-27 11:31:24,710 - INFO - All federates stopped
+2025-05-27 11:31:24,710 - INFO - broker is stoped
+2025-05-27 11:32:20,219 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 11:32:20,219 - INFO - Starting federate: mainbroker
+2025-05-27 11:32:21,225 - INFO - Starting federate: Battery
+2025-05-27 11:32:21,732 - INFO - Starting federate: Envelope
+2025-05-27 11:32:22,239 - INFO - Starting federate: HeatPump
+2025-05-27 11:32:22,746 - INFO - All federates started. Monitoring output...
+2025-05-27 11:32:23,271 - INFO - All federates have completed
+2025-05-27 11:32:23,272 - INFO - Stopping all federates...
+2025-05-27 11:32:23,273 - INFO - All federates stopped
+2025-05-27 11:32:23,273 - INFO - Stopping all federates...
+2025-05-27 11:32:23,273 - INFO - All federates stopped
+2025-05-27 11:32:23,273 - INFO - broker is stoped
+2025-05-27 11:32:38,538 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 11:32:38,538 - INFO - Starting federate: mainbroker
+2025-05-27 11:32:39,545 - INFO - Starting federate: Battery
+2025-05-27 11:32:40,053 - INFO - Starting federate: Envelope
+2025-05-27 11:32:40,561 - INFO - Starting federate: HeatPump
+2025-05-27 11:32:41,070 - INFO - All federates started. Monitoring output...
+2025-05-27 11:32:41,594 - INFO - All federates have completed
+2025-05-27 11:32:41,595 - INFO - Stopping all federates...
+2025-05-27 11:32:41,596 - INFO - All federates stopped
+2025-05-27 11:32:41,596 - INFO - Stopping all federates...
+2025-05-27 11:32:41,597 - INFO - All federates stopped
+2025-05-27 11:32:41,597 - INFO - broker is stoped
+2025-05-27 15:04:29,124 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 15:04:29,125 - INFO - Starting federate: mainbroker
+2025-05-27 15:04:30,298 - INFO - Starting federate: Battery
+2025-05-27 15:04:30,809 - INFO - Starting federate: Envelope
+2025-05-27 15:04:31,320 - INFO - Starting federate: HeatPump
+2025-05-27 15:04:31,831 - INFO - All federates started. Monitoring output...
+2025-05-27 15:04:32,946 - INFO - All federates have completed
+2025-05-27 15:04:32,947 - INFO - Stopping all federates...
+2025-05-27 15:04:32,948 - INFO - All federates stopped
+2025-05-27 15:04:32,948 - INFO - Stopping all federates...
+2025-05-27 15:04:32,949 - INFO - All federates stopped
+2025-05-27 15:04:32,949 - INFO - broker is stoped
+2025-05-27 15:04:39,475 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 15:04:39,476 - INFO - Starting federate: mainbroker
+2025-05-27 15:04:40,487 - INFO - Starting federate: Battery
+2025-05-27 15:04:41,001 - INFO - Starting federate: Envelope
+2025-05-27 15:04:41,512 - INFO - Starting federate: HeatPump
+2025-05-27 15:04:42,022 - INFO - All federates started. Monitoring output...
+2025-05-27 15:04:43,263 - INFO - All federates have completed
+2025-05-27 15:04:43,264 - INFO - Stopping all federates...
+2025-05-27 15:04:43,265 - INFO - All federates stopped
+2025-05-27 15:04:43,266 - INFO - Stopping all federates...
+2025-05-27 15:04:43,275 - INFO - All federates stopped
+2025-05-27 15:04:43,276 - INFO - broker is stoped
+2025-05-27 15:10:41,306 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 15:10:41,306 - INFO - Starting federate: mainbroker
+2025-05-27 15:10:42,317 - INFO - Starting federate: Battery
+2025-05-27 15:10:42,827 - INFO - Starting federate: Envelope
+2025-05-27 15:10:43,338 - INFO - Starting federate: HeatPump
+2025-05-27 15:10:43,850 - INFO - All federates started. Monitoring output...
+2025-05-27 15:10:44,988 - INFO - All federates have completed
+2025-05-27 15:10:44,988 - INFO - Stopping all federates...
+2025-05-27 15:10:44,989 - INFO - All federates stopped
+2025-05-27 15:10:44,990 - INFO - Stopping all federates...
+2025-05-27 15:10:44,991 - INFO - All federates stopped
+2025-05-27 15:10:44,991 - INFO - broker is stoped
+2025-05-27 15:13:54,701 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 15:13:54,702 - INFO - Starting federate: mainbroker
+2025-05-27 15:13:55,711 - INFO - Starting federate: Battery
+2025-05-27 15:13:56,231 - INFO - Starting federate: Envelope
+2025-05-27 15:13:56,742 - INFO - Starting federate: HeatPump
+2025-05-27 15:13:57,251 - INFO - All federates started. Monitoring output...
+2025-05-27 15:13:58,379 - INFO - All federates have completed
+2025-05-27 15:13:58,380 - INFO - Stopping all federates...
+2025-05-27 15:13:58,380 - INFO - All federates stopped
+2025-05-27 15:13:58,381 - INFO - Stopping all federates...
+2025-05-27 15:13:58,381 - INFO - All federates stopped
+2025-05-27 15:13:58,382 - INFO - broker is stoped
+2025-05-27 15:15:43,307 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 15:15:43,308 - INFO - Starting federate: mainbroker
+2025-05-27 15:15:44,320 - INFO - Starting federate: Battery
+2025-05-27 15:15:44,837 - INFO - Starting federate: Envelope
+2025-05-27 15:15:45,347 - INFO - Starting federate: HeatPump
+2025-05-27 15:15:45,863 - INFO - All federates started. Monitoring output...
+2025-05-27 15:15:47,062 - INFO - All federates have completed
+2025-05-27 15:15:47,063 - INFO - Stopping all federates...
+2025-05-27 15:15:47,064 - INFO - All federates stopped
+2025-05-27 15:15:47,065 - INFO - Stopping all federates...
+2025-05-27 15:15:47,065 - INFO - All federates stopped
+2025-05-27 15:15:47,066 - INFO - broker is stoped
+2025-05-27 15:18:28,038 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 15:18:28,039 - INFO - Starting federate: mainbroker
+2025-05-27 15:18:29,050 - INFO - Starting federate: Battery
+2025-05-27 15:18:29,566 - INFO - Starting federate: Envelope
+2025-05-27 15:18:30,079 - INFO - Starting federate: HeatPump
+2025-05-27 15:18:30,590 - INFO - All federates started. Monitoring output...
+2025-05-27 15:18:31,813 - INFO - All federates have completed
+2025-05-27 15:18:31,813 - INFO - Stopping all federates...
+2025-05-27 15:18:31,814 - INFO - All federates stopped
+2025-05-27 15:18:31,816 - INFO - Stopping all federates...
+2025-05-27 15:18:31,816 - INFO - All federates stopped
+2025-05-27 15:18:31,817 - INFO - broker is stoped
+2025-05-27 15:18:46,918 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 15:18:46,919 - INFO - Starting federate: mainbroker
+2025-05-27 15:18:47,932 - INFO - Starting federate: Battery
+2025-05-27 15:18:48,442 - INFO - Starting federate: Envelope
+2025-05-27 15:18:48,953 - INFO - Starting federate: HeatPump
+2025-05-27 15:18:49,464 - INFO - All federates started. Monitoring output...
+2025-05-27 15:18:50,704 - INFO - All federates have completed
+2025-05-27 15:18:50,705 - INFO - Stopping all federates...
+2025-05-27 15:18:50,706 - INFO - All federates stopped
+2025-05-27 15:18:50,707 - INFO - Stopping all federates...
+2025-05-27 15:18:50,718 - INFO - All federates stopped
+2025-05-27 15:18:50,718 - INFO - broker is stoped
+2025-05-27 15:22:37,305 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 15:22:37,306 - INFO - Starting federate: mainbroker
+2025-05-27 15:22:38,315 - INFO - Starting federate: Battery
+2025-05-27 15:22:38,831 - INFO - Starting federate: Envelope
+2025-05-27 15:22:39,341 - INFO - Starting federate: HeatPump
+2025-05-27 15:22:39,851 - INFO - All federates started. Monitoring output...
+2025-05-27 15:22:41,049 - INFO - All federates have completed
+2025-05-27 15:22:41,050 - INFO - Stopping all federates...
+2025-05-27 15:22:41,051 - INFO - All federates stopped
+2025-05-27 15:22:41,052 - INFO - Stopping all federates...
+2025-05-27 15:22:41,053 - INFO - All federates stopped
+2025-05-27 15:22:41,053 - INFO - broker is stoped
+2025-05-27 15:23:26,365 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 15:23:26,366 - INFO - Starting federate: mainbroker
+2025-05-27 15:23:27,377 - INFO - Starting federate: Battery
+2025-05-27 15:23:27,896 - INFO - Starting federate: Envelope
+2025-05-27 15:23:28,405 - INFO - Starting federate: HeatPump
+2025-05-27 15:23:28,916 - INFO - All federates started. Monitoring output...
+2025-05-27 15:23:30,042 - INFO - All federates have completed
+2025-05-27 15:23:30,043 - INFO - Stopping all federates...
+2025-05-27 15:23:30,044 - INFO - All federates stopped
+2025-05-27 15:23:30,045 - INFO - Stopping all federates...
+2025-05-27 15:23:30,045 - INFO - All federates stopped
+2025-05-27 15:23:30,045 - INFO - broker is stoped
+2025-05-27 15:24:45,367 - INFO - Starting co-simulation: helics_co_simulation
+2025-05-27 15:24:45,367 - INFO - Starting federate: mainbroker
+2025-05-27 15:24:46,377 - INFO - Starting federate: Battery
+2025-05-27 15:24:46,886 - INFO - Starting federate: Envelope
+2025-05-27 15:24:47,396 - INFO - Starting federate: HeatPump
+2025-05-27 15:24:47,912 - INFO - All federates started. Monitoring output...
+2025-05-27 15:24:49,010 - INFO - All federates have completed
+2025-05-27 15:24:49,016 - INFO - Stopping all federates...
+2025-05-27 15:24:49,017 - INFO - All federates stopped
+2025-05-27 15:24:49,018 - INFO - Stopping all federates...
+2025-05-27 15:24:49,018 - INFO - All federates stopped
+2025-05-27 15:24:49,019 - INFO - broker is stoped

@@ -3,11 +3,11 @@ core_type: zmq
 log_level: warning
 
 timing_configs:
-  time_period: 1.0
-  real_period: 1.0
-  time_offset: 0.5
+  time_period: 0.0
+  real_period: 0.0
+  time_offset: 0.0
   time_stop: 172800.0
-  time_delta: 1.0
+  time_delta: 0.1
   int_max_iterations: 100
   start_time: "2015-01-01 00:00:00"
   timeout: 30
@@ -16,7 +16,7 @@ flags:
   terminate_on_error: true
   debugging: true
   realtime: false
-  uninterruptible: true
+  uninterruptible: false
   observer: false
   strict_config_checking: true
   source_only: false

@@ -1,9 +1,0 @@
-2025-04-16 12:29:11,288 - runner - INFO - Starting HELICS co-simulation: helics_co_simulation
-2025-04-16 12:29:11,288 - runner - INFO - Starting federate: mainbroker
-2025-04-16 12:29:13,294 - runner - INFO - Starting federate: Battery
-2025-04-16 12:29:13,803 - runner - INFO - Starting federate: Envelope
-2025-04-16 12:29:14,313 - runner - INFO - Starting federate: HeatPump
-2025-04-16 12:29:15,821 - runner - WARNING - Federate mainbroker terminated
-2025-04-16 12:29:15,821 - runner - WARNING - Federate Battery terminated
-2025-04-16 12:29:15,822 - runner - WARNING - Federate Envelope terminated
-2025-04-16 12:29:15,822 - runner - WARNING - Federate HeatPump terminated

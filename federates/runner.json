@@ -22,7 +22,7 @@
     },
     {
       "directory": ".",
-      "exec": "python -u RunnerType3.py federates/HeatPump.yaml --loglevel=warning",
+      "exec": "python -u EventDrivenType.py federates/HeatPump.yaml --loglevel=warning",
       "host": "localhost",
       "name": "HeatPump"
 

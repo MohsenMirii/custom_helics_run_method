@@ -22,6 +22,7 @@ def main_run(run_path):
     # command = ["helics", "-v", "run", "--path=%s"%run_path]
     # result = run(command, stdout=PIPE, stderr=PIPE, text=True)
     # print(result.returncode, result.stdout, result.stderr)
+    
     runner = HelicsCustomRunner(run_path)
     
     try:
