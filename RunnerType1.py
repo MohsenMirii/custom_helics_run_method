@@ -10,6 +10,8 @@ from BaseFederate import BaseFederate
 import helics as h
 from FederateConfig import TimingConfigs
 from FlagUtilities import apply_flag_configs 
+import struct
+
 
 class RunnerType1(BaseFederate):
     def run_federate(self):
@@ -35,8 +37,7 @@ class RunnerType1(BaseFederate):
             granted_time = h.helicsFederateRequestTime(self.fed, request_time)     
             
             print(f"request time is {request_time}")
-            print(f"granted time is {granted_time}")
-            
+            print(f"granted time is {granted_time}")            
             
             if self.subscriptions:
                 for key, sub in self.subscriptions.items():
@@ -48,6 +49,15 @@ class RunnerType1(BaseFederate):
                     value = start_time  # Your battery-specific value calculation
                     h.helicsPublicationPublishDouble(pub, value)
                     print(f"{self.federate_config.name}: Published {key} = {value} at time {granted_time}")
+                    
+                    
+            if self.endpoints:
+                for key, pub in self.endpoints.items():
+                    value = f"message-number-{value}" 
+                    h.helicsEndpointSendMessageRaw(pub, 'triggerReceiver', value)
+                    
+                    print(f"{key}: send {value} to distination: triggerReceiver  at time {granted_time}")
+                   
             
             
             

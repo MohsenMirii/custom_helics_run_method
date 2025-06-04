@@ -49,7 +49,19 @@ class RunnerType2(BaseFederate):
                 for key, sub in self.subscriptions.items():
                     value = h.helicsInputGetDouble(sub)
                     print(f"{self.federate_config.name}: Received {key} = {value} at time {granted_time}")
-            
+                    
+            # if self.endpoints:
+            #     for key, pub in self.endpoints.items():
+                    
+            #         # Send a message
+            #         h.helicsEndpointSendMessageRaw(pub, 'triggerReceiver', "My message")
+                    
+                    # Or for a more complete example:
+                    # msg = h.helicsEndpointCreateMessage(endpoints['triggerSender'], 'triggerReceiver')
+                    # h.helicsMessageSetString(msg, "your message content")
+                    # h.helicsEndpointSendMessage(endpoints['triggerSender'], msg)
+                    
+                    
             start_time += real_period
 
 

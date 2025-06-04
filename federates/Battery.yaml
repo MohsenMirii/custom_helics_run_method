@@ -7,7 +7,7 @@ timing_configs:
   real_period: 1.0
   time_offset: 0.0
   time_stop: 172800.0
-  time_delta: 0.1
+  time_delta: 1.0
   int_max_iterations: 100
   start_time: "2015-01-01 00:00:00"
   timeout: 30
@@ -16,7 +16,7 @@ flags:
   terminate_on_error: true
   debugging: false
   realtime: false
-  uninterruptible: false
+  uninterruptible: true
   observer: false
   strict_config_checking: true
   source_only: false
@@ -33,18 +33,23 @@ flags:
   dumplog: false
   slow_responding: false
 
-endpoints: []
 
+endpoints:
+  - name: triggerSender
+    type: message
+    global: true
+    destination: triggerReceiver
+  
 # Subscriptions (receiving from ...)
 subscriptions:
 
 # Publications (publishing to ...)
 publications:
   - key: voltage
-    type: double
+    dataType: double
     unit: V
   - key: current
-    type: double
+    dataType: double
     unit: A
 
 memory:

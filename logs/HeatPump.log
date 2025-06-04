@@ -1,0 +1,140 @@
+Warning: Configuration 'real_period' doesn't match any known HELICS property
+Warning: Configuration 'time_stop' doesn't match any known HELICS property
+Warning: Property 'start_time' not found in HELICS constants
+Warning: Property 'timeout' not found in HELICS constants
+*********************************************************************************
+***************** summary of configurations ********************
+period 0.0
+offset 0.0
+delta 1.0
+lag 0.0
+lead 0.0
+tolerance 0.0
+input_delay 0.0
+output_delay 0.0
+publishes HeatPump/power dataType double unit W
+publishes HeatPump/status dataType string unit 
+subscribes Battery/voltage unit V
+subscribes Battery/current unit A
+
+CHANGED FLAGS (Non-Default) 
+TERMINATE_ON_ERROR            : True  (Default: False)
+UNINTERRUPTIBLE               : False (Default: True)
+ONLY_TRANSMIT_ON_CHANGE       : True  (Default: False)
+ONLY_UPDATE_ON_CHANGE         : True  (Default: False)
+RESTRICTIVE_TIME_POLICY       : True  (Default: False)
+FORWARD_COMPUTE               : False (Default: True)
+EVENT_TRIGGERED               : True  (Default: False)
+SINGLE_THREAD_FEDERATE        : True  (Default: False)
+*********************************************************************************
+***************** iteration 1.0 ********************
+request time is 0.0
+granted time is 1.0
+HeatPump: Received event Battery/voltage = 0.0 at time 1.0
+HeatPump: Received event Battery/current = 0.0 at time 1.0
+HeatPump: Received message-number-0.0 from triggerSender at triggerReceiver at time 1.0
+HeatPump: Published power = 0.1 at time 1.0
+HeatPump: Published status = 0.1 at time 1.0
+*********************************************************************************
+***************** iteration 2.0 ********************
+request time is 2.0
+granted time is 2.0
+*********************************************************************************
+***************** iteration 3.0 ********************
+request time is 3.0
+granted time is 3.0
+HeatPump: Received event Battery/voltage = 1.0 at time 3.0
+HeatPump: Received event Battery/current = 1.0 at time 3.0
+HeatPump: Received message-number-1.0 from triggerSender at triggerReceiver at time 2.0
+HeatPump: Published power = 0.30000000000000004 at time 3.0
+HeatPump: Published status = 0.30000000000000004 at time 3.0
+*********************************************************************************
+***************** iteration 4.0 ********************
+request time is 4.0
+granted time is 4.0
+HeatPump: Received event Battery/voltage = 2.0 at time 4.0
+HeatPump: Received event Battery/current = 2.0 at time 4.0
+HeatPump: Received message-number-2.0 from triggerSender at triggerReceiver at time 3.0
+HeatPump: Published power = 0.4 at time 4.0
+HeatPump: Published status = 0.4 at time 4.0
+*********************************************************************************
+***************** iteration 5.0 ********************
+request time is 5.0
+granted time is 5.0
+HeatPump: Received event Battery/voltage = 3.0 at time 5.0
+HeatPump: Received event Battery/current = 3.0 at time 5.0
+HeatPump: Received message-number-3.0 from triggerSender at triggerReceiver at time 4.0
+HeatPump: Published power = 0.5 at time 5.0
+HeatPump: Published status = 0.5 at time 5.0
+*********************************************************************************
+***************** iteration 6.0 ********************
+request time is 6.0
+granted time is 6.0
+HeatPump: Received event Battery/voltage = 4.0 at time 6.0
+HeatPump: Received event Battery/current = 4.0 at time 6.0
+HeatPump: Received message-number-4.0 from triggerSender at triggerReceiver at time 5.0
+HeatPump: Published power = 0.6000000000000001 at time 6.0
+HeatPump: Published status = 0.6000000000000001 at time 6.0
+*********************************************************************************
+***************** iteration 7.0 ********************
+request time is 7.0
+granted time is 7.0
+HeatPump: Received event Battery/voltage = 5.0 at time 7.0
+HeatPump: Received event Battery/current = 5.0 at time 7.0
+HeatPump: Received message-number-5.0 from triggerSender at triggerReceiver at time 6.0
+HeatPump: Published power = 0.7000000000000001 at time 7.0
+HeatPump: Published status = 0.7000000000000001 at time 7.0
+*********************************************************************************
+***************** iteration 8.0 ********************
+request time is 8.0
+granted time is 8.0
+HeatPump: Received event Battery/voltage = 6.0 at time 8.0
+HeatPump: Received event Battery/current = 6.0 at time 8.0
+HeatPump: Received message-number-6.0 from triggerSender at triggerReceiver at time 7.0
+HeatPump: Published power = 0.8 at time 8.0
+HeatPump: Published status = 0.8 at time 8.0
+*********************************************************************************
+***************** iteration 9.0 ********************
+request time is 9.0
+granted time is 9.0
+HeatPump: Received event Battery/voltage = 7.0 at time 9.0
+HeatPump: Received event Battery/current = 7.0 at time 9.0
+HeatPump: Received message-number-7.0 from triggerSender at triggerReceiver at time 8.0
+HeatPump: Published power = 0.9 at time 9.0
+HeatPump: Published status = 0.9 at time 9.0
+*********************************************************************************
+***************** iteration 10.0 ********************
+request time is 10.0
+granted time is 10.0
+HeatPump: Received event Battery/voltage = 8.0 at time 10.0
+HeatPump: Received event Battery/current = 8.0 at time 10.0
+HeatPump: Received message-number-8.0 from triggerSender at triggerReceiver at time 9.0
+HeatPump: Published power = 1.0 at time 10.0
+HeatPump: Published status = 1.0 at time 10.0
+*********************************************************************************
+***************** iteration 11.0 ********************
+request time is 11.0
+granted time is 11.0
+HeatPump: Received event Battery/voltage = 9.0 at time 11.0
+HeatPump: Received event Battery/current = 9.0 at time 11.0
+HeatPump: Received message-number-9.0 from triggerSender at triggerReceiver at time 10.0
+HeatPump: Published power = 1.1 at time 11.0
+HeatPump: Published status = 1.1 at time 11.0
+*********************************************************************************
+***************** iteration 12.0 ********************
+request time is 12.0
+granted time is 12.0
+HeatPump: Received event Battery/voltage = 10.0 at time 12.0
+HeatPump: Received event Battery/current = 10.0 at time 12.0
+HeatPump: Received message-number-10.0 from triggerSender at triggerReceiver at time 11.0
+HeatPump: Published power = 1.2000000000000002 at time 12.0
+HeatPump: Published status = 1.2000000000000002 at time 12.0
+*********************************************************************************
+***************** iteration 13.0 ********************
+request time is 13.0
+granted time is 13.0
+HeatPump: Received event Battery/voltage = 11.0 at time 13.0
+HeatPump: Received event Battery/current = 11.0 at time 13.0
+HeatPump: Received message-number-11.0 from triggerSender at triggerReceiver at time 12.0
+HeatPump: Published power = 1.3 at time 13.0
+HeatPump: Published status = 1.3 at time 13.0

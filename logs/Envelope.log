@@ -1,0 +1,826 @@
+Warning: Configuration 'real_period' doesn't match any known HELICS property
+Warning: Configuration 'time_stop' doesn't match any known HELICS property
+Warning: Property 'start_time' not found in HELICS constants
+Warning: Property 'timeout' not found in HELICS constants
+*********************************************************************************
+***************** summary of configurations ********************
+period 1.0
+offset 0.5
+delta 1.0
+lag 0.0
+lead 0.0
+tolerance 0.0
+input_delay 0.0
+output_delay 0.0
+subscribes Battery/voltage unit V
+subscribes Battery/current unit A
+subscribes HeatPump/power unit W
+subscribes HeatPump/status unit 
+
+CHANGED FLAGS (Non-Default) 
+TERMINATE_ON_ERROR            : True  (Default: False)
+ONLY_TRANSMIT_ON_CHANGE       : True  (Default: False)
+ONLY_UPDATE_ON_CHANGE         : True  (Default: False)
+RESTRICTIVE_TIME_POLICY       : True  (Default: False)
+FORWARD_COMPUTE               : False (Default: True)
+*********************************************************************************
+***************** iteration with real period is 0.0 ********************
+[2025-06-03 15:44:01.428] [console] [warning] Envelope (131073)[1.5]::Time mismatch detected: granted time greater than requested time 1.5 vs 1
+request time is 1.0
+granted time is 1.5
+Envelope: Received Battery/voltage = 0.0 at time 1.5
+Envelope: Received Battery/current = 0.0 at time 1.5
+Envelope: Received HeatPump/power = 0.1 at time 1.5
+Envelope: Received HeatPump/status = 0.1 at time 1.5
+*********************************************************************************
+***************** iteration with real period is 1.0 ********************
+request time is 2.5
+granted time is 2.5
+Envelope: Received Battery/voltage = 1.0 at time 2.5
+Envelope: Received Battery/current = 1.0 at time 2.5
+Envelope: Received HeatPump/power = 0.1 at time 2.5
+Envelope: Received HeatPump/status = 0.1 at time 2.5
+*********************************************************************************
+***************** iteration with real period is 2.0 ********************
+request time is 3.5
+granted time is 3.5
+Envelope: Received Battery/voltage = 2.0 at time 3.5
+Envelope: Received Battery/current = 2.0 at time 3.5
+Envelope: Received HeatPump/power = 0.30000000000000004 at time 3.5
+Envelope: Received HeatPump/status = 0.30000000000000004 at time 3.5
+*********************************************************************************
+***************** iteration with real period is 3.0 ********************
+request time is 4.5
+granted time is 4.5
+Envelope: Received Battery/voltage = 3.0 at time 4.5
+Envelope: Received Battery/current = 3.0 at time 4.5
+Envelope: Received HeatPump/power = 0.4 at time 4.5
+Envelope: Received HeatPump/status = 0.4 at time 4.5
+*********************************************************************************
+***************** iteration with real period is 4.0 ********************
+request time is 5.5
+granted time is 5.5
+Envelope: Received Battery/voltage = 4.0 at time 5.5
+Envelope: Received Battery/current = 4.0 at time 5.5
+Envelope: Received HeatPump/power = 0.5 at time 5.5
+Envelope: Received HeatPump/status = 0.5 at time 5.5
+*********************************************************************************
+***************** iteration with real period is 5.0 ********************
+request time is 6.5
+granted time is 6.5
+Envelope: Received Battery/voltage = 5.0 at time 6.5
+Envelope: Received Battery/current = 5.0 at time 6.5
+Envelope: Received HeatPump/power = 0.6000000000000001 at time 6.5
+Envelope: Received HeatPump/status = 0.6000000000000001 at time 6.5
+*********************************************************************************
+***************** iteration with real period is 6.0 ********************
+request time is 7.5
+granted time is 7.5
+Envelope: Received Battery/voltage = 6.0 at time 7.5
+Envelope: Received Battery/current = 6.0 at time 7.5
+Envelope: Received HeatPump/power = 0.7000000000000001 at time 7.5
+Envelope: Received HeatPump/status = 0.7000000000000001 at time 7.5
+*********************************************************************************
+***************** iteration with real period is 7.0 ********************
+request time is 8.5
+granted time is 8.5
+Envelope: Received Battery/voltage = 7.0 at time 8.5
+Envelope: Received Battery/current = 7.0 at time 8.5
+Envelope: Received HeatPump/power = 0.8 at time 8.5
+Envelope: Received HeatPump/status = 0.8 at time 8.5
+*********************************************************************************
+***************** iteration with real period is 8.0 ********************
+request time is 9.5
+granted time is 9.5
+Envelope: Received Battery/voltage = 8.0 at time 9.5
+Envelope: Received Battery/current = 8.0 at time 9.5
+Envelope: Received HeatPump/power = 0.9 at time 9.5
+Envelope: Received HeatPump/status = 0.9 at time 9.5
+*********************************************************************************
+***************** iteration with real period is 9.0 ********************
+request time is 10.5
+granted time is 10.5
+Envelope: Received Battery/voltage = 9.0 at time 10.5
+Envelope: Received Battery/current = 9.0 at time 10.5
+Envelope: Received HeatPump/power = 1.0 at time 10.5
+Envelope: Received HeatPump/status = 1.0 at time 10.5
+*********************************************************************************
+***************** iteration with real period is 10.0 ********************
+request time is 11.5
+granted time is 11.5
+Envelope: Received Battery/voltage = 10.0 at time 11.5
+Envelope: Received Battery/current = 10.0 at time 11.5
+Envelope: Received HeatPump/power = 1.1 at time 11.5
+Envelope: Received HeatPump/status = 1.1 at time 11.5
+*********************************************************************************
+***************** iteration with real period is 11.0 ********************
+request time is 12.5
+granted time is 12.5
+Envelope: Received Battery/voltage = 11.0 at time 12.5
+Envelope: Received Battery/current = 11.0 at time 12.5
+Envelope: Received HeatPump/power = 1.2000000000000002 at time 12.5
+Envelope: Received HeatPump/status = 1.2000000000000002 at time 12.5
+*********************************************************************************
+***************** iteration with real period is 12.0 ********************
+request time is 13.5
+granted time is 13.5
+Envelope: Received Battery/voltage = 12.0 at time 13.5
+Envelope: Received Battery/current = 12.0 at time 13.5
+Envelope: Received HeatPump/power = 1.3 at time 13.5
+Envelope: Received HeatPump/status = 1.3 at time 13.5
+*********************************************************************************
+***************** iteration with real period is 13.0 ********************
+request time is 14.5
+granted time is 14.5
+Envelope: Received Battery/voltage = 13.0 at time 14.5
+Envelope: Received Battery/current = 13.0 at time 14.5
+Envelope: Received HeatPump/power = 1.3 at time 14.5
+Envelope: Received HeatPump/status = 1.3 at time 14.5
+*********************************************************************************
+***************** iteration with real period is 14.0 ********************
+request time is 15.5
+granted time is 15.5
+Envelope: Received Battery/voltage = 14.0 at time 15.5
+Envelope: Received Battery/current = 14.0 at time 15.5
+Envelope: Received HeatPump/power = 1.3 at time 15.5
+Envelope: Received HeatPump/status = 1.3 at time 15.5
+*********************************************************************************
+***************** iteration with real period is 15.0 ********************
+request time is 16.5
+granted time is 16.5
+Envelope: Received Battery/voltage = 15.0 at time 16.5
+Envelope: Received Battery/current = 15.0 at time 16.5
+Envelope: Received HeatPump/power = 1.3 at time 16.5
+Envelope: Received HeatPump/status = 1.3 at time 16.5
+*********************************************************************************
+***************** iteration with real period is 16.0 ********************
+request time is 17.5
+granted time is 17.5
+Envelope: Received Battery/voltage = 16.0 at time 17.5
+Envelope: Received Battery/current = 16.0 at time 17.5
+Envelope: Received HeatPump/power = 1.3 at time 17.5
+Envelope: Received HeatPump/status = 1.3 at time 17.5
+*********************************************************************************
+***************** iteration with real period is 17.0 ********************
+request time is 18.5
+granted time is 18.5
+Envelope: Received Battery/voltage = 17.0 at time 18.5
+Envelope: Received Battery/current = 17.0 at time 18.5
+Envelope: Received HeatPump/power = 1.3 at time 18.5
+Envelope: Received HeatPump/status = 1.3 at time 18.5
+*********************************************************************************
+***************** iteration with real period is 18.0 ********************
+request time is 19.5
+granted time is 19.5
+Envelope: Received Battery/voltage = 18.0 at time 19.5
+Envelope: Received Battery/current = 18.0 at time 19.5
+Envelope: Received HeatPump/power = 1.3 at time 19.5
+Envelope: Received HeatPump/status = 1.3 at time 19.5
+*********************************************************************************
+***************** iteration with real period is 19.0 ********************
+request time is 20.5
+granted time is 20.5
+Envelope: Received Battery/voltage = 19.0 at time 20.5
+Envelope: Received Battery/current = 19.0 at time 20.5
+Envelope: Received HeatPump/power = 1.3 at time 20.5
+Envelope: Received HeatPump/status = 1.3 at time 20.5
+*********************************************************************************
+***************** iteration with real period is 20.0 ********************
+request time is 21.5
+granted time is 21.5
+Envelope: Received Battery/voltage = 20.0 at time 21.5
+Envelope: Received Battery/current = 20.0 at time 21.5
+Envelope: Received HeatPump/power = 1.3 at time 21.5
+Envelope: Received HeatPump/status = 1.3 at time 21.5
+*********************************************************************************
+***************** iteration with real period is 21.0 ********************
+request time is 22.5
+granted time is 22.5
+Envelope: Received Battery/voltage = 21.0 at time 22.5
+Envelope: Received Battery/current = 21.0 at time 22.5
+Envelope: Received HeatPump/power = 1.3 at time 22.5
+Envelope: Received HeatPump/status = 1.3 at time 22.5
+*********************************************************************************
+***************** iteration with real period is 22.0 ********************
+request time is 23.5
+granted time is 23.5
+Envelope: Received Battery/voltage = 22.0 at time 23.5
+Envelope: Received Battery/current = 22.0 at time 23.5
+Envelope: Received HeatPump/power = 1.3 at time 23.5
+Envelope: Received HeatPump/status = 1.3 at time 23.5
+*********************************************************************************
+***************** iteration with real period is 23.0 ********************
+request time is 24.5
+granted time is 24.5
+Envelope: Received Battery/voltage = 23.0 at time 24.5
+Envelope: Received Battery/current = 23.0 at time 24.5
+Envelope: Received HeatPump/power = 1.3 at time 24.5
+Envelope: Received HeatPump/status = 1.3 at time 24.5
+*********************************************************************************
+***************** iteration with real period is 24.0 ********************
+request time is 25.5
+granted time is 25.5
+Envelope: Received Battery/voltage = 24.0 at time 25.5
+Envelope: Received Battery/current = 24.0 at time 25.5
+Envelope: Received HeatPump/power = 1.3 at time 25.5
+Envelope: Received HeatPump/status = 1.3 at time 25.5
+*********************************************************************************
+***************** iteration with real period is 25.0 ********************
+request time is 26.5
+granted time is 26.5
+Envelope: Received Battery/voltage = 25.0 at time 26.5
+Envelope: Received Battery/current = 25.0 at time 26.5
+Envelope: Received HeatPump/power = 1.3 at time 26.5
+Envelope: Received HeatPump/status = 1.3 at time 26.5
+*********************************************************************************
+***************** iteration with real period is 26.0 ********************
+request time is 27.5
+granted time is 27.5
+Envelope: Received Battery/voltage = 26.0 at time 27.5
+Envelope: Received Battery/current = 26.0 at time 27.5
+Envelope: Received HeatPump/power = 1.3 at time 27.5
+Envelope: Received HeatPump/status = 1.3 at time 27.5
+*********************************************************************************
+***************** iteration with real period is 27.0 ********************
+request time is 28.5
+granted time is 28.5
+Envelope: Received Battery/voltage = 27.0 at time 28.5
+Envelope: Received Battery/current = 27.0 at time 28.5
+Envelope: Received HeatPump/power = 1.3 at time 28.5
+Envelope: Received HeatPump/status = 1.3 at time 28.5
+*********************************************************************************
+***************** iteration with real period is 28.0 ********************
+request time is 29.5
+granted time is 29.5
+Envelope: Received Battery/voltage = 28.0 at time 29.5
+Envelope: Received Battery/current = 28.0 at time 29.5
+Envelope: Received HeatPump/power = 1.3 at time 29.5
+Envelope: Received HeatPump/status = 1.3 at time 29.5
+*********************************************************************************
+***************** iteration with real period is 29.0 ********************
+request time is 30.5
+granted time is 30.5
+Envelope: Received Battery/voltage = 29.0 at time 30.5
+Envelope: Received Battery/current = 29.0 at time 30.5
+Envelope: Received HeatPump/power = 1.3 at time 30.5
+Envelope: Received HeatPump/status = 1.3 at time 30.5
+*********************************************************************************
+***************** iteration with real period is 30.0 ********************
+request time is 31.5
+granted time is 31.5
+Envelope: Received Battery/voltage = 30.0 at time 31.5
+Envelope: Received Battery/current = 30.0 at time 31.5
+Envelope: Received HeatPump/power = 1.3 at time 31.5
+Envelope: Received HeatPump/status = 1.3 at time 31.5
+*********************************************************************************
+***************** iteration with real period is 31.0 ********************
+request time is 32.5
+granted time is 32.5
+Envelope: Received Battery/voltage = 31.0 at time 32.5
+Envelope: Received Battery/current = 31.0 at time 32.5
+Envelope: Received HeatPump/power = 1.3 at time 32.5
+Envelope: Received HeatPump/status = 1.3 at time 32.5
+*********************************************************************************
+***************** iteration with real period is 32.0 ********************
+request time is 33.5
+granted time is 33.5
+Envelope: Received Battery/voltage = 32.0 at time 33.5
+Envelope: Received Battery/current = 32.0 at time 33.5
+Envelope: Received HeatPump/power = 1.3 at time 33.5
+Envelope: Received HeatPump/status = 1.3 at time 33.5
+*********************************************************************************
+***************** iteration with real period is 33.0 ********************
+request time is 34.5
+granted time is 34.5
+Envelope: Received Battery/voltage = 33.0 at time 34.5
+Envelope: Received Battery/current = 33.0 at time 34.5
+Envelope: Received HeatPump/power = 1.3 at time 34.5
+Envelope: Received HeatPump/status = 1.3 at time 34.5
+*********************************************************************************
+***************** iteration with real period is 34.0 ********************
+request time is 35.5
+granted time is 35.5
+Envelope: Received Battery/voltage = 34.0 at time 35.5
+Envelope: Received Battery/current = 34.0 at time 35.5
+Envelope: Received HeatPump/power = 1.3 at time 35.5
+Envelope: Received HeatPump/status = 1.3 at time 35.5
+*********************************************************************************
+***************** iteration with real period is 35.0 ********************
+request time is 36.5
+granted time is 36.5
+Envelope: Received Battery/voltage = 35.0 at time 36.5
+Envelope: Received Battery/current = 35.0 at time 36.5
+Envelope: Received HeatPump/power = 1.3 at time 36.5
+Envelope: Received HeatPump/status = 1.3 at time 36.5
+*********************************************************************************
+***************** iteration with real period is 36.0 ********************
+request time is 37.5
+granted time is 37.5
+Envelope: Received Battery/voltage = 36.0 at time 37.5
+Envelope: Received Battery/current = 36.0 at time 37.5
+Envelope: Received HeatPump/power = 1.3 at time 37.5
+Envelope: Received HeatPump/status = 1.3 at time 37.5
+*********************************************************************************
+***************** iteration with real period is 37.0 ********************
+request time is 38.5
+granted time is 38.5
+Envelope: Received Battery/voltage = 37.0 at time 38.5
+Envelope: Received Battery/current = 37.0 at time 38.5
+Envelope: Received HeatPump/power = 1.3 at time 38.5
+Envelope: Received HeatPump/status = 1.3 at time 38.5
+*********************************************************************************
+***************** iteration with real period is 38.0 ********************
+request time is 39.5
+granted time is 39.5
+Envelope: Received Battery/voltage = 38.0 at time 39.5
+Envelope: Received Battery/current = 38.0 at time 39.5
+Envelope: Received HeatPump/power = 1.3 at time 39.5
+Envelope: Received HeatPump/status = 1.3 at time 39.5
+*********************************************************************************
+***************** iteration with real period is 39.0 ********************
+request time is 40.5
+granted time is 40.5
+Envelope: Received Battery/voltage = 39.0 at time 40.5
+Envelope: Received Battery/current = 39.0 at time 40.5
+Envelope: Received HeatPump/power = 1.3 at time 40.5
+Envelope: Received HeatPump/status = 1.3 at time 40.5
+*********************************************************************************
+***************** iteration with real period is 40.0 ********************
+request time is 41.5
+granted time is 41.5
+Envelope: Received Battery/voltage = 40.0 at time 41.5
+Envelope: Received Battery/current = 40.0 at time 41.5
+Envelope: Received HeatPump/power = 1.3 at time 41.5
+Envelope: Received HeatPump/status = 1.3 at time 41.5
+*********************************************************************************
+***************** iteration with real period is 41.0 ********************
+request time is 42.5
+granted time is 42.5
+Envelope: Received Battery/voltage = 41.0 at time 42.5
+Envelope: Received Battery/current = 41.0 at time 42.5
+Envelope: Received HeatPump/power = 1.3 at time 42.5
+Envelope: Received HeatPump/status = 1.3 at time 42.5
+*********************************************************************************
+***************** iteration with real period is 42.0 ********************
+request time is 43.5
+granted time is 43.5
+Envelope: Received Battery/voltage = 42.0 at time 43.5
+Envelope: Received Battery/current = 42.0 at time 43.5
+Envelope: Received HeatPump/power = 1.3 at time 43.5
+Envelope: Received HeatPump/status = 1.3 at time 43.5
+*********************************************************************************
+***************** iteration with real period is 43.0 ********************
+request time is 44.5
+granted time is 44.5
+Envelope: Received Battery/voltage = 43.0 at time 44.5
+Envelope: Received Battery/current = 43.0 at time 44.5
+Envelope: Received HeatPump/power = 1.3 at time 44.5
+Envelope: Received HeatPump/status = 1.3 at time 44.5
+*********************************************************************************
+***************** iteration with real period is 44.0 ********************
+request time is 45.5
+granted time is 45.5
+Envelope: Received Battery/voltage = 44.0 at time 45.5
+Envelope: Received Battery/current = 44.0 at time 45.5
+Envelope: Received HeatPump/power = 1.3 at time 45.5
+Envelope: Received HeatPump/status = 1.3 at time 45.5
+*********************************************************************************
+***************** iteration with real period is 45.0 ********************
+request time is 46.5
+granted time is 46.5
+Envelope: Received Battery/voltage = 45.0 at time 46.5
+Envelope: Received Battery/current = 45.0 at time 46.5
+Envelope: Received HeatPump/power = 1.3 at time 46.5
+Envelope: Received HeatPump/status = 1.3 at time 46.5
+*********************************************************************************
+***************** iteration with real period is 46.0 ********************
+request time is 47.5
+granted time is 47.5
+Envelope: Received Battery/voltage = 46.0 at time 47.5
+Envelope: Received Battery/current = 46.0 at time 47.5
+Envelope: Received HeatPump/power = 1.3 at time 47.5
+Envelope: Received HeatPump/status = 1.3 at time 47.5
+*********************************************************************************
+***************** iteration with real period is 47.0 ********************
+request time is 48.5
+granted time is 48.5
+Envelope: Received Battery/voltage = 47.0 at time 48.5
+Envelope: Received Battery/current = 47.0 at time 48.5
+Envelope: Received HeatPump/power = 1.3 at time 48.5
+Envelope: Received HeatPump/status = 1.3 at time 48.5
+*********************************************************************************
+***************** iteration with real period is 48.0 ********************
+request time is 49.5
+granted time is 49.5
+Envelope: Received Battery/voltage = 48.0 at time 49.5
+Envelope: Received Battery/current = 48.0 at time 49.5
+Envelope: Received HeatPump/power = 1.3 at time 49.5
+Envelope: Received HeatPump/status = 1.3 at time 49.5
+*********************************************************************************
+***************** iteration with real period is 49.0 ********************
+request time is 50.5
+granted time is 50.5
+Envelope: Received Battery/voltage = 49.0 at time 50.5
+Envelope: Received Battery/current = 49.0 at time 50.5
+Envelope: Received HeatPump/power = 1.3 at time 50.5
+Envelope: Received HeatPump/status = 1.3 at time 50.5
+*********************************************************************************
+***************** iteration with real period is 50.0 ********************
+request time is 51.5
+granted time is 51.5
+Envelope: Received Battery/voltage = 50.0 at time 51.5
+Envelope: Received Battery/current = 50.0 at time 51.5
+Envelope: Received HeatPump/power = 1.3 at time 51.5
+Envelope: Received HeatPump/status = 1.3 at time 51.5
+*********************************************************************************
+***************** iteration with real period is 51.0 ********************
+request time is 52.5
+granted time is 52.5
+Envelope: Received Battery/voltage = 51.0 at time 52.5
+Envelope: Received Battery/current = 51.0 at time 52.5
+Envelope: Received HeatPump/power = 1.3 at time 52.5
+Envelope: Received HeatPump/status = 1.3 at time 52.5
+*********************************************************************************
+***************** iteration with real period is 52.0 ********************
+request time is 53.5
+granted time is 53.5
+Envelope: Received Battery/voltage = 52.0 at time 53.5
+Envelope: Received Battery/current = 52.0 at time 53.5
+Envelope: Received HeatPump/power = 1.3 at time 53.5
+Envelope: Received HeatPump/status = 1.3 at time 53.5
+*********************************************************************************
+***************** iteration with real period is 53.0 ********************
+request time is 54.5
+granted time is 54.5
+Envelope: Received Battery/voltage = 53.0 at time 54.5
+Envelope: Received Battery/current = 53.0 at time 54.5
+Envelope: Received HeatPump/power = 1.3 at time 54.5
+Envelope: Received HeatPump/status = 1.3 at time 54.5
+*********************************************************************************
+***************** iteration with real period is 54.0 ********************
+request time is 55.5
+granted time is 55.5
+Envelope: Received Battery/voltage = 54.0 at time 55.5
+Envelope: Received Battery/current = 54.0 at time 55.5
+Envelope: Received HeatPump/power = 1.3 at time 55.5
+Envelope: Received HeatPump/status = 1.3 at time 55.5
+*********************************************************************************
+***************** iteration with real period is 55.0 ********************
+request time is 56.5
+granted time is 56.5
+Envelope: Received Battery/voltage = 55.0 at time 56.5
+Envelope: Received Battery/current = 55.0 at time 56.5
+Envelope: Received HeatPump/power = 1.3 at time 56.5
+Envelope: Received HeatPump/status = 1.3 at time 56.5
+*********************************************************************************
+***************** iteration with real period is 56.0 ********************
+request time is 57.5
+granted time is 57.5
+Envelope: Received Battery/voltage = 56.0 at time 57.5
+Envelope: Received Battery/current = 56.0 at time 57.5
+Envelope: Received HeatPump/power = 1.3 at time 57.5
+Envelope: Received HeatPump/status = 1.3 at time 57.5
+*********************************************************************************
+***************** iteration with real period is 57.0 ********************
+request time is 58.5
+granted time is 58.5
+Envelope: Received Battery/voltage = 57.0 at time 58.5
+Envelope: Received Battery/current = 57.0 at time 58.5
+Envelope: Received HeatPump/power = 1.3 at time 58.5
+Envelope: Received HeatPump/status = 1.3 at time 58.5
+*********************************************************************************
+***************** iteration with real period is 58.0 ********************
+request time is 59.5
+granted time is 59.5
+Envelope: Received Battery/voltage = 58.0 at time 59.5
+Envelope: Received Battery/current = 58.0 at time 59.5
+Envelope: Received HeatPump/power = 1.3 at time 59.5
+Envelope: Received HeatPump/status = 1.3 at time 59.5
+*********************************************************************************
+***************** iteration with real period is 59.0 ********************
+request time is 60.5
+granted time is 60.5
+Envelope: Received Battery/voltage = 59.0 at time 60.5
+Envelope: Received Battery/current = 59.0 at time 60.5
+Envelope: Received HeatPump/power = 1.3 at time 60.5
+Envelope: Received HeatPump/status = 1.3 at time 60.5
+*********************************************************************************
+***************** iteration with real period is 60.0 ********************
+request time is 61.5
+granted time is 61.5
+Envelope: Received Battery/voltage = 60.0 at time 61.5
+Envelope: Received Battery/current = 60.0 at time 61.5
+Envelope: Received HeatPump/power = 1.3 at time 61.5
+Envelope: Received HeatPump/status = 1.3 at time 61.5
+*********************************************************************************
+***************** iteration with real period is 61.0 ********************
+request time is 62.5
+granted time is 62.5
+Envelope: Received Battery/voltage = 61.0 at time 62.5
+Envelope: Received Battery/current = 61.0 at time 62.5
+Envelope: Received HeatPump/power = 1.3 at time 62.5
+Envelope: Received HeatPump/status = 1.3 at time 62.5
+*********************************************************************************
+***************** iteration with real period is 62.0 ********************
+request time is 63.5
+granted time is 63.5
+Envelope: Received Battery/voltage = 62.0 at time 63.5
+Envelope: Received Battery/current = 62.0 at time 63.5
+Envelope: Received HeatPump/power = 1.3 at time 63.5
+Envelope: Received HeatPump/status = 1.3 at time 63.5
+*********************************************************************************
+***************** iteration with real period is 63.0 ********************
+request time is 64.5
+granted time is 64.5
+Envelope: Received Battery/voltage = 63.0 at time 64.5
+Envelope: Received Battery/current = 63.0 at time 64.5
+Envelope: Received HeatPump/power = 1.3 at time 64.5
+Envelope: Received HeatPump/status = 1.3 at time 64.5
+*********************************************************************************
+***************** iteration with real period is 64.0 ********************
+request time is 65.5
+granted time is 65.5
+Envelope: Received Battery/voltage = 64.0 at time 65.5
+Envelope: Received Battery/current = 64.0 at time 65.5
+Envelope: Received HeatPump/power = 1.3 at time 65.5
+Envelope: Received HeatPump/status = 1.3 at time 65.5
+*********************************************************************************
+***************** iteration with real period is 65.0 ********************
+request time is 66.5
+granted time is 66.5
+Envelope: Received Battery/voltage = 65.0 at time 66.5
+Envelope: Received Battery/current = 65.0 at time 66.5
+Envelope: Received HeatPump/power = 1.3 at time 66.5
+Envelope: Received HeatPump/status = 1.3 at time 66.5
+*********************************************************************************
+***************** iteration with real period is 66.0 ********************
+request time is 67.5
+granted time is 67.5
+Envelope: Received Battery/voltage = 66.0 at time 67.5
+Envelope: Received Battery/current = 66.0 at time 67.5
+Envelope: Received HeatPump/power = 1.3 at time 67.5
+Envelope: Received HeatPump/status = 1.3 at time 67.5
+*********************************************************************************
+***************** iteration with real period is 67.0 ********************
+request time is 68.5
+granted time is 68.5
+Envelope: Received Battery/voltage = 67.0 at time 68.5
+Envelope: Received Battery/current = 67.0 at time 68.5
+Envelope: Received HeatPump/power = 1.3 at time 68.5
+Envelope: Received HeatPump/status = 1.3 at time 68.5
+*********************************************************************************
+***************** iteration with real period is 68.0 ********************
+request time is 69.5
+granted time is 69.5
+Envelope: Received Battery/voltage = 68.0 at time 69.5
+Envelope: Received Battery/current = 68.0 at time 69.5
+Envelope: Received HeatPump/power = 1.3 at time 69.5
+Envelope: Received HeatPump/status = 1.3 at time 69.5
+*********************************************************************************
+***************** iteration with real period is 69.0 ********************
+request time is 70.5
+granted time is 70.5
+Envelope: Received Battery/voltage = 69.0 at time 70.5
+Envelope: Received Battery/current = 69.0 at time 70.5
+Envelope: Received HeatPump/power = 1.3 at time 70.5
+Envelope: Received HeatPump/status = 1.3 at time 70.5
+*********************************************************************************
+***************** iteration with real period is 70.0 ********************
+request time is 71.5
+granted time is 71.5
+Envelope: Received Battery/voltage = 70.0 at time 71.5
+Envelope: Received Battery/current = 70.0 at time 71.5
+Envelope: Received HeatPump/power = 1.3 at time 71.5
+Envelope: Received HeatPump/status = 1.3 at time 71.5
+*********************************************************************************
+***************** iteration with real period is 71.0 ********************
+request time is 72.5
+granted time is 72.5
+Envelope: Received Battery/voltage = 71.0 at time 72.5
+Envelope: Received Battery/current = 71.0 at time 72.5
+Envelope: Received HeatPump/power = 1.3 at time 72.5
+Envelope: Received HeatPump/status = 1.3 at time 72.5
+*********************************************************************************
+***************** iteration with real period is 72.0 ********************
+request time is 73.5
+granted time is 73.5
+Envelope: Received Battery/voltage = 72.0 at time 73.5
+Envelope: Received Battery/current = 72.0 at time 73.5
+Envelope: Received HeatPump/power = 1.3 at time 73.5
+Envelope: Received HeatPump/status = 1.3 at time 73.5
+*********************************************************************************
+***************** iteration with real period is 73.0 ********************
+request time is 74.5
+granted time is 74.5
+Envelope: Received Battery/voltage = 73.0 at time 74.5
+Envelope: Received Battery/current = 73.0 at time 74.5
+Envelope: Received HeatPump/power = 1.3 at time 74.5
+Envelope: Received HeatPump/status = 1.3 at time 74.5
+*********************************************************************************
+***************** iteration with real period is 74.0 ********************
+request time is 75.5
+granted time is 75.5
+Envelope: Received Battery/voltage = 74.0 at time 75.5
+Envelope: Received Battery/current = 74.0 at time 75.5
+Envelope: Received HeatPump/power = 1.3 at time 75.5
+Envelope: Received HeatPump/status = 1.3 at time 75.5
+*********************************************************************************
+***************** iteration with real period is 75.0 ********************
+request time is 76.5
+granted time is 76.5
+Envelope: Received Battery/voltage = 75.0 at time 76.5
+Envelope: Received Battery/current = 75.0 at time 76.5
+Envelope: Received HeatPump/power = 1.3 at time 76.5
+Envelope: Received HeatPump/status = 1.3 at time 76.5
+*********************************************************************************
+***************** iteration with real period is 76.0 ********************
+request time is 77.5
+granted time is 77.5
+Envelope: Received Battery/voltage = 76.0 at time 77.5
+Envelope: Received Battery/current = 76.0 at time 77.5
+Envelope: Received HeatPump/power = 1.3 at time 77.5
+Envelope: Received HeatPump/status = 1.3 at time 77.5
+*********************************************************************************
+***************** iteration with real period is 77.0 ********************
+request time is 78.5
+granted time is 78.5
+Envelope: Received Battery/voltage = 77.0 at time 78.5
+Envelope: Received Battery/current = 77.0 at time 78.5
+Envelope: Received HeatPump/power = 1.3 at time 78.5
+Envelope: Received HeatPump/status = 1.3 at time 78.5
+*********************************************************************************
+***************** iteration with real period is 78.0 ********************
+request time is 79.5
+granted time is 79.5
+Envelope: Received Battery/voltage = 78.0 at time 79.5
+Envelope: Received Battery/current = 78.0 at time 79.5
+Envelope: Received HeatPump/power = 1.3 at time 79.5
+Envelope: Received HeatPump/status = 1.3 at time 79.5
+*********************************************************************************
+***************** iteration with real period is 79.0 ********************
+request time is 80.5
+granted time is 80.5
+Envelope: Received Battery/voltage = 79.0 at time 80.5
+Envelope: Received Battery/current = 79.0 at time 80.5
+Envelope: Received HeatPump/power = 1.3 at time 80.5
+Envelope: Received HeatPump/status = 1.3 at time 80.5
+*********************************************************************************
+***************** iteration with real period is 80.0 ********************
+request time is 81.5
+granted time is 81.5
+Envelope: Received Battery/voltage = 80.0 at time 81.5
+Envelope: Received Battery/current = 80.0 at time 81.5
+Envelope: Received HeatPump/power = 1.3 at time 81.5
+Envelope: Received HeatPump/status = 1.3 at time 81.5
+*********************************************************************************
+***************** iteration with real period is 81.0 ********************
+request time is 82.5
+granted time is 82.5
+Envelope: Received Battery/voltage = 81.0 at time 82.5
+Envelope: Received Battery/current = 81.0 at time 82.5
+Envelope: Received HeatPump/power = 1.3 at time 82.5
+Envelope: Received HeatPump/status = 1.3 at time 82.5
+*********************************************************************************
+***************** iteration with real period is 82.0 ********************
+request time is 83.5
+granted time is 83.5
+Envelope: Received Battery/voltage = 82.0 at time 83.5
+Envelope: Received Battery/current = 82.0 at time 83.5
+Envelope: Received HeatPump/power = 1.3 at time 83.5
+Envelope: Received HeatPump/status = 1.3 at time 83.5
+*********************************************************************************
+***************** iteration with real period is 83.0 ********************
+request time is 84.5
+granted time is 84.5
+Envelope: Received Battery/voltage = 83.0 at time 84.5
+Envelope: Received Battery/current = 83.0 at time 84.5
+Envelope: Received HeatPump/power = 1.3 at time 84.5
+Envelope: Received HeatPump/status = 1.3 at time 84.5
+*********************************************************************************
+***************** iteration with real period is 84.0 ********************
+request time is 85.5
+granted time is 85.5
+Envelope: Received Battery/voltage = 84.0 at time 85.5
+Envelope: Received Battery/current = 84.0 at time 85.5
+Envelope: Received HeatPump/power = 1.3 at time 85.5
+Envelope: Received HeatPump/status = 1.3 at time 85.5
+*********************************************************************************
+***************** iteration with real period is 85.0 ********************
+request time is 86.5
+granted time is 86.5
+Envelope: Received Battery/voltage = 85.0 at time 86.5
+Envelope: Received Battery/current = 85.0 at time 86.5
+Envelope: Received HeatPump/power = 1.3 at time 86.5
+Envelope: Received HeatPump/status = 1.3 at time 86.5
+*********************************************************************************
+***************** iteration with real period is 86.0 ********************
+request time is 87.5
+granted time is 87.5
+Envelope: Received Battery/voltage = 86.0 at time 87.5
+Envelope: Received Battery/current = 86.0 at time 87.5
+Envelope: Received HeatPump/power = 1.3 at time 87.5
+Envelope: Received HeatPump/status = 1.3 at time 87.5
+*********************************************************************************
+***************** iteration with real period is 87.0 ********************
+request time is 88.5
+granted time is 88.5
+Envelope: Received Battery/voltage = 87.0 at time 88.5
+Envelope: Received Battery/current = 87.0 at time 88.5
+Envelope: Received HeatPump/power = 1.3 at time 88.5
+Envelope: Received HeatPump/status = 1.3 at time 88.5
+*********************************************************************************
+***************** iteration with real period is 88.0 ********************
+request time is 89.5
+granted time is 89.5
+Envelope: Received Battery/voltage = 88.0 at time 89.5
+Envelope: Received Battery/current = 88.0 at time 89.5
+Envelope: Received HeatPump/power = 1.3 at time 89.5
+Envelope: Received HeatPump/status = 1.3 at time 89.5
+*********************************************************************************
+***************** iteration with real period is 89.0 ********************
+request time is 90.5
+granted time is 90.5
+Envelope: Received Battery/voltage = 89.0 at time 90.5
+Envelope: Received Battery/current = 89.0 at time 90.5
+Envelope: Received HeatPump/power = 1.3 at time 90.5
+Envelope: Received HeatPump/status = 1.3 at time 90.5
+*********************************************************************************
+***************** iteration with real period is 90.0 ********************
+request time is 91.5
+granted time is 91.5
+Envelope: Received Battery/voltage = 90.0 at time 91.5
+Envelope: Received Battery/current = 90.0 at time 91.5
+Envelope: Received HeatPump/power = 1.3 at time 91.5
+Envelope: Received HeatPump/status = 1.3 at time 91.5
+*********************************************************************************
+***************** iteration with real period is 91.0 ********************
+request time is 92.5
+granted time is 92.5
+Envelope: Received Battery/voltage = 91.0 at time 92.5
+Envelope: Received Battery/current = 91.0 at time 92.5
+Envelope: Received HeatPump/power = 1.3 at time 92.5
+Envelope: Received HeatPump/status = 1.3 at time 92.5
+*********************************************************************************
+***************** iteration with real period is 92.0 ********************
+request time is 93.5
+granted time is 93.5
+Envelope: Received Battery/voltage = 92.0 at time 93.5
+Envelope: Received Battery/current = 92.0 at time 93.5
+Envelope: Received HeatPump/power = 1.3 at time 93.5
+Envelope: Received HeatPump/status = 1.3 at time 93.5
+*********************************************************************************
+***************** iteration with real period is 93.0 ********************
+request time is 94.5
+granted time is 94.5
+Envelope: Received Battery/voltage = 93.0 at time 94.5
+Envelope: Received Battery/current = 93.0 at time 94.5
+Envelope: Received HeatPump/power = 1.3 at time 94.5
+Envelope: Received HeatPump/status = 1.3 at time 94.5
+*********************************************************************************
+***************** iteration with real period is 94.0 ********************
+request time is 95.5
+granted time is 95.5
+Envelope: Received Battery/voltage = 94.0 at time 95.5
+Envelope: Received Battery/current = 94.0 at time 95.5
+Envelope: Received HeatPump/power = 1.3 at time 95.5
+Envelope: Received HeatPump/status = 1.3 at time 95.5
+*********************************************************************************
+***************** iteration with real period is 95.0 ********************
+request time is 96.5
+granted time is 96.5
+Envelope: Received Battery/voltage = 95.0 at time 96.5
+Envelope: Received Battery/current = 95.0 at time 96.5
+Envelope: Received HeatPump/power = 1.3 at time 96.5
+Envelope: Received HeatPump/status = 1.3 at time 96.5
+*********************************************************************************
+***************** iteration with real period is 96.0 ********************
+request time is 97.5
+granted time is 97.5
+Envelope: Received Battery/voltage = 96.0 at time 97.5
+Envelope: Received Battery/current = 96.0 at time 97.5
+Envelope: Received HeatPump/power = 1.3 at time 97.5
+Envelope: Received HeatPump/status = 1.3 at time 97.5
+*********************************************************************************
+***************** iteration with real period is 97.0 ********************
+request time is 98.5
+granted time is 98.5
+Envelope: Received Battery/voltage = 97.0 at time 98.5
+Envelope: Received Battery/current = 97.0 at time 98.5
+Envelope: Received HeatPump/power = 1.3 at time 98.5
+Envelope: Received HeatPump/status = 1.3 at time 98.5
+*********************************************************************************
+***************** iteration with real period is 98.0 ********************
+request time is 99.5
+granted time is 99.5
+Envelope: Received Battery/voltage = 98.0 at time 99.5
+Envelope: Received Battery/current = 98.0 at time 99.5
+Envelope: Received HeatPump/power = 1.3 at time 99.5
+Envelope: Received HeatPump/status = 1.3 at time 99.5
+*********************************************************************************
+***************** iteration with real period is 99.0 ********************
+request time is 100.5
+granted time is 100.5
+Envelope: Received Battery/voltage = 99.0 at time 100.5
+Envelope: Received Battery/current = 99.0 at time 100.5
+Envelope: Received HeatPump/power = 1.3 at time 100.5
+Envelope: Received HeatPump/status = 1.3 at time 100.5

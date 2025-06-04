@@ -1,0 +1,723 @@
+C:\Users\Mohsen\AppData\Local\Programs\Python\Python313\Lib\site-packages\helics\capi.py:5682: UserWarning: This function is deprecated. Use `helicsEndpointSendBytesTo` instead.
+  warnings.warn("This function is deprecated. Use `helicsEndpointSendBytesTo` instead.")
+ants
+*********************************************************************************
+***************** summary of configurations ********************
+period 1.0
+offset 0.0
+delta 1.0
+lag 0.0
+lead 0.0
+tolerance 0.0
+input_delay 0.0
+output_delay 0.0
+publishes Battery/voltage dataType double unit V
+publishes Battery/current dataType double unit A
+
+CHANGED FLAGS (Non-Default) 
+TERMINATE_ON_ERROR            : True  (Default: False)
+ONLY_TRANSMIT_ON_CHANGE       : True  (Default: False)
+ONLY_UPDATE_ON_CHANGE         : True  (Default: False)
+RESTRICTIVE_TIME_POLICY       : True  (Default: False)
+FORWARD_COMPUTE               : False (Default: True)
+SINGLE_THREAD_FEDERATE        : True  (Default: False)
+*********************************************************************************
+***************** iteration with real period is 0.0 ********************
+request time is 1.0
+granted time is 1.0
+Battery: Published voltage = 0.0 at time 1.0
+Battery: Published current = 0.0 at time 1.0
+triggerSender: send message-number-0.0 to distination: triggerReceiver  at time 1.0
+*********************************************************************************
+***************** iteration with real period is 1.0 ********************
+request time is 2.0
+granted time is 2.0
+Battery: Published voltage = 1.0 at time 2.0
+Battery: Published current = 1.0 at time 2.0
+triggerSender: send message-number-1.0 to distination: triggerReceiver  at time 2.0
+*********************************************************************************
+***************** iteration with real period is 2.0 ********************
+request time is 3.0
+granted time is 3.0
+Battery: Published voltage = 2.0 at time 3.0
+Battery: Published current = 2.0 at time 3.0
+triggerSender: send message-number-2.0 to distination: triggerReceiver  at time 3.0
+*********************************************************************************
+***************** iteration with real period is 3.0 ********************
+request time is 4.0
+granted time is 4.0
+Battery: Published voltage = 3.0 at time 4.0
+Battery: Published current = 3.0 at time 4.0
+triggerSender: send message-number-3.0 to distination: triggerReceiver  at time 4.0
+*********************************************************************************
+***************** iteration with real period is 4.0 ********************
+request time is 5.0
+granted time is 5.0
+Battery: Published voltage = 4.0 at time 5.0
+Battery: Published current = 4.0 at time 5.0
+triggerSender: send message-number-4.0 to distination: triggerReceiver  at time 5.0
+*********************************************************************************
+***************** iteration with real period is 5.0 ********************
+request time is 6.0
+granted time is 6.0
+Battery: Published voltage = 5.0 at time 6.0
+Battery: Published current = 5.0 at time 6.0
+triggerSender: send message-number-5.0 to distination: triggerReceiver  at time 6.0
+*********************************************************************************
+***************** iteration with real period is 6.0 ********************
+request time is 7.0
+granted time is 7.0
+Battery: Published voltage = 6.0 at time 7.0
+Battery: Published current = 6.0 at time 7.0
+triggerSender: send message-number-6.0 to distination: triggerReceiver  at time 7.0
+*********************************************************************************
+***************** iteration with real period is 7.0 ********************
+request time is 8.0
+granted time is 8.0
+Battery: Published voltage = 7.0 at time 8.0
+Battery: Published current = 7.0 at time 8.0
+triggerSender: send message-number-7.0 to distination: triggerReceiver  at time 8.0
+*********************************************************************************
+***************** iteration with real period is 8.0 ********************
+request time is 9.0
+granted time is 9.0
+Battery: Published voltage = 8.0 at time 9.0
+Battery: Published current = 8.0 at time 9.0
+triggerSender: send message-number-8.0 to distination: triggerReceiver  at time 9.0
+*********************************************************************************
+***************** iteration with real period is 9.0 ********************
+request time is 10.0
+granted time is 10.0
+Battery: Published voltage = 9.0 at time 10.0
+Battery: Published current = 9.0 at time 10.0
+triggerSender: send message-number-9.0 to distination: triggerReceiver  at time 10.0
+*********************************************************************************
+***************** iteration with real period is 10.0 ********************
+request time is 11.0
+granted time is 11.0
+Battery: Published voltage = 10.0 at time 11.0
+Battery: Published current = 10.0 at time 11.0
+triggerSender: send message-number-10.0 to distination: triggerReceiver  at time 11.0
+*********************************************************************************
+***************** iteration with real period is 11.0 ********************
+request time is 12.0
+granted time is 12.0
+Battery: Published voltage = 11.0 at time 12.0
+Battery: Published current = 11.0 at time 12.0
+triggerSender: send message-number-11.0 to distination: triggerReceiver  at time 12.0
+*********************************************************************************
+***************** iteration with real period is 12.0 ********************
+request time is 13.0
+granted time is 13.0
+Battery: Published voltage = 12.0 at time 13.0
+Battery: Published current = 12.0 at time 13.0
+triggerSender: send message-number-12.0 to distination: triggerReceiver  at time 13.0
+*********************************************************************************
+***************** iteration with real period is 13.0 ********************
+request time is 14.0
+granted time is 14.0
+Battery: Published voltage = 13.0 at time 14.0
+Battery: Published current = 13.0 at time 14.0
+triggerSender: send message-number-13.0 to distination: triggerReceiver  at time 14.0
+*********************************************************************************
+***************** iteration with real period is 14.0 ********************
+request time is 15.0
+granted time is 15.0
+Battery: Published voltage = 14.0 at time 15.0
+Battery: Published current = 14.0 at time 15.0
+triggerSender: send message-number-14.0 to distination: triggerReceiver  at time 15.0
+*********************************************************************************
+***************** iteration with real period is 15.0 ********************
+request time is 16.0
+granted time is 16.0
+Battery: Published voltage = 15.0 at time 16.0
+Battery: Published current = 15.0 at time 16.0
+triggerSender: send message-number-15.0 to distination: triggerReceiver  at time 16.0
+*********************************************************************************
+***************** iteration with real period is 16.0 ********************
+request time is 17.0
+granted time is 17.0
+Battery: Published voltage = 16.0 at time 17.0
+Battery: Published current = 16.0 at time 17.0
+triggerSender: send message-number-16.0 to distination: triggerReceiver  at time 17.0
+*********************************************************************************
+***************** iteration with real period is 17.0 ********************
+request time is 18.0
+granted time is 18.0
+Battery: Published voltage = 17.0 at time 18.0
+Battery: Published current = 17.0 at time 18.0
+triggerSender: send message-number-17.0 to distination: triggerReceiver  at time 18.0
+*********************************************************************************
+***************** iteration with real period is 18.0 ********************
+request time is 19.0
+granted time is 19.0
+Battery: Published voltage = 18.0 at time 19.0
+Battery: Published current = 18.0 at time 19.0
+triggerSender: send message-number-18.0 to distination: triggerReceiver  at time 19.0
+*********************************************************************************
+***************** iteration with real period is 19.0 ********************
+request time is 20.0
+granted time is 20.0
+Battery: Published voltage = 19.0 at time 20.0
+Battery: Published current = 19.0 at time 20.0
+triggerSender: send message-number-19.0 to distination: triggerReceiver  at time 20.0
+*********************************************************************************
+***************** iteration with real period is 20.0 ********************
+request time is 21.0
+granted time is 21.0
+Battery: Published voltage = 20.0 at time 21.0
+Battery: Published current = 20.0 at time 21.0
+triggerSender: send message-number-20.0 to distination: triggerReceiver  at time 21.0
+*********************************************************************************
+***************** iteration with real period is 21.0 ********************
+request time is 22.0
+granted time is 22.0
+Battery: Published voltage = 21.0 at time 22.0
+Battery: Published current = 21.0 at time 22.0
+triggerSender: send message-number-21.0 to distination: triggerReceiver  at time 22.0
+*********************************************************************************
+***************** iteration with real period is 22.0 ********************
+request time is 23.0
+granted time is 23.0
+Battery: Published voltage = 22.0 at time 23.0
+Battery: Published current = 22.0 at time 23.0
+triggerSender: send message-number-22.0 to distination: triggerReceiver  at time 23.0
+*********************************************************************************
+***************** iteration with real period is 23.0 ********************
+request time is 24.0
+granted time is 24.0
+Battery: Published voltage = 23.0 at time 24.0
+Battery: Published current = 23.0 at time 24.0
+triggerSender: send message-number-23.0 to distination: triggerReceiver  at time 24.0
+*********************************************************************************
+***************** iteration with real period is 24.0 ********************
+request time is 25.0
+granted time is 25.0
+Battery: Published voltage = 24.0 at time 25.0
+Battery: Published current = 24.0 at time 25.0
+triggerSender: send message-number-24.0 to distination: triggerReceiver  at time 25.0
+*********************************************************************************
+***************** iteration with real period is 25.0 ********************
+request time is 26.0
+granted time is 26.0
+Battery: Published voltage = 25.0 at time 26.0
+Battery: Published current = 25.0 at time 26.0
+triggerSender: send message-number-25.0 to distination: triggerReceiver  at time 26.0
+*********************************************************************************
+***************** iteration with real period is 26.0 ********************
+request time is 27.0
+granted time is 27.0
+Battery: Published voltage = 26.0 at time 27.0
+Battery: Published current = 26.0 at time 27.0
+triggerSender: send message-number-26.0 to distination: triggerReceiver  at time 27.0
+*********************************************************************************
+***************** iteration with real period is 27.0 ********************
+request time is 28.0
+granted time is 28.0
+Battery: Published voltage = 27.0 at time 28.0
+Battery: Published current = 27.0 at time 28.0
+triggerSender: send message-number-27.0 to distination: triggerReceiver  at time 28.0
+*********************************************************************************
+***************** iteration with real period is 28.0 ********************
+request time is 29.0
+granted time is 29.0
+Battery: Published voltage = 28.0 at time 29.0
+Battery: Published current = 28.0 at time 29.0
+triggerSender: send message-number-28.0 to distination: triggerReceiver  at time 29.0
+*********************************************************************************
+***************** iteration with real period is 29.0 ********************
+request time is 30.0
+granted time is 30.0
+Battery: Published voltage = 29.0 at time 30.0
+Battery: Published current = 29.0 at time 30.0
+triggerSender: send message-number-29.0 to distination: triggerReceiver  at time 30.0
+*********************************************************************************
+***************** iteration with real period is 30.0 ********************
+request time is 31.0
+granted time is 31.0
+Battery: Published voltage = 30.0 at time 31.0
+Battery: Published current = 30.0 at time 31.0
+triggerSender: send message-number-30.0 to distination: triggerReceiver  at time 31.0
+*********************************************************************************
+***************** iteration with real period is 31.0 ********************
+request time is 32.0
+granted time is 32.0
+Battery: Published voltage = 31.0 at time 32.0
+Battery: Published current = 31.0 at time 32.0
+triggerSender: send message-number-31.0 to distination: triggerReceiver  at time 32.0
+*********************************************************************************
+***************** iteration with real period is 32.0 ********************
+request time is 33.0
+granted time is 33.0
+Battery: Published voltage = 32.0 at time 33.0
+Battery: Published current = 32.0 at time 33.0
+triggerSender: send message-number-32.0 to distination: triggerReceiver  at time 33.0
+*********************************************************************************
+***************** iteration with real period is 33.0 ********************
+request time is 34.0
+granted time is 34.0
+Battery: Published voltage = 33.0 at time 34.0
+Battery: Published current = 33.0 at time 34.0
+triggerSender: send message-number-33.0 to distination: triggerReceiver  at time 34.0
+*********************************************************************************
+***************** iteration with real period is 34.0 ********************
+request time is 35.0
+granted time is 35.0
+Battery: Published voltage = 34.0 at time 35.0
+Battery: Published current = 34.0 at time 35.0
+triggerSender: send message-number-34.0 to distination: triggerReceiver  at time 35.0
+*********************************************************************************
+***************** iteration with real period is 35.0 ********************
+request time is 36.0
+granted time is 36.0
+Battery: Published voltage = 35.0 at time 36.0
+Battery: Published current = 35.0 at time 36.0
+triggerSender: send message-number-35.0 to distination: triggerReceiver  at time 36.0
+*********************************************************************************
+***************** iteration with real period is 36.0 ********************
+request time is 37.0
+granted time is 37.0
+Battery: Published voltage = 36.0 at time 37.0
+Battery: Published current = 36.0 at time 37.0
+triggerSender: send message-number-36.0 to distination: triggerReceiver  at time 37.0
+*********************************************************************************
+***************** iteration with real period is 37.0 ********************
+request time is 38.0
+granted time is 38.0
+Battery: Published voltage = 37.0 at time 38.0
+Battery: Published current = 37.0 at time 38.0
+triggerSender: send message-number-37.0 to distination: triggerReceiver  at time 38.0
+*********************************************************************************
+***************** iteration with real period is 38.0 ********************
+request time is 39.0
+granted time is 39.0
+Battery: Published voltage = 38.0 at time 39.0
+Battery: Published current = 38.0 at time 39.0
+triggerSender: send message-number-38.0 to distination: triggerReceiver  at time 39.0
+*********************************************************************************
+***************** iteration with real period is 39.0 ********************
+request time is 40.0
+granted time is 40.0
+Battery: Published voltage = 39.0 at time 40.0
+Battery: Published current = 39.0 at time 40.0
+triggerSender: send message-number-39.0 to distination: triggerReceiver  at time 40.0
+*********************************************************************************
+***************** iteration with real period is 40.0 ********************
+request time is 41.0
+granted time is 41.0
+Battery: Published voltage = 40.0 at time 41.0
+Battery: Published current = 40.0 at time 41.0
+triggerSender: send message-number-40.0 to distination: triggerReceiver  at time 41.0
+*********************************************************************************
+***************** iteration with real period is 41.0 ********************
+request time is 42.0
+granted time is 42.0
+Battery: Published voltage = 41.0 at time 42.0
+Battery: Published current = 41.0 at time 42.0
+triggerSender: send message-number-41.0 to distination: triggerReceiver  at time 42.0
+*********************************************************************************
+***************** iteration with real period is 42.0 ********************
+request time is 43.0
+granted time is 43.0
+Battery: Published voltage = 42.0 at time 43.0
+Battery: Published current = 42.0 at time 43.0
+triggerSender: send message-number-42.0 to distination: triggerReceiver  at time 43.0
+*********************************************************************************
+***************** iteration with real period is 43.0 ********************
+request time is 44.0
+granted time is 44.0
+Battery: Published voltage = 43.0 at time 44.0
+Battery: Published current = 43.0 at time 44.0
+triggerSender: send message-number-43.0 to distination: triggerReceiver  at time 44.0
+*********************************************************************************
+***************** iteration with real period is 44.0 ********************
+request time is 45.0
+granted time is 45.0
+Battery: Published voltage = 44.0 at time 45.0
+Battery: Published current = 44.0 at time 45.0
+triggerSender: send message-number-44.0 to distination: triggerReceiver  at time 45.0
+*********************************************************************************
+***************** iteration with real period is 45.0 ********************
+request time is 46.0
+granted time is 46.0
+Battery: Published voltage = 45.0 at time 46.0
+Battery: Published current = 45.0 at time 46.0
+triggerSender: send message-number-45.0 to distination: triggerReceiver  at time 46.0
+*********************************************************************************
+***************** iteration with real period is 46.0 ********************
+request time is 47.0
+granted time is 47.0
+Battery: Published voltage = 46.0 at time 47.0
+Battery: Published current = 46.0 at time 47.0
+triggerSender: send message-number-46.0 to distination: triggerReceiver  at time 47.0
+*********************************************************************************
+***************** iteration with real period is 47.0 ********************
+request time is 48.0
+granted time is 48.0
+Battery: Published voltage = 47.0 at time 48.0
+Battery: Published current = 47.0 at time 48.0
+triggerSender: send message-number-47.0 to distination: triggerReceiver  at time 48.0
+*********************************************************************************
+***************** iteration with real period is 48.0 ********************
+request time is 49.0
+granted time is 49.0
+Battery: Published voltage = 48.0 at time 49.0
+Battery: Published current = 48.0 at time 49.0
+triggerSender: send message-number-48.0 to distination: triggerReceiver  at time 49.0
+*********************************************************************************
+***************** iteration with real period is 49.0 ********************
+request time is 50.0
+granted time is 50.0
+Battery: Published voltage = 49.0 at time 50.0
+Battery: Published current = 49.0 at time 50.0
+triggerSender: send message-number-49.0 to distination: triggerReceiver  at time 50.0
+*********************************************************************************
+***************** iteration with real period is 50.0 ********************
+request time is 51.0
+granted time is 51.0
+Battery: Published voltage = 50.0 at time 51.0
+Battery: Published current = 50.0 at time 51.0
+triggerSender: send message-number-50.0 to distination: triggerReceiver  at time 51.0
+*********************************************************************************
+***************** iteration with real period is 51.0 ********************
+request time is 52.0
+granted time is 52.0
+Battery: Published voltage = 51.0 at time 52.0
+Battery: Published current = 51.0 at time 52.0
+triggerSender: send message-number-51.0 to distination: triggerReceiver  at time 52.0
+*********************************************************************************
+***************** iteration with real period is 52.0 ********************
+request time is 53.0
+granted time is 53.0
+Battery: Published voltage = 52.0 at time 53.0
+Battery: Published current = 52.0 at time 53.0
+triggerSender: send message-number-52.0 to distination: triggerReceiver  at time 53.0
+*********************************************************************************
+***************** iteration with real period is 53.0 ********************
+request time is 54.0
+granted time is 54.0
+Battery: Published voltage = 53.0 at time 54.0
+Battery: Published current = 53.0 at time 54.0
+triggerSender: send message-number-53.0 to distination: triggerReceiver  at time 54.0
+*********************************************************************************
+***************** iteration with real period is 54.0 ********************
+request time is 55.0
+granted time is 55.0
+Battery: Published voltage = 54.0 at time 55.0
+Battery: Published current = 54.0 at time 55.0
+triggerSender: send message-number-54.0 to distination: triggerReceiver  at time 55.0
+*********************************************************************************
+***************** iteration with real period is 55.0 ********************
+request time is 56.0
+granted time is 56.0
+Battery: Published voltage = 55.0 at time 56.0
+Battery: Published current = 55.0 at time 56.0
+triggerSender: send message-number-55.0 to distination: triggerReceiver  at time 56.0
+*********************************************************************************
+***************** iteration with real period is 56.0 ********************
+request time is 57.0
+granted time is 57.0
+Battery: Published voltage = 56.0 at time 57.0
+Battery: Published current = 56.0 at time 57.0
+triggerSender: send message-number-56.0 to distination: triggerReceiver  at time 57.0
+*********************************************************************************
+***************** iteration with real period is 57.0 ********************
+request time is 58.0
+granted time is 58.0
+Battery: Published voltage = 57.0 at time 58.0
+Battery: Published current = 57.0 at time 58.0
+triggerSender: send message-number-57.0 to distination: triggerReceiver  at time 58.0
+*********************************************************************************
+***************** iteration with real period is 58.0 ********************
+request time is 59.0
+granted time is 59.0
+Battery: Published voltage = 58.0 at time 59.0
+Battery: Published current = 58.0 at time 59.0
+triggerSender: send message-number-58.0 to distination: triggerReceiver  at time 59.0
+*********************************************************************************
+***************** iteration with real period is 59.0 ********************
+request time is 60.0
+granted time is 60.0
+Battery: Published voltage = 59.0 at time 60.0
+Battery: Published current = 59.0 at time 60.0
+triggerSender: send message-number-59.0 to distination: triggerReceiver  at time 60.0
+*********************************************************************************
+***************** iteration with real period is 60.0 ********************
+request time is 61.0
+granted time is 61.0
+Battery: Published voltage = 60.0 at time 61.0
+Battery: Published current = 60.0 at time 61.0
+triggerSender: send message-number-60.0 to distination: triggerReceiver  at time 61.0
+*********************************************************************************
+***************** iteration with real period is 61.0 ********************
+request time is 62.0
+granted time is 62.0
+Battery: Published voltage = 61.0 at time 62.0
+Battery: Published current = 61.0 at time 62.0
+triggerSender: send message-number-61.0 to distination: triggerReceiver  at time 62.0
+*********************************************************************************
+***************** iteration with real period is 62.0 ********************
+request time is 63.0
+granted time is 63.0
+Battery: Published voltage = 62.0 at time 63.0
+Battery: Published current = 62.0 at time 63.0
+triggerSender: send message-number-62.0 to distination: triggerReceiver  at time 63.0
+*********************************************************************************
+***************** iteration with real period is 63.0 ********************
+request time is 64.0
+granted time is 64.0
+Battery: Published voltage = 63.0 at time 64.0
+Battery: Published current = 63.0 at time 64.0
+triggerSender: send message-number-63.0 to distination: triggerReceiver  at time 64.0
+*********************************************************************************
+***************** iteration with real period is 64.0 ********************
+request time is 65.0
+granted time is 65.0
+Battery: Published voltage = 64.0 at time 65.0
+Battery: Published current = 64.0 at time 65.0
+triggerSender: send message-number-64.0 to distination: triggerReceiver  at time 65.0
+*********************************************************************************
+***************** iteration with real period is 65.0 ********************
+request time is 66.0
+granted time is 66.0
+Battery: Published voltage = 65.0 at time 66.0
+Battery: Published current = 65.0 at time 66.0
+triggerSender: send message-number-65.0 to distination: triggerReceiver  at time 66.0
+*********************************************************************************
+***************** iteration with real period is 66.0 ********************
+request time is 67.0
+granted time is 67.0
+Battery: Published voltage = 66.0 at time 67.0
+Battery: Published current = 66.0 at time 67.0
+triggerSender: send message-number-66.0 to distination: triggerReceiver  at time 67.0
+*********************************************************************************
+***************** iteration with real period is 67.0 ********************
+request time is 68.0
+granted time is 68.0
+Battery: Published voltage = 67.0 at time 68.0
+Battery: Published current = 67.0 at time 68.0
+triggerSender: send message-number-67.0 to distination: triggerReceiver  at time 68.0
+*********************************************************************************
+***************** iteration with real period is 68.0 ********************
+request time is 69.0
+granted time is 69.0
+Battery: Published voltage = 68.0 at time 69.0
+Battery: Published current = 68.0 at time 69.0
+triggerSender: send message-number-68.0 to distination: triggerReceiver  at time 69.0
+*********************************************************************************
+***************** iteration with real period is 69.0 ********************
+request time is 70.0
+granted time is 70.0
+Battery: Published voltage = 69.0 at time 70.0
+Battery: Published current = 69.0 at time 70.0
+triggerSender: send message-number-69.0 to distination: triggerReceiver  at time 70.0
+*********************************************************************************
+***************** iteration with real period is 70.0 ********************
+request time is 71.0
+granted time is 71.0
+Battery: Published voltage = 70.0 at time 71.0
+Battery: Published current = 70.0 at time 71.0
+triggerSender: send message-number-70.0 to distination: triggerReceiver  at time 71.0
+*********************************************************************************
+***************** iteration with real period is 71.0 ********************
+request time is 72.0
+granted time is 72.0
+Battery: Published voltage = 71.0 at time 72.0
+Battery: Published current = 71.0 at time 72.0
+triggerSender: send message-number-71.0 to distination: triggerReceiver  at time 72.0
+*********************************************************************************
+***************** iteration with real period is 72.0 ********************
+request time is 73.0
+granted time is 73.0
+Battery: Published voltage = 72.0 at time 73.0
+Battery: Published current = 72.0 at time 73.0
+triggerSender: send message-number-72.0 to distination: triggerReceiver  at time 73.0
+*********************************************************************************
+***************** iteration with real period is 73.0 ********************
+request time is 74.0
+granted time is 74.0
+Battery: Published voltage = 73.0 at time 74.0
+Battery: Published current = 73.0 at time 74.0
+triggerSender: send message-number-73.0 to distination: triggerReceiver  at time 74.0
+*********************************************************************************
+***************** iteration with real period is 74.0 ********************
+request time is 75.0
+granted time is 75.0
+Battery: Published voltage = 74.0 at time 75.0
+Battery: Published current = 74.0 at time 75.0
+triggerSender: send message-number-74.0 to distination: triggerReceiver  at time 75.0
+*********************************************************************************
+***************** iteration with real period is 75.0 ********************
+request time is 76.0
+granted time is 76.0
+Battery: Published voltage = 75.0 at time 76.0
+Battery: Published current = 75.0 at time 76.0
+triggerSender: send message-number-75.0 to distination: triggerReceiver  at time 76.0
+*********************************************************************************
+***************** iteration with real period is 76.0 ********************
+request time is 77.0
+granted time is 77.0
+Battery: Published voltage = 76.0 at time 77.0
+Battery: Published current = 76.0 at time 77.0
+triggerSender: send message-number-76.0 to distination: triggerReceiver  at time 77.0
+*********************************************************************************
+***************** iteration with real period is 77.0 ********************
+request time is 78.0
+granted time is 78.0
+Battery: Published voltage = 77.0 at time 78.0
+Battery: Published current = 77.0 at time 78.0
+triggerSender: send message-number-77.0 to distination: triggerReceiver  at time 78.0
+*********************************************************************************
+***************** iteration with real period is 78.0 ********************
+request time is 79.0
+granted time is 79.0
+Battery: Published voltage = 78.0 at time 79.0
+Battery: Published current = 78.0 at time 79.0
+triggerSender: send message-number-78.0 to distination: triggerReceiver  at time 79.0
+*********************************************************************************
+***************** iteration with real period is 79.0 ********************
+request time is 80.0
+granted time is 80.0
+Battery: Published voltage = 79.0 at time 80.0
+Battery: Published current = 79.0 at time 80.0
+triggerSender: send message-number-79.0 to distination: triggerReceiver  at time 80.0
+*********************************************************************************
+***************** iteration with real period is 80.0 ********************
+request time is 81.0
+granted time is 81.0
+Battery: Published voltage = 80.0 at time 81.0
+Battery: Published current = 80.0 at time 81.0
+triggerSender: send message-number-80.0 to distination: triggerReceiver  at time 81.0
+*********************************************************************************
+***************** iteration with real period is 81.0 ********************
+request time is 82.0
+granted time is 82.0
+Battery: Published voltage = 81.0 at time 82.0
+Battery: Published current = 81.0 at time 82.0
+triggerSender: send message-number-81.0 to distination: triggerReceiver  at time 82.0
+*********************************************************************************
+***************** iteration with real period is 82.0 ********************
+request time is 83.0
+granted time is 83.0
+Battery: Published voltage = 82.0 at time 83.0
+Battery: Published current = 82.0 at time 83.0
+triggerSender: send message-number-82.0 to distination: triggerReceiver  at time 83.0
+*********************************************************************************
+***************** iteration with real period is 83.0 ********************
+request time is 84.0
+granted time is 84.0
+Battery: Published voltage = 83.0 at time 84.0
+Battery: Published current = 83.0 at time 84.0
+triggerSender: send message-number-83.0 to distination: triggerReceiver  at time 84.0
+*********************************************************************************
+***************** iteration with real period is 84.0 ********************
+request time is 85.0
+granted time is 85.0
+Battery: Published voltage = 84.0 at time 85.0
+Battery: Published current = 84.0 at time 85.0
+triggerSender: send message-number-84.0 to distination: triggerReceiver  at time 85.0
+*********************************************************************************
+***************** iteration with real period is 85.0 ********************
+request time is 86.0
+granted time is 86.0
+Battery: Published voltage = 85.0 at time 86.0
+Battery: Published current = 85.0 at time 86.0
+triggerSender: send message-number-85.0 to distination: triggerReceiver  at time 86.0
+*********************************************************************************
+***************** iteration with real period is 86.0 ********************
+request time is 87.0
+granted time is 87.0
+Battery: Published voltage = 86.0 at time 87.0
+Battery: Published current = 86.0 at time 87.0
+triggerSender: send message-number-86.0 to distination: triggerReceiver  at time 87.0
+*********************************************************************************
+***************** iteration with real period is 87.0 ********************
+request time is 88.0
+granted time is 88.0
+Battery: Published voltage = 87.0 at time 88.0
+Battery: Published current = 87.0 at time 88.0
+triggerSender: send message-number-87.0 to distination: triggerReceiver  at time 88.0
+*********************************************************************************
+***************** iteration with real period is 88.0 ********************
+request time is 89.0
+granted time is 89.0
+Battery: Published voltage = 88.0 at time 89.0
+Battery: Published current = 88.0 at time 89.0
+triggerSender: send message-number-88.0 to distination: triggerReceiver  at time 89.0
+*********************************************************************************
+***************** iteration with real period is 89.0 ********************
+request time is 90.0
+granted time is 90.0
+Battery: Published voltage = 89.0 at time 90.0
+Battery: Published current = 89.0 at time 90.0
+triggerSender: send message-number-89.0 to distination: triggerReceiver  at time 90.0
+*********************************************************************************
+***************** iteration with real period is 90.0 ********************
+request time is 91.0
+granted time is 91.0
+Battery: Published voltage = 90.0 at time 91.0
+Battery: Published current = 90.0 at time 91.0
+triggerSender: send message-number-90.0 to distination: triggerReceiver  at time 91.0
+*********************************************************************************
+***************** iteration with real period is 91.0 ********************
+request time is 92.0
+granted time is 92.0
+Battery: Published voltage = 91.0 at time 92.0
+Battery: Published current = 91.0 at time 92.0
+triggerSender: send message-number-91.0 to distination: triggerReceiver  at time 92.0
+*********************************************************************************
+***************** iteration with real period is 92.0 ********************
+request time is 93.0
+granted time is 93.0
+Battery: Published voltage = 92.0 at time 93.0
+Battery: Published current = 92.0 at time 93.0
+triggerSender: send message-number-92.0 to distination: triggerReceiver  at time 93.0
+*********************************************************************************
+***************** iteration with real period is 93.0 ********************
+request time is 94.0
+granted time is 94.0
+Battery: Published voltage = 93.0 at time 94.0
+Battery: Published current = 93.0 at time 94.0
+triggerSender: send message-number-93.0 to distination: triggerReceiver  at time 94.0
+*********************************************************************************
+***************** iteration with real period is 94.0 ********************
+request time is 95.0
+granted time is 95.0
+Battery: Published voltage = 94.0 at time 95.0
+Battery: Published current = 94.0 at time 95.0
+triggerSender: send message-number-94.0 to distination: triggerReceiver  at time 95.0
+*********************************************************************************
+***************** iteration with real period is 95.0 ********************
+request time is 96.0
+granted time is 96.0
+Battery: Published voltage = 95.0 at time 96.0
+Battery: Published current = 95.0 at time 96.0
+triggerSender: send message-number-95.0 to distination: triggerReceiver  at time 96.0
+*********************************************************************************
+***************** iteration with real period is 96.0 ********************
+request time is 97.0
+granted time is 97.0
+Battery: Published voltage = 96.0 at time 97.0
+Battery: Published current = 96.0 at time 97.0
+triggerSender: send message-number-96.0 to distination: triggerReceiver  at time 97.0
+*********************************************************************************
+***************** iteration with real period is 97.0 ********************
+request time is 98.0
+granted time is 98.0
+Battery: Published voltage = 97.0 at time 98.0
+Battery: Published current = 97.0 at time 98.0
+triggerSender: send message-number-97.0 to distination: triggerReceiver  at time 98.0
+*********************************************************************************
+***************** iteration with real period is 98.0 ********************
+request time is 99.0
+granted time is 99.0
+Battery: Published voltage = 98.0 at time 99.0
+Battery: Published current = 98.0 at time 99.0
+triggerSender: send message-number-98.0 to distination: triggerReceiver  at time 99.0
+*********************************************************************************
+***************** iteration with real period is 99.0 ********************
+request time is 100.0
+granted time is 100.0
+Battery: Published voltage = 99.0 at time 100.0
+Battery: Published current = 99.0 at time 100.0
+triggerSender: send message-number-99.0 to distination: triggerReceiver  at time 100.0

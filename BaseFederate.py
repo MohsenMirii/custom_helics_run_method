@@ -72,7 +72,7 @@ class BaseFederate(ABC):
         
         
         # Create value federate
-        fed = h.helicsCreateValueFederate(config.name, fedinfo)
+        fed = h.helicsCreateCombinationFederate(config.name, fedinfo)
         
         period_from_fed = h.helicsFederateGetTimeProperty(fed, h.HELICS_PROPERTY_TIME_PERIOD)
         offset_from_fed = h.helicsFederateGetTimeProperty(fed, h.HELICS_PROPERTY_TIME_OFFSET)
@@ -103,11 +103,11 @@ class BaseFederate(ABC):
             for pub in config.publications:
                 pub_name = config.name + "/" + pub['key']
                 publications[pub['key']] = h.helicsFederateRegisterGlobalTypePublication(
-                    fed, pub_name, pub['type'], pub.get("unit", ""))
+                    fed, pub_name, pub['dataType'], pub.get("unit", ""))
                 
-                pubType = pub['type']
+                pubType = pub['dataType']
                 unit = pub.get("unit", "")                
-                print(f'publishes {pub_name} type {pubType} unit {unit}', )
+                print(f'publishes {pub_name} dataType {pubType} unit {unit}', )
                 
         # Register subscriptions if they exist
         subscriptions = {}
@@ -123,12 +123,12 @@ class BaseFederate(ABC):
         # Register endpoints if they exist
         endpoints = {}
         if config.endpoints is not None:
-            for ep in config.endpoints:
-                endpoints[ep["name"]] = h.helicsFederateRegisterEndpoint(fed, ep["name"], ep.get("type", ""))
+            for ep_cfg in config.endpoints:
                 
-                ep = ep["name"]
-                epType = ep.get("type", "")
-                print(f'endpoint {ep} type {epType}', )
+                ep = h.helicsFederateRegisterGlobalEndpoint(fed, ep_cfg['name'], ep_cfg['type'])
+                #h.helicsEndpointSetDefaultDestination(ep, ep_cfg['destination'])
+                endpoints[ep_cfg['name']] = ep
+                
                 
         
         return fed, publications, subscriptions, endpoints

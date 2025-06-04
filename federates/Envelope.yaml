@@ -27,7 +27,7 @@ flags:
   rollback: false
   forward_compute: true
   event_triggered: false
-  single_thread_federate: true
+  single_thread_federate: false
   ignore_time_mismatch_warnings: false
   force_logging_flush: true
   dumplog: false
@@ -39,18 +39,18 @@ endpoints: []
 subscriptions:
   # From Battery
   - key: Battery/voltage
-    type: double
+    dataType: double
     unit: V
   - key: Battery/current
-    type: double
+    dataType: double
     unit: A
   
   # From HeatPump
   - key: HeatPump/power
-    type: double
+    dataType: double
     unit: W
   - key: HeatPump/status
-    type: string
+    dataType: string
 
 # Publications (publishing to ...)
 publications:
