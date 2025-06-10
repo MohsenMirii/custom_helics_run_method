@@ -34,23 +34,22 @@ flags:
   slow_responding: false
 
 
-endpoints:
-  - name: triggerSender
-    type: message
-    global: true
-    destination: triggerReceiver
+endpoints: []
+#  - name: batterySender
+#    type: message
+#    global: true
+#    destination: familyReceiver
+#    default_destination: familyReceiver
+
   
 # Subscriptions (receiving from ...)
 subscriptions:
 
-# Publications (publishing to ...)
+# Publications (publishing to HeatPump)
 publications:
   - key: voltage
     dataType: double
     unit: V
-  - key: current
-    dataType: double
-    unit: A
 
 memory:
   - SOC

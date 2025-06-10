@@ -19,19 +19,15 @@ class EventDrivenType(BaseFederate):
         
         timing_config = TimingConfigs(**self.federate_config.timing_configs)
         max_iterations = timing_config.int_max_iterations
-        #period = timing_config.time_period
         granted_time = 0.0
-        start_time = 0.0        
-        requested_time = start_time
-        granted_time = h.helicsFederateRequestTime(self.fed, 10000)
+        requested_time = 0.0
+        granted_time = h.helicsFederateRequestTime(self.fed, requested_time)
         
         
-        while start_time < max_iterations:
+        while granted_time < max_iterations:
             
-            print(f"*********************************************************************************")        
-            print(f"***************** iteration {granted_time} ********************")        
-            
-            
+            print("*********************************************************************************")        
+            print(f"***************** iteration {requested_time} ********************")
             print(f"request time is {requested_time}")
             print(f"granted time is {granted_time}")
             
@@ -39,63 +35,61 @@ class EventDrivenType(BaseFederate):
             #     raise Exception("Fake Exceptions to test its impact on the performance of other federates !")
 
 
+            # Reset event flag at start of each iteration
             has_event = False
 
-            # Check subscriptions for new data
-            if self.subscriptions:
-                for key, sub in self.subscriptions.items():
-                    while h.helicsInputIsUpdated(sub):
-                        has_event = True
-                        value = h.helicsInputGetDouble(sub)                        
-                        
-                        print(f"{self.federate_config.name}: Received event {key} = {value} at time {granted_time}")                       
-                        
-                        # Process the event here
-                        self.process_event(key, value, granted_time)
-                        
-            # Check endpoints for messages
+            # ----------------------------
+            # 1. Check Endpoints for Messages
+            # ----------------------------
             if self.endpoints:
-                for name, ep in self.endpoints.items():
-                    while h.helicsEndpointHasMessage(ep):
+                for ep_name, endpoint in self.endpoints.items():
+                    while h.helicsEndpointHasMessage(endpoint):
+                        msg = h.helicsEndpointGetMessage(endpoint)
+                        msg_time = h.helicsMessageGetTime(msg)
+                
+                        # Only process messages for current or past time
+                        if msg_time <= granted_time:
+                            has_event = True
+                            source = h.helicsMessageGetSource(msg)
+                            data = h.helicsMessageGetString(msg)
+                            print(f"Endpoint[{ep_name}] Received: {data} from {source}")
+                        else:
+                            # Return future-dated messages to queue
+                            h.helicsEndpointSendMessageRaw(endpoint, source, data, msg_time)
+                        break
+            
+            
+            
+            # ----------------------------
+            # 2. Check Subscriptions for Updates
+            # ----------------------------
+            if self.subscriptions:
+                for sub_name, subscription in self.subscriptions.items():
+                    if h.helicsInputIsUpdated(subscription):
                         has_event = True
-                        msg = h.helicsEndpointGetMessage(ep)
-                        
-                        # Extract message content
-                        source = h.helicsMessageGetSource(msg)
-                        data = h.helicsMessageGetString(msg)
-                        time = h.helicsMessageGetTime(msg)
-                        print(f"{self.federate_config.name}: Received {data} from {source} at {name} at time {time}")
-                        # Process the message here
-                        self.process_message(name, msg, granted_time)
+                        value = h.helicsInputGetDouble(subscription)  # Or appropriate type
+                        print(f"Subscription[{sub_name}] Updated: {value}")
+                        self.process_subscription_update(sub_name, value, granted_time)
+                
+                
             
-            
-            # Only advance time if we had an event or we're at time zero
-            if has_event:
-                # Publish any outputs if needed
+            # ----------------------------
+            # 3. Handle Publications if Events Occurred
+            # ----------------------------
+            if has_event or granted_time == 0:
                 if self.publications:
-                    for key, pub in self.publications.items():
-                        value = self.generate_output(key, granted_time)
-                        h.helicsPublicationPublishDouble(pub, value)
-                        print(f"{self.federate_config.name}: Published {key} = {value} at time {granted_time}")
+                    for pub_name, publication in self.publications.items():
+                        pub_value = granted_time
+                        h.helicsPublicationPublishDouble(publication, pub_value)
+                        print(f"Published {pub_name} = {pub_value}")
+                
+                
+            # Event-driven time request logic
+            if has_event:            
+                # Advance time
+                granted_time = h.helicsFederateRequestTime(self.fed, requested_time)            
+                requested_time = granted_time            
             
-            
-            # Always request time advancement to maintain time synchronization
-            #requested_time = min(granted_time + period, total_time)
-            granted_time = h.helicsFederateRequestTime(self.fed, requested_time)
-            requested_time = granted_time
-            has_event = False
-            start_time += granted_time
-            
-            
-            
-            
-    def process_event(self, key, value, time):
-        """Override this method to handle subscription events"""
-        pass
-    
-    def process_message(self, endpoint_name, message, time):
-        """Override this method to handle endpoint messages"""
-        pass
     
     def generate_output(self, publication_key, time):
         """Override this method to generate output values when events occur"""

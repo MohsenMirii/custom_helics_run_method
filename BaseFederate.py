@@ -25,7 +25,9 @@ class BaseFederate(ABC):
         json_string = json.dumps(self.config) 
         data_dict = json.loads(json_string)
         self.federate_config = FederateConfig(**data_dict)
+        print('start creating federate')
         
+        print('End creating federate')
         self.fed, self.publications, self.subscriptions, self.endpoints = self.create_federate(self,self.federate_config)
         print_changed_flags(self.fed)
 
@@ -70,7 +72,7 @@ class BaseFederate(ABC):
         if self.__class__.__name__ == "EventDrivenType":
             h.helicsFederateInfoSetFlagOption(fedinfo, h.HELICS_FLAG_UNINTERRUPTIBLE, False)
         
-        
+        print('self.__class__.__name__ is: ', self.__class__.__name__)
         # Create value federate
         fed = h.helicsCreateCombinationFederate(config.name, fedinfo)
         
@@ -126,7 +128,10 @@ class BaseFederate(ABC):
             for ep_cfg in config.endpoints:
                 
                 ep = h.helicsFederateRegisterGlobalEndpoint(fed, ep_cfg['name'], ep_cfg['type'])
-                #h.helicsEndpointSetDefaultDestination(ep, ep_cfg['destination'])
+                #h.helicsEndpointSetDefaultDestination(ep, ep_cfg["default_destination"])
+                if ep_cfg['destination'] is not None and ep_cfg['destination'] != '':                    
+                  h.helicsEndpointSetDefaultDestination(ep, ep_cfg['destination'])
+                
                 endpoints[ep_cfg['name']] = ep
                 
                 

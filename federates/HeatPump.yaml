@@ -22,7 +22,7 @@ flags:
   source_only: false
   only_transmit_on_change: true
   only_update_on_change: true
-  wait_for_current_time_update: false
+  wait_for_current_time_update: true
   restrictive_time_policy: true
   rollback: false
   forward_compute: true
@@ -34,28 +34,23 @@ flags:
   slow_responding: false
 
 
-endpoints:
-  - name: triggerReceiver
-    type: message
-    global: true
+endpoints: []
+
 
 # Subscriptions (receiving from Battery)
 subscriptions:
   - key: Battery/voltage
     dataType: double
     unit: V
-  - key: Battery/current
-    dataType: double
-    unit: A
+ 
 
-# Publications (publishing to Envelope)
+
+# Publications (publishing to Family)
 publications:
   - key: power
     dataType: double
-    unit: W
-  - key: status
-    dataType: string
-
+    unit: V
+  
 
 memory:
   - SOC

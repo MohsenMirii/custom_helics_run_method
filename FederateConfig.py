@@ -54,6 +54,12 @@ class ConnectionEndpoint:
     type: str
     unit: str
 
+@dataclass
+class Endpoint:
+    key: str
+    type: str
+    destination : str
+    default_destination : str
 
 @dataclass
 class FederateConfig:
@@ -63,7 +69,7 @@ class FederateConfig:
     
     timing_configs: TimingConfigs
     flags: Flags    
-    endpoints: List[str]    
+    endpoints: List[Endpoint]    
     subscriptions: List[ConnectionEndpoint]
     publications: List[ConnectionEndpoint]
     memory: List[str]

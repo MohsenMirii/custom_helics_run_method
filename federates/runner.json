@@ -3,7 +3,7 @@
   "federates": [
     {
       "directory": "..",
-      "exec": "helics_broker -f 3 --loglevel=warning --name=mainbroker",
+      "exec": "helics_broker -f 4 --loglevel=warning --name=mainbroker",
       "name": "mainbroker"
     },
     {
@@ -15,17 +15,25 @@
     },
     {
       "directory": ".",
-      "exec": "python -u RunnerType2.py federates/Envelope.yaml --loglevel=warning",
+      "exec": "python -u SubscribeDrivenType.py federates/HeatPump.yaml --loglevel=warning",
+      "host": "localhost",
+      "name": "HeatPump"
+
+    },
+    {
+      "directory": ".",
+      "exec": "python -u EndpointDrivenType.py federates/Envelope.yaml --loglevel=warning",
       "host": "localhost",
       "name": "Envelope"
 
     },
     {
       "directory": ".",
-      "exec": "python -u EventDrivenType.py federates/HeatPump.yaml --loglevel=warning",
+      "exec": "python -u EventDrivenType.py federates/Family.yaml --loglevel=warning",
       "host": "localhost",
-      "name": "HeatPump"
+      "name": "Family"
 
     }
+
 ]
 }

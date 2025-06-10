@@ -33,28 +33,18 @@ flags:
   dumplog: false
   slow_responding: false
 
-endpoints: []
+endpoints:
+  - name: envelopReceiver
+    type: message
+    global: true
+    destination: familyReceiver
 
 # Subscriptions (receiving from ...)
 subscriptions:
-  # From Battery
-  - key: Battery/voltage
-    dataType: double
-    unit: V
-  - key: Battery/current
-    dataType: double
-    unit: A
-  
-  # From HeatPump
-  - key: HeatPump/power
-    dataType: double
-    unit: W
-  - key: HeatPump/status
-    dataType: string
 
 # Publications (publishing to ...)
 publications:
-
+  
 memory:
   - SOC
   - PnetBatt

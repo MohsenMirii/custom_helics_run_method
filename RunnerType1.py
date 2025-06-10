@@ -19,17 +19,17 @@ class RunnerType1(BaseFederate):
         h.helicsFederateEnterExecutingMode(self.fed)
         
         timing_config = TimingConfigs(**self.federate_config.timing_configs)
-        total_time = timing_config.int_max_iterations
+        max_iterations = timing_config.int_max_iterations
         period = timing_config.time_period
         granted_time = 0.0
         start_time = 0.0
         request_time=0.0
         real_period = timing_config.real_period
         
-        while start_time < total_time:
+        while granted_time < max_iterations:
             
             print(f"*********************************************************************************")        
-            print(f"***************** iteration with real period is {start_time} ********************")        
+            print(f"***************** iteration with real period is {granted_time} ********************")        
             
             
             # Federate-specific logic here
@@ -46,22 +46,19 @@ class RunnerType1(BaseFederate):
 
             if self.publications:
                 for key, pub in self.publications.items():
-                    value = start_time  # Your battery-specific value calculation
-                    h.helicsPublicationPublishDouble(pub, value)
-                    print(f"{self.federate_config.name}: Published {key} = {value} at time {granted_time}")
+                    value = granted_time  # Your battery-specific value calculation
+                    if granted_time % 5 == 0:
+                        h.helicsPublicationPublishDouble(pub, value)
+                        print(f"{self.federate_config.name}: Published {key} = {value} at time {granted_time}")
                     
                     
-            if self.endpoints:
+            if self.endpoints:                    
                 for key, pub in self.endpoints.items():
                     value = f"message-number-{value}" 
-                    h.helicsEndpointSendMessageRaw(pub, 'triggerReceiver', value)
-                    
-                    print(f"{key}: send {value} to distination: triggerReceiver  at time {granted_time}")
+                    default_dest = h.helicsEndpointGetDefaultDestination(pub)
+                    h.helicsEndpointSendMessageRaw(pub, default_dest, value)                    
+                    print(f"{key}: send {value} to distination: {default_dest}  at time {granted_time}")
                    
-            
-            
-            
-            start_time += real_period
 
 
 if __name__ == "__main__":

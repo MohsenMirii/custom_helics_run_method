@@ -81,7 +81,18 @@ def create_federate(config: FederateConfig):
     endpoints = {}
     if config.endpoints is not None:
         for ep in config.endpoints:
-            endpoints[ep["name"]] = h.helicsFederateRegisterEndpoint(fed, ep["name"], ep.get("type", ""))
+            #endpoints[ep["name"]] = h.helicsFederateRegisterEndpoint(fed, ep["name"], ep.get("type", ""))
+            if ep["global"]:
+                endpoint = h.helicsFederateRegisterGlobalEndpoint(fed, ep["name"], ep["type"])
+            else:
+                endpoint = h.helicsFederateRegisterEndpoint(fed, ep["name"], ep["type"])
+                
+            #h.helicsEndpointSetDefaultDestination(endpoint, ep["default_destination"])
+            h.helicsEndpointSetDefaultDestination(endpoint, 'test')
+            print(f'ep["default_destination"] is {ep["default_destination"]}')
+            
+            endpoints[ep["name"]] = endpoint
+
     
     
     return fed, publications, subscriptions, endpoints
