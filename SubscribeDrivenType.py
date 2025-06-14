@@ -41,7 +41,6 @@ class SubscribeDrivenType(BaseFederate):
                     if h.helicsInputIsUpdated(sub):
                         has_event = True
                         value = h.helicsInputGetDouble(sub)
-                        print(f"An event is happening")            
                         print(f"{self.federate_config.name}: Received {key} = {value} at {granted_time}")
                         # Process event immediately (no parallel pool needed for event-driven)
                         self.process_event(key, value, granted_time)           

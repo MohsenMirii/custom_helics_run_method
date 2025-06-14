@@ -4,11 +4,11 @@ Warning: Configuration 'real_period' doesn't match any known HELICS property
 Warning: Configuration 'time_stop' doesn't match any known HELICS property
 Warning: Property 'start_time' not found in HELICS constants
 Warning: Property 'timeout' not found in HELICS constants
-self.__class__.__name__ is:  EventDrivenType
+self.__class__.__name__ is:  EndpointDrivenType
 *********************************************************************************
 ***************** summary of configurations ********************
-period 1.0
-offset 0.5
+period 0.0
+offset 0.0
 delta 1.0
 lag 0.0
 lead 0.0
@@ -21,5 +21,7 @@ TERMINATE_ON_ERROR            : True  (Default: False)
 UNINTERRUPTIBLE               : False (Default: True)
 ONLY_TRANSMIT_ON_CHANGE       : True  (Default: False)
 ONLY_UPDATE_ON_CHANGE         : True  (Default: False)
+WAIT_FOR_CURRENT_TIME_UPDATE  : True  (Default: False)
 RESTRICTIVE_TIME_POLICY       : True  (Default: False)
 FORWARD_COMPUTE               : False (Default: True)
+EVENT_TRIGGERED               : True  (Default: False)

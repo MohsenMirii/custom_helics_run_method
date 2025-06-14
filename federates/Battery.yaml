@@ -34,12 +34,12 @@ flags:
   slow_responding: false
 
 
-endpoints: []
-#  - name: batterySender
-#    type: message
-#    global: true
-#    destination: familyReceiver
-#    default_destination: familyReceiver
+endpoints: 
+  - name: batterySender
+    type: message
+    global: true
+    destination: envelopeReceiver
+    default_destination: envelopeReceiver
 
   
 # Subscriptions (receiving from ...)

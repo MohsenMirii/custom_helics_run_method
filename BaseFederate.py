@@ -69,7 +69,7 @@ class BaseFederate(ABC):
         apply_flag_configs(fedinfo, config.flags)
         
             
-        if self.__class__.__name__ == "EventDrivenType":
+        if self.__class__.__name__ == "EventDrivenType" or self.__class__.__name__ == "EndpointDrivenType":
             h.helicsFederateInfoSetFlagOption(fedinfo, h.HELICS_FLAG_UNINTERRUPTIBLE, False)
         
         print('self.__class__.__name__ is: ', self.__class__.__name__)

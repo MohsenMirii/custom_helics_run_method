@@ -23,13 +23,13 @@ class RunnerType1(BaseFederate):
         period = timing_config.time_period
         granted_time = 0.0
         start_time = 0.0
-        request_time=0.0
+        request_time = 0.0
         real_period = timing_config.real_period
         
         while granted_time < max_iterations:
             
             print(f"*********************************************************************************")        
-            print(f"***************** iteration with real period is {granted_time} ********************")        
+            print(f"***************** iteration with real period is {granted_time} - {period} ********************")        
             
             
             # Federate-specific logic here
@@ -44,20 +44,23 @@ class RunnerType1(BaseFederate):
                     value = h.helicsInputGetDouble(sub)
                     print(f"{self.federate_config.name}: Received {key} = {value} at time {granted_time}")
 
+            
             if self.publications:
                 for key, pub in self.publications.items():
                     value = granted_time  # Your battery-specific value calculation
-                    if granted_time % 5 == 0:
+                    if granted_time % 5 == 0.0:
                         h.helicsPublicationPublishDouble(pub, value)
                         print(f"{self.federate_config.name}: Published {key} = {value} at time {granted_time}")
                     
-                    
-            if self.endpoints:                    
-                for key, pub in self.endpoints.items():
-                    value = f"message-number-{value}" 
-                    default_dest = h.helicsEndpointGetDefaultDestination(pub)
-                    h.helicsEndpointSendMessageRaw(pub, default_dest, value)                    
-                    print(f"{key}: send {value} to distination: {default_dest}  at time {granted_time}")
+
+            if self.endpoints:
+                    for key, pub in self.endpoints.items():
+                        if granted_time % 5 == 0.0:
+                            value = granted_time
+                            message = f"message: {value}" 
+                            default_dest = h.helicsEndpointGetDefaultDestination(pub)
+                            h.helicsEndpointSendMessageRaw(pub, default_dest, message)                    
+                            print(f"{key}: send {value} to distination: {default_dest}  at time {granted_time}")
                    
 
 

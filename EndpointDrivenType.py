@@ -11,7 +11,7 @@ from FederateConfig import TimingConfigs
 
 
 
-class EventDrivenType(BaseFederate):
+class EndpointDrivenType(BaseFederate):
     def run_federate(self):
         
         # Enter execution mode
@@ -22,12 +22,14 @@ class EventDrivenType(BaseFederate):
         granted_time = 0.0
         requested_time = 0.0
         granted_time = h.helicsFederateRequestTime(self.fed, requested_time)
+        start_time = 0.0
+        small_increasement_step = 0.5
         
         
         while granted_time < max_iterations:
             
             print("*********************************************************************************")        
-            print(f"***************** iteration {granted_time} ********************")             
+            print(f"***************** iteration {granted_time}  ********************")             
             print(f"request time is {requested_time}")
             print(f"granted time is {granted_time}")
             
@@ -46,7 +48,7 @@ class EventDrivenType(BaseFederate):
                             has_event = True
                             source = h.helicsMessageGetSource(msg)
                             data = h.helicsMessageGetString(msg)
-                            print(f"Received message at {granted_time}: {data} from {source}")
+                            print(f"Received Message: {data} From: {source} At: {granted_time}")
                             self.process_message(name, msg, granted_time)
                         else:
                             # Return message to queue if it's for future
@@ -56,10 +58,14 @@ class EventDrivenType(BaseFederate):
             
             
             # Event-driven time request logic
-            if has_event:            
+            if has_event or granted_time == 0.0:            
                 # Advance time
                 granted_time = h.helicsFederateRequestTime(self.fed, requested_time)            
                 requested_time = granted_time
+            else:
+                start_time = start_time + small_increasement_step
+                requested_time = start_time
+                granted_time = h.helicsFederateRequestTime(self.fed, requested_time)            
             
             
     
@@ -71,4 +77,4 @@ class EventDrivenType(BaseFederate):
 
 if __name__ == "__main__":
     from BaseFederate import main
-    main(EventDrivenType)
+    main(EndpointDrivenType)

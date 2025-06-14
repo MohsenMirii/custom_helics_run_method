@@ -16,7 +16,7 @@ flags:
   terminate_on_error: true
   debugging: true
   realtime: false
-  uninterruptible: false
+  uninterruptible: true
   observer: false
   strict_config_checking: true
   source_only: false
@@ -34,7 +34,8 @@ flags:
   slow_responding: false
 
 
-endpoints:
+
+endpoints: 
   - name: familyReceiver
     type: message
     global: true
