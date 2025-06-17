@@ -4,7 +4,7 @@ Warning: Configuration 'real_period' doesn't match any known HELICS property
 Warning: Configuration 'time_stop' doesn't match any known HELICS property
 Warning: Property 'start_time' not found in HELICS constants
 Warning: Property 'timeout' not found in HELICS constants
-self.__class__.__name__ is:  EventDrivenType
+self.__class__.__name__ is:  CombinedDrivenType
 *********************************************************************************
 ***************** summary of configurations ********************
 period 0.0
@@ -22,7 +22,72 @@ TERMINATE_ON_ERROR            : True  (Default: False)
 UNINTERRUPTIBLE               : False (Default: True)
 ONLY_TRANSMIT_ON_CHANGE       : True  (Default: False)
 ONLY_UPDATE_ON_CHANGE         : True  (Default: False)
-RESTRICTIVE_TIME_POLICY       : True  (Default: False)
 FORWARD_COMPUTE               : False (Default: True)
 EVENT_TRIGGERED               : True  (Default: False)
 SINGLE_THREAD_FEDERATE        : True  (Default: False)
+*********************************************************************************
+request time is 0.0
+granted time is 1.0
+*********************************************************************************
+request time is 2.0
+granted time is 2.0
+*********************************************************************************
+request time is 3.0
+granted time is 3.0
+*********************************************************************************
+request time is 4.0
+granted time is 4.0
+*********************************************************************************
+request time is 5.0
+granted time is 5.0
+*********************************************************************************
+request time is 6.0
+granted time is 6.0
+Endpoint[familyReceiver] Received: message: 5.0 from envelopeReceiver
+Family: Received HeatPump/power = 0.5 at 6.0
+*********************************************************************************
+request time is 7.0
+granted time is 7.0
+*********************************************************************************
+request time is 8.0
+granted time is 8.0
+*********************************************************************************
+request time is 9.0
+granted time is 9.0
+*********************************************************************************
+request time is 10.0
+granted time is 10.0
+*********************************************************************************
+request time is 11.0
+granted time is 11.0
+Endpoint[familyReceiver] Received: message: 10.0 from envelopeReceiver
+Family: Received HeatPump/power = 1.0 at 11.0
+*********************************************************************************
+request time is 12.0
+granted time is 12.0
+*********************************************************************************
+request time is 13.0
+granted time is 13.0
+*********************************************************************************
+request time is 14.0
+granted time is 14.0
+*********************************************************************************
+request time is 15.0
+granted time is 15.0
+*********************************************************************************
+request time is 16.0
+granted time is 16.0
+Endpoint[familyReceiver] Received: message: 15.0 from envelopeReceiver
+Family: Received HeatPump/power = 1.5 at 16.0
+*********************************************************************************
+request time is 17.0
+granted time is 17.0
+*********************************************************************************
+request time is 18.0
+granted time is 18.0
+*********************************************************************************
+request time is 19.0
+granted time is 19.0
+*********************************************************************************
+request time is 20.0
+granted time is 20.0

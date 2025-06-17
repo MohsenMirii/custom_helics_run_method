@@ -11,7 +11,7 @@ from FederateConfig import TimingConfigs
 
 
 
-class EventDrivenType(BaseFederate):
+class CombinedDrivenType(BaseFederate):
     def run_federate(self):
         
         # Enter execution mode
@@ -118,4 +118,4 @@ class EventDrivenType(BaseFederate):
 
 if __name__ == "__main__":
     from BaseFederate import main
-    main(EventDrivenType)
+    main(CombinedDrivenType)

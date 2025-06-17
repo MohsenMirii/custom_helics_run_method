@@ -1,6 +1,6 @@
 name: Battery
 core_type: zmq
-log_level: debug
+log_level: warning
 
 timing_configs:
   time_period: 1.0
@@ -15,7 +15,7 @@ timing_configs:
 flags:
   terminate_on_error: true
   debugging: false
-  realtime: false
+  realtime: true
   uninterruptible: true
   observer: false
   strict_config_checking: true
@@ -23,7 +23,7 @@ flags:
   only_transmit_on_change: true
   only_update_on_change: true
   wait_for_current_time_update: false
-  restrictive_time_policy: true
+  restrictive_time_policy: false
   rollback: false
   forward_compute: true
   event_triggered: false

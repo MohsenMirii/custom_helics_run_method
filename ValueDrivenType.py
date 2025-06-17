@@ -11,7 +11,7 @@ from FederateConfig import TimingConfigs
 from multiprocessing import Pool
 
 
-class SubscribeDrivenType(BaseFederate):
+class ValueDrivenType(BaseFederate):
 
     def run_federate(self):
         
@@ -22,7 +22,7 @@ class SubscribeDrivenType(BaseFederate):
         max_iterations = timing_config.int_max_iterations
         granted_time = 0.0
         requested_time = 0.0
-        granted_time = h.helicsFederateRequestTime(self.fed, requested_time)
+        granted_time = h.helicsFederateRequestTime(self.fed, max_iterations)
         start_time = 0.0
         small_increasement_step = 0.5
         
@@ -78,4 +78,4 @@ class SubscribeDrivenType(BaseFederate):
 
 if __name__ == "__main__":
     from BaseFederate import main
-    main(SubscribeDrivenType)
+    main(ValueDrivenType)

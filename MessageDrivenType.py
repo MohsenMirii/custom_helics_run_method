@@ -11,7 +11,7 @@ from FederateConfig import TimingConfigs
 
 
 
-class EndpointDrivenType(BaseFederate):
+class MessageDrivenType(BaseFederate):
     def run_federate(self):
         
         # Enter execution mode
@@ -50,15 +50,15 @@ class EndpointDrivenType(BaseFederate):
                             data = h.helicsMessageGetString(msg)
                             print(f"Received Message: {data} From: {source} At: {granted_time}")
                             self.process_message(name, msg, granted_time)
-                        else:
-                            # Return message to queue if it's for future
-                            h.helicsEndpointSendMessageRaw(ep, source, data, msg_time)
-                            break
+                        # else:
+                        #     # Return message to queue if it's for future
+                        #     h.helicsEndpointSendMessageRaw(ep, source, data, msg_time)
+                        #     break
             
             
-            
+
             # Event-driven time request logic
-            if has_event or granted_time == 0.0:            
+            if has_event or granted_time == 0.0:
                 # Advance time
                 granted_time = h.helicsFederateRequestTime(self.fed, requested_time)            
                 requested_time = granted_time
@@ -71,10 +71,18 @@ class EndpointDrivenType(BaseFederate):
     
     def process_message(self, endpoint_name, message, time):
         """Override this method to handle endpoint messages"""
-        pass            
+        if self.endpoints:
+                for key, pub in self.endpoints.items():
+                        default_dest = h.helicsEndpointGetDefaultDestination(pub)
+                        message = f"message: {time}" 
+                        h.helicsEndpointSendMessageRaw(pub, default_dest, message)                    
+                        print(f"{key}: send {message} to distination: {default_dest}  at time {time}")
+        pass 
+
+
            
 
 
 if __name__ == "__main__":
     from BaseFederate import main
-    main(EndpointDrivenType)
+    main(MessageDrivenType)

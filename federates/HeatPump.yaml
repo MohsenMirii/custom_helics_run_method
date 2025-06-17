@@ -7,7 +7,7 @@ timing_configs:
   real_period: 0.0
   time_offset: 0.0
   time_stop: 172800.0
-  time_delta: 1.0
+  time_delta: 0.0
   int_max_iterations: 100
   start_time: "2015-01-01 00:00:00"
   timeout: 30
@@ -33,7 +33,7 @@ flags:
   dumplog: false
   slow_responding: false
 
-
+ 
 endpoints: []
 
 

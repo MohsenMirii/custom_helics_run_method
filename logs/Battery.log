@@ -1,9 +1,6 @@
-start creating federate
-End creating federate
-Warning: Configuration 'real_period' doesn't match any known HELICS property
-Warning: Configuration 'time_stop' doesn't match any known HELICS property
-Warning: Property 'start_time' not found in HELICS constants
-Warning: Property 'timeout' not found in HELICS constants
+C:\Users\Mohsen\AppData\Local\Programs\Python\Python313\Lib\site-packages\helics\capi.py:5682: UserWarning: This function is deprecated. Use `helicsEndpointSendBytesTo` instead.
+  warnings.warn("This function is deprecated. Use `helicsEndpointSendBytesTo` instead.")
+ng: Property 'timeout' not found in HELICS constants
 self.__class__.__name__ is:  RunnerType1
 *********************************************************************************
 ***************** summary of configurations ********************
@@ -19,10 +16,94 @@ publishes Battery/voltage dataType double unit V
 
 CHANGED FLAGS (Non-Default) 
 TERMINATE_ON_ERROR            : True  (Default: False)
+REALTIME                      : True  (Default: False)
 ONLY_TRANSMIT_ON_CHANGE       : True  (Default: False)
 ONLY_UPDATE_ON_CHANGE         : True  (Default: False)
-RESTRICTIVE_TIME_POLICY       : True  (Default: False)
 FORWARD_COMPUTE               : False (Default: True)
 SINGLE_THREAD_FEDERATE        : True  (Default: False)
 *********************************************************************************
-***************** iteration with real period is 0.0 - 1.0 ********************
+***************** iteration with real period is 1.0 ********************
+request time is 1.0
+granted time is 1.0
+[2025-06-17 15:20:40.357] [console] [warning] Battery (131072)[2]::forced Granted Time=2
+*********************************************************************************
+***************** iteration with real period is 2.0 ********************
+request time is 2.0
+granted time is 2.0
+*********************************************************************************
+***************** iteration with real period is 3.0 ********************
+request time is 3.0
+granted time is 3.0
+[2025-06-17 15:20:42.366] [console] [warning] Battery (131072)[4]::forced Granted Time=4
+*********************************************************************************
+***************** iteration with real period is 4.0 ********************
+request time is 4.0
+granted time is 4.0
+*********************************************************************************
+***************** iteration with real period is 5.0 ********************
+request time is 5.0
+granted time is 5.0
+Battery: Published voltage = 5.0 at time 5.0
+batterySender: send 5.0 to distination: envelopeReceiver  at time 5.0
+*********************************************************************************
+***************** iteration with real period is 6.0 ********************
+request time is 6.0
+granted time is 6.0
+*********************************************************************************
+***************** iteration with real period is 7.0 ********************
+request time is 7.0
+granted time is 7.0
+*********************************************************************************
+***************** iteration with real period is 8.0 ********************
+request time is 8.0
+granted time is 8.0
+*********************************************************************************
+***************** iteration with real period is 9.0 ********************
+request time is 9.0
+granted time is 9.0
+*********************************************************************************
+***************** iteration with real period is 10.0 ********************
+request time is 10.0
+granted time is 10.0
+Battery: Published voltage = 10.0 at time 10.0
+batterySender: send 10.0 to distination: envelopeReceiver  at time 10.0
+*********************************************************************************
+***************** iteration with real period is 11.0 ********************
+request time is 11.0
+granted time is 11.0
+*********************************************************************************
+***************** iteration with real period is 12.0 ********************
+request time is 12.0
+granted time is 12.0
+*********************************************************************************
+***************** iteration with real period is 13.0 ********************
+request time is 13.0
+granted time is 13.0
+[2025-06-17 15:20:52.356] [console] [warning] Battery (131072)[14]::forced Granted Time=14
+*********************************************************************************
+***************** iteration with real period is 14.0 ********************
+request time is 14.0
+granted time is 14.0
+*********************************************************************************
+***************** iteration with real period is 15.0 ********************
+request time is 15.0
+granted time is 15.0
+Battery: Published voltage = 15.0 at time 15.0
+batterySender: send 15.0 to distination: envelopeReceiver  at time 15.0
+*********************************************************************************
+***************** iteration with real period is 16.0 ********************
+request time is 16.0
+granted time is 16.0
+[2025-06-17 15:20:55.362] [console] [warning] Battery (131072)[17]::forced Granted Time=17
+*********************************************************************************
+***************** iteration with real period is 17.0 ********************
+request time is 17.0
+granted time is 17.0
+*********************************************************************************
+***************** iteration with real period is 18.0 ********************
+request time is 18.0
+granted time is 18.0
+*********************************************************************************
+***************** iteration with real period is 19.0 ********************
+request time is 19.0
+granted time is 19.0

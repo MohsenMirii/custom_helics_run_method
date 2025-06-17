@@ -28,13 +28,13 @@ class RunnerType1(BaseFederate):
         
         while granted_time < max_iterations:
             
-            print(f"*********************************************************************************")        
-            print(f"***************** iteration with real period is {granted_time} - {period} ********************")        
-            
-            
+           
             # Federate-specific logic here
             request_time = granted_time + period
-            granted_time = h.helicsFederateRequestTime(self.fed, request_time)     
+            granted_time = h.helicsFederateRequestTime(self.fed, request_time) 
+            
+            print(f"*********************************************************************************")        
+            print(f"***************** iteration with real period is {granted_time} ********************")        
             
             print(f"request time is {request_time}")
             print(f"granted time is {granted_time}")            

@@ -16,14 +16,14 @@ flags:
   terminate_on_error: true
   debugging: true
   realtime: false
-  uninterruptible: true
+  uninterruptible: false
   observer: false
   strict_config_checking: true
   source_only: false
   only_transmit_on_change: true
   only_update_on_change: true
   wait_for_current_time_update: false
-  restrictive_time_policy: true
+  restrictive_time_policy: false
   rollback: false
   forward_compute: true
   event_triggered: true

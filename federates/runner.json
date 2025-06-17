@@ -15,21 +15,21 @@
     },
     {
       "directory": ".",
-      "exec": "python -u SubscribeDrivenType.py federates/HeatPump.yaml --loglevel=warning",
+      "exec": "python -u ValueDrivenType.py federates/HeatPump.yaml --loglevel=warning",
       "host": "localhost",
       "name": "HeatPump"
 
     },
     {
       "directory": ".",
-      "exec": "python -u EndpointDrivenType.py federates/Envelope.yaml --loglevel=warning",
+      "exec": "python -u MessageDrivenType.py federates/Envelope.yaml --loglevel=warning",
       "host": "localhost",
       "name": "Envelope"
 
     },
     {
       "directory": ".",
-      "exec": "python -u EventDrivenType.py federates/Family.yaml --loglevel=warning",
+      "exec": "python -u CombinedDrivenType.py federates/Family.yaml --loglevel=warning",
       "host": "localhost",
       "name": "Family"
 
