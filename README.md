@@ -1,5 +1,6 @@
 # HELICS Co-Simulation with Custom Logging Control
 This repository contains a customized HELICS co-simulation runner that provides enhanced control over logging output, making simulation results more readable and actionable.
+![1](https://github.com/user-attachments/assets/420e7fe5-4d61-4573-9120-3aacf89d7d61)
 
 **Key Features:**
 
