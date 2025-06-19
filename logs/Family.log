@@ -24,70 +24,88 @@ ONLY_TRANSMIT_ON_CHANGE       : True  (Default: False)
 ONLY_UPDATE_ON_CHANGE         : True  (Default: False)
 FORWARD_COMPUTE               : False (Default: True)
 EVENT_TRIGGERED               : True  (Default: False)
-SINGLE_THREAD_FEDERATE        : True  (Default: False)
 *********************************************************************************
-request time is 0.0
-granted time is 1.0
-*********************************************************************************
-request time is 2.0
-granted time is 2.0
-*********************************************************************************
-request time is 3.0
-granted time is 3.0
-*********************************************************************************
-request time is 4.0
-granted time is 4.0
-*********************************************************************************
-request time is 5.0
+request time is 9223372036.854774
 granted time is 5.0
+Received Message:  From:  At: 5.0
+Family: Received HeatPump/power = 0.5 at 5.0
 *********************************************************************************
-request time is 6.0
+request time is 9223372036.854774
 granted time is 6.0
-Endpoint[familyReceiver] Received: message: 5.0 from envelopeReceiver
+Received Message: message: 5.0 From: envelopeReceiver At: 6.0
 Family: Received HeatPump/power = 0.5 at 6.0
 *********************************************************************************
-request time is 7.0
-granted time is 7.0
-*********************************************************************************
-request time is 8.0
-granted time is 8.0
-*********************************************************************************
-request time is 9.0
-granted time is 9.0
-*********************************************************************************
-request time is 10.0
+request time is 9223372036.854774
 granted time is 10.0
+Received Message:  From:  At: 10.0
+Family: Received HeatPump/power = 1.0 at 10.0
 *********************************************************************************
-request time is 11.0
+request time is 9223372036.854774
 granted time is 11.0
-Endpoint[familyReceiver] Received: message: 10.0 from envelopeReceiver
+Received Message: message: 10.0 From: envelopeReceiver At: 11.0
 Family: Received HeatPump/power = 1.0 at 11.0
 *********************************************************************************
-request time is 12.0
-granted time is 12.0
-*********************************************************************************
-request time is 13.0
-granted time is 13.0
-*********************************************************************************
-request time is 14.0
-granted time is 14.0
-*********************************************************************************
-request time is 15.0
+request time is 9223372036.854774
 granted time is 15.0
+Received Message:  From:  At: 15.0
+Family: Received HeatPump/power = 1.5 at 15.0
 *********************************************************************************
-request time is 16.0
+request time is 9223372036.854774
 granted time is 16.0
-Endpoint[familyReceiver] Received: message: 15.0 from envelopeReceiver
+Received Message: message: 15.0 From: envelopeReceiver At: 16.0
 Family: Received HeatPump/power = 1.5 at 16.0
 *********************************************************************************
-request time is 17.0
-granted time is 17.0
-*********************************************************************************
-request time is 18.0
-granted time is 18.0
-*********************************************************************************
-request time is 19.0
-granted time is 19.0
-*********************************************************************************
-request time is 20.0
+request time is 9223372036.854774
 granted time is 20.0
+Received Message:  From:  At: 20.0
+Family: Received HeatPump/power = 2.0 at 20.0
+*********************************************************************************
+request time is 9223372036.854774
+granted time is 21.0
+Received Message: message: 20.0 From: envelopeReceiver At: 21.0
+Family: Received HeatPump/power = 2.0 at 21.0
+*********************************************************************************
+request time is 9223372036.854774
+granted time is 25.0
+Received Message:  From:  At: 25.0
+Family: Received HeatPump/power = 2.5 at 25.0
+*********************************************************************************
+request time is 9223372036.854774
+granted time is 26.0
+Received Message: message: 25.0 From: envelopeReceiver At: 26.0
+Family: Received HeatPump/power = 2.5 at 26.0
+*********************************************************************************
+request time is 9223372036.854774
+granted time is 30.0
+Received Message:  From:  At: 30.0
+Family: Received HeatPump/power = 3.0 at 30.0
+*********************************************************************************
+request time is 9223372036.854774
+granted time is 31.0
+Received Message: message: 30.0 From: envelopeReceiver At: 31.0
+Family: Received HeatPump/power = 3.0 at 31.0
+*********************************************************************************
+request time is 9223372036.854774
+granted time is 35.0
+Received Message:  From:  At: 35.0
+Family: Received HeatPump/power = 3.5 at 35.0
+*********************************************************************************
+request time is 9223372036.854774
+granted time is 36.0
+Received Message: message: 35.0 From: envelopeReceiver At: 36.0
+Family: Received HeatPump/power = 3.5 at 36.0
+*********************************************************************************
+request time is 9223372036.854774
+granted time is 40.0
+Received Message:  From:  At: 40.0
+Family: Received HeatPump/power = 4.0 at 40.0
+*********************************************************************************
+request time is 9223372036.854774
+granted time is 41.0
+Received Message: message: 40.0 From: envelopeReceiver At: 41.0
+Family: Received HeatPump/power = 4.0 at 41.0
+*********************************************************************************
+request time is 9223372036.854774
+granted time is 45.0
+Received Message:  From:  At: 45.0
+Family: Received HeatPump/power = 4.5 at 45.0

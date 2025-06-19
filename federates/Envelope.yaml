@@ -8,7 +8,7 @@ timing_configs:
   time_offset: 0.0
   time_stop: 172800.0
   time_delta: 0.0
-  int_max_iterations: 100
+  int_max_iterations: 100.0
   start_time: "2015-01-01 00:00:00"
   timeout: 30
 
@@ -22,7 +22,7 @@ flags:
   source_only: false
   only_transmit_on_change: true
   only_update_on_change: true
-  wait_for_current_time_update: true
+  wait_for_current_time_update: false
   restrictive_time_policy: false
   rollback: false
   forward_compute: true
@@ -33,11 +33,13 @@ flags:
   dumplog: false
   slow_responding: false
 
-endpoints:
+endpoints: 
   - name: envelopeReceiver
     type: message
     global: true
     destination: familyReceiver
+
+
 
 # Subscriptions (receiving from ...)
 subscriptions:
