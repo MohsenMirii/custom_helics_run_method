@@ -1,7 +1,12 @@
-# HELICS Co-Simulation with Custom Logging Control
-This repository contains a customized HELICS co-simulation runner that provides enhanced control over logging output, making simulation results more readable and actionable.
+# HELICS Co-Simulation Event Driven with Custom Runner
+This repository contains customized HELICS co-simulation runners that provide greater flexibility for tailoring co-simulations and improve the readability and usability of simulation results.
+It includes  **three different runner types for time-based federates** and **three different runner types for event-based federates** .
 
 **Key Features:**
+
+# Three different runner types for time-based federates
+
+
 
 # Intelligent Log Filtering:
 Our custom runner automatically filters out noisy HELICS debug messages like:
