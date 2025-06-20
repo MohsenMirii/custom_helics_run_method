@@ -26,8 +26,8 @@ class MessageDrivenType(BaseFederate):
         
         ep_name, ep = next(iter(self.endpoints.items()))
 
-        #while granted_time < max_iterations:
-        while h.helicsFederateGetState(self.fed) == h.HELICS_STATE_EXECUTION:
+        # while h.helicsFederateGetState(self.fed) == h.HELICS_STATE_EXECUTION:
+        while granted_time < max_iterations:
                             
             print("*********************************************************************************")
             print(f"request time is {requested_time}")
@@ -42,15 +42,9 @@ class MessageDrivenType(BaseFederate):
                 self.process_message(ep_name, msg, granted_time)
                 # logger.debug(f'\tReceived message from endpoint {source} at time {grantedtime} with SOC {currentsoc}')
                 
-                
-                
             granted_time = h.helicsFederateRequestTime(self.fed, requested_time)
 
            
-            
-            
-            
-    
     def process_message(self, endpoint_name, message, time):
         """Override this method to handle endpoint messages"""
         if self.endpoints:

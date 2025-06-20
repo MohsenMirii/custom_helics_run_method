@@ -30,10 +30,10 @@ class CombinedDrivenType(BaseFederate):
        key, sub = next(iter(self.subscriptions.items()))
 
        
-       #while granted_time < max_iterations:
-       while h.helicsFederateGetState(self.fed) == h.HELICS_STATE_EXECUTION:
+       # while h.helicsFederateGetState(self.fed) == h.HELICS_STATE_EXECUTION:
+       while granted_time < max_iterations:
             
-            print("*********************************************************************************")        
+            print("*********************************************************************************")
             print(f"request time is {requested_time}")
             print(f"granted time is {granted_time}")
             
@@ -50,8 +50,7 @@ class CombinedDrivenType(BaseFederate):
                 #if not value:
                 print(f"{self.federate_config.name}: Received {key} = {value} at {granted_time}")
                 
-                
-                
+
             granted_time = h.helicsFederateRequestTime(self.fed, requested_time)
             
     

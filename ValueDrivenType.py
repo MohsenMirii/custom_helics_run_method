@@ -8,7 +8,6 @@ Created on Wed Jun 07 16:40:30 2025
 from BaseFederate import BaseFederate
 import helics as h
 from FederateConfig import TimingConfigs
-from multiprocessing import Pool
 
 
 class ValueDrivenType(BaseFederate):
@@ -28,8 +27,8 @@ class ValueDrivenType(BaseFederate):
         
         key, sub = next(iter(self.subscriptions.items()))
         
-        #while granted_time < max_iterations:
-        while h.helicsFederateGetState(self.fed) == h.HELICS_STATE_EXECUTION:
+        # while h.helicsFederateGetState(self.fed) == h.HELICS_STATE_EXECUTION:
+        while granted_time < max_iterations:
 
             
             print("*********************************************************************************")
@@ -39,7 +38,6 @@ class ValueDrivenType(BaseFederate):
             while h.helicsInputIsUpdated(sub):
                 value = h.helicsInputGetDouble(sub)
                 print(f"{self.federate_config.name}: Received {key} = {value} at {granted_time}")
-                # Process event immediately (no parallel pool needed for event-driven)
                 self.process_event(key, value, granted_time) 
                 
 
