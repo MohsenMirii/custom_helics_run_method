@@ -39,26 +39,54 @@ For this purpose, I created three types of event-based runners:
 When we want to run each federate differently, we use one of the time-based or event-based runners unique to it.
 It is worth noting that each federate may have unique flag or timing configurations; BaseFederate.py reads and sets these configurations for each federate.
 
+**Reference:** https://github.com/GMLC-TDC/HELICS-Examples/blob/main/user_guide_examples/fundamental/fundamental_integration/Controller.py
 
 
-# Intelligent Log Filtering:
-Our custom runner automatically filters out noisy HELICS debug messages like:
+**3- Federates Folder**
 
-![1](https://github.com/user-attachments/assets/9583a0c8-d5e9-418e-952a-5bb1defd5fbf)
+In this folder, we have the configuration files for four federates (Battery.yaml, Envelope.yaml, Family.yaml, HeatPump.yaml) in YAML format and runner.json. Each YAML file contains the following configurations:
 
+1- name
 
-while preserving your important simulation messages.
+2- core_type
 
-# Multi-Level Logging Architecture
-  **File Logs:** Complete unfiltered logs for debugging (logs/*.log)
+3- log_level
 
-  **Console Output:** Clean, filtered output showing only relevant information
+4- timing_configs
 
-  **Per-Federate Logs:** Separate log files for each federate
+5- flags
 
-# Customizable Filtering
-Easily modify what gets logged by editing the filter patterns in custom_runner.py:
-![2](https://github.com/user-attachments/assets/96ddafdd-b4a7-4db5-8eb5-ddafc6d6f6cf)
+6- endpoints
+
+7- Subscriptions
+
+8- Publications
+
+9- memory
+
+**NOTE** : Each federate has relationships with others and can publish/subscribe to value(s) or send/receive message(s). In this case, the interaction schema is as follows:
+
+![1](https://github.com/user-attachments/assets/bbcfc457-2b93-42d9-a11d-b14088d9c945)
+
+• **Battery** : Subscribes nothing but publishes value to HeatPump, and send message to Envelope.
+
+• **HeatPump(value driven federate)** : Subcribes value from Battery and publishes value to Family.
+
+• **Envelope(message driven federate)**: Subscribes nothing, receives message from Battery and sends message to Family.
+
+• **Family(message and value driven federate)**  : Subscribes value from HeatPump, receives message from Envelope.
+
+**NOTE** :In runner.json, we introduce the federates to our co-simulation along with their desired runner type.
+
+**4- Helics.py**
+
+In this file, we specify the path to runner.json for the co-simulation. To run it, simply execute the following command in the command prompt: python helics.py 
+
+**5- CustomRunner.py**
+
+In this file, we read the contents of runner.json and run each federate using a customized runner in multi-process mode. Additionally, the file monitors the federates during runtime and logs all events that occur in each federate into the "Logs" folder. When reading the federate configurations from the "Federates" folder, each configuration file is parsed into an object of FederateConfig.py, which is then used throughout the rest of the process.
+
+In addition, during runtime, we use FlagUtilities.py and TimingUtilities.py to set the flags and timing configurations, respectively.
 
 
 # Run the code:
