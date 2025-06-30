@@ -20,145 +20,35 @@ subscribes Battery/voltage unit V
 
 CHANGED FLAGS (Non-Default) 
 TERMINATE_ON_ERROR            : True  (Default: False)
+UNINTERRUPTIBLE               : False (Default: True)
 ONLY_TRANSMIT_ON_CHANGE       : True  (Default: False)
 ONLY_UPDATE_ON_CHANGE         : True  (Default: False)
-WAIT_FOR_CURRENT_TIME_UPDATE  : True  (Default: False)
 RESTRICTIVE_TIME_POLICY       : True  (Default: False)
 FORWARD_COMPUTE               : False (Default: True)
 EVENT_TRIGGERED               : True  (Default: False)
 SINGLE_THREAD_FEDERATE        : True  (Default: False)
-***************** iteration 1e-09 ********************
-request time is 0.0
-granted time is 1e-09
-***************** iteration 0.5 ********************
-request time is 0.5
-granted time is 0.5
-***************** iteration 1.0 ********************
-request time is 1.0
-granted time is 1.0
-***************** iteration 1.5 ********************
-request time is 1.5
-granted time is 1.5
-***************** iteration 2.0 ********************
-request time is 2.0
-granted time is 2.0
-***************** iteration 2.5 ********************
-request time is 2.5
-granted time is 2.5
-***************** iteration 3.0 ********************
-request time is 3.0
-granted time is 3.0
-***************** iteration 3.5 ********************
-request time is 3.5
-granted time is 3.5
-***************** iteration 4.0 ********************
-request time is 4.0
-granted time is 4.0
-***************** iteration 4.5 ********************
-request time is 4.5
-granted time is 4.5
-***************** iteration 5.0 ********************
-request time is 5.0
+*********************************************************************************
+request time is 9223372036.854774
 granted time is 5.0
 HeatPump: Received Battery/voltage = 5.0 at 5.0
 HeatPump: Published power = 0.5 at time 5.0
-***************** iteration 5.000000001 ********************
-request time is 5.000000001
-granted time is 5.000000001
-***************** iteration 5.5 ********************
-request time is 5.5
-granted time is 5.5
-***************** iteration 6.0 ********************
-request time is 6.0
-granted time is 6.0
-***************** iteration 6.5 ********************
-request time is 6.5
-granted time is 6.5
-***************** iteration 7.0 ********************
-request time is 7.0
-granted time is 7.0
-***************** iteration 7.5 ********************
-request time is 7.5
-granted time is 7.5
-***************** iteration 8.0 ********************
-request time is 8.0
-granted time is 8.0
-***************** iteration 8.5 ********************
-request time is 8.5
-granted time is 8.5
-***************** iteration 9.0 ********************
-request time is 9.0
-granted time is 9.0
-***************** iteration 9.5 ********************
-request time is 9.5
-granted time is 9.5
-***************** iteration 10.0 ********************
-request time is 10.0
+*********************************************************************************
+request time is 9223372036.854774
 granted time is 10.0
 HeatPump: Received Battery/voltage = 10.0 at 10.0
 HeatPump: Published power = 1.0 at time 10.0
-***************** iteration 10.000000001 ********************
-request time is 10.000000001
-granted time is 10.000000001
-***************** iteration 10.5 ********************
-request time is 10.5
-granted time is 10.5
-***************** iteration 11.0 ********************
-request time is 11.0
-granted time is 11.0
-***************** iteration 11.5 ********************
-request time is 11.5
-granted time is 11.5
-***************** iteration 12.0 ********************
-request time is 12.0
-granted time is 12.0
-***************** iteration 12.5 ********************
-request time is 12.5
-granted time is 12.5
-***************** iteration 13.0 ********************
-request time is 13.0
-granted time is 13.0
-***************** iteration 13.5 ********************
-request time is 13.5
-granted time is 13.5
-***************** iteration 14.0 ********************
-request time is 14.0
-granted time is 14.0
-***************** iteration 14.5 ********************
-request time is 14.5
-granted time is 14.5
-***************** iteration 15.0 ********************
-request time is 15.0
+*********************************************************************************
+request time is 9223372036.854774
 granted time is 15.0
 HeatPump: Received Battery/voltage = 15.0 at 15.0
 HeatPump: Published power = 1.5 at time 15.0
-***************** iteration 15.000000001 ********************
-request time is 15.000000001
-granted time is 15.000000001
-***************** iteration 15.5 ********************
-request time is 15.5
-granted time is 15.5
-***************** iteration 16.0 ********************
-request time is 16.0
-granted time is 16.0
-***************** iteration 16.5 ********************
-request time is 16.5
-granted time is 16.5
-***************** iteration 17.0 ********************
-request time is 17.0
-granted time is 17.0
-***************** iteration 17.5 ********************
-request time is 17.5
-granted time is 17.5
-***************** iteration 18.0 ********************
-request time is 18.0
-granted time is 18.0
-***************** iteration 18.5 ********************
-request time is 18.5
-granted time is 18.5
-***************** iteration 19.0 ********************
-request time is 19.0
-granted time is 19.0
-***************** iteration 19.5 ********************
-request time is 19.5
-granted time is 19.5
+*********************************************************************************
+request time is 9223372036.854774
+granted time is 20.0
+HeatPump: Received Battery/voltage = 20.0 at 20.0
+HeatPump: Published power = 2.0 at time 20.0
+*********************************************************************************
+request time is 9223372036.854774
+granted time is 25.0
+HeatPump: Received Battery/voltage = 25.0 at 25.0
+HeatPump: Published power = 2.5 at time 25.0

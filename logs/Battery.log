@@ -22,88 +22,120 @@ ONLY_UPDATE_ON_CHANGE         : True  (Default: False)
 FORWARD_COMPUTE               : False (Default: True)
 SINGLE_THREAD_FEDERATE        : True  (Default: False)
 *********************************************************************************
-***************** iteration with real period is 1.0 ********************
 request time is 1.0
 granted time is 1.0
-[2025-06-17 15:20:40.357] [console] [warning] Battery (131072)[2]::forced Granted Time=2
 *********************************************************************************
-***************** iteration with real period is 2.0 ********************
 request time is 2.0
 granted time is 2.0
 *********************************************************************************
-***************** iteration with real period is 3.0 ********************
 request time is 3.0
 granted time is 3.0
-[2025-06-17 15:20:42.366] [console] [warning] Battery (131072)[4]::forced Granted Time=4
 *********************************************************************************
-***************** iteration with real period is 4.0 ********************
 request time is 4.0
 granted time is 4.0
 *********************************************************************************
-***************** iteration with real period is 5.0 ********************
 request time is 5.0
 granted time is 5.0
 Battery: Published voltage = 5.0 at time 5.0
 batterySender: send 5.0 to distination: envelopeReceiver  at time 5.0
+batterySender2: send 5.0 to distination: familyReceiver2  at time 5.0
+[2025-07-01 00:48:00.982] [console] [warning] Battery (131072)[6]::forced Granted Time=6
 *********************************************************************************
-***************** iteration with real period is 6.0 ********************
 request time is 6.0
 granted time is 6.0
 *********************************************************************************
-***************** iteration with real period is 7.0 ********************
 request time is 7.0
 granted time is 7.0
 *********************************************************************************
-***************** iteration with real period is 8.0 ********************
 request time is 8.0
 granted time is 8.0
 *********************************************************************************
-***************** iteration with real period is 9.0 ********************
 request time is 9.0
 granted time is 9.0
 *********************************************************************************
-***************** iteration with real period is 10.0 ********************
 request time is 10.0
 granted time is 10.0
 Battery: Published voltage = 10.0 at time 10.0
 batterySender: send 10.0 to distination: envelopeReceiver  at time 10.0
+batterySender2: send 10.0 to distination: familyReceiver2  at time 10.0
+[2025-07-01 00:48:05.981] [console] [warning] Battery (131072)[11]::forced Granted Time=11
 *********************************************************************************
-***************** iteration with real period is 11.0 ********************
 request time is 11.0
 granted time is 11.0
+[2025-07-01 00:48:06.992] [console] [warning] Battery (131072)[12]::forced Granted Time=12
 *********************************************************************************
-***************** iteration with real period is 12.0 ********************
 request time is 12.0
 granted time is 12.0
+[2025-07-01 00:48:07.995] [console] [warning] Battery (131072)[13]::forced Granted Time=13
 *********************************************************************************
-***************** iteration with real period is 13.0 ********************
 request time is 13.0
 granted time is 13.0
-[2025-06-17 15:20:52.356] [console] [warning] Battery (131072)[14]::forced Granted Time=14
+[2025-07-01 00:48:09.010] [console] [warning] Battery (131072)[14]::forced Granted Time=14
 *********************************************************************************
-***************** iteration with real period is 14.0 ********************
 request time is 14.0
 granted time is 14.0
+[2025-07-01 00:48:09.994] [console] [warning] Battery (131072)[15]::forced Granted Time=15
 *********************************************************************************
-***************** iteration with real period is 15.0 ********************
 request time is 15.0
 granted time is 15.0
 Battery: Published voltage = 15.0 at time 15.0
 batterySender: send 15.0 to distination: envelopeReceiver  at time 15.0
+batterySender2: send 15.0 to distination: familyReceiver2  at time 15.0
+[2025-07-01 00:48:10.997] [console] [warning] Battery (131072)[16]::forced Granted Time=16
 *********************************************************************************
-***************** iteration with real period is 16.0 ********************
 request time is 16.0
 granted time is 16.0
-[2025-06-17 15:20:55.362] [console] [warning] Battery (131072)[17]::forced Granted Time=17
+[2025-07-01 00:48:11.981] [console] [warning] Battery (131072)[17]::forced Granted Time=17
 *********************************************************************************
-***************** iteration with real period is 17.0 ********************
 request time is 17.0
 granted time is 17.0
+[2025-07-01 00:48:12.981] [console] [warning] Battery (131072)[18]::forced Granted Time=18
 *********************************************************************************
-***************** iteration with real period is 18.0 ********************
 request time is 18.0
 granted time is 18.0
+[2025-07-01 00:48:13.994] [console] [warning] Battery (131072)[19]::forced Granted Time=19
 *********************************************************************************
-***************** iteration with real period is 19.0 ********************
 request time is 19.0
 granted time is 19.0
+[2025-07-01 00:48:14.995] [console] [warning] Battery (131072)[20]::forced Granted Time=20
+*********************************************************************************
+request time is 20.0
+granted time is 20.0
+Battery: Published voltage = 20.0 at time 20.0
+batterySender: send 20.0 to distination: envelopeReceiver  at time 20.0
+batterySender2: send 20.0 to distination: familyReceiver2  at time 20.0
+[2025-07-01 00:48:15.980] [console] [warning] Battery (131072)[21]::forced Granted Time=21
+*********************************************************************************
+request time is 21.0
+granted time is 21.0
+[2025-07-01 00:48:16.983] [console] [warning] Battery (131072)[22]::forced Granted Time=22
+*********************************************************************************
+request time is 22.0
+granted time is 22.0
+[2025-07-01 00:48:17.985] [console] [warning] Battery (131072)[23]::forced Granted Time=23
+*********************************************************************************
+request time is 23.0
+granted time is 23.0
+[2025-07-01 00:48:18.986] [console] [warning] Battery (131072)[24]::forced Granted Time=24
+*********************************************************************************
+request time is 24.0
+granted time is 24.0
+[2025-07-01 00:48:19.995] [console] [warning] Battery (131072)[25]::forced Granted Time=25
+*********************************************************************************
+request time is 25.0
+granted time is 25.0
+Battery: Published voltage = 25.0 at time 25.0
+batterySender: send 25.0 to distination: envelopeReceiver  at time 25.0
+batterySender2: send 25.0 to distination: familyReceiver2  at time 25.0
+[2025-07-01 00:48:20.992] [console] [warning] Battery (131072)[26]::forced Granted Time=26
+*********************************************************************************
+request time is 26.0
+granted time is 26.0
+[2025-07-01 00:48:21.994] [console] [warning] Battery (131072)[27]::forced Granted Time=27
+*********************************************************************************
+request time is 27.0
+granted time is 27.0
+[2025-07-01 00:48:22.991] [console] [warning] Battery (131072)[28]::forced Granted Time=28
+*********************************************************************************
+request time is 28.0
+granted time is 28.0

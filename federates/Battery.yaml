@@ -8,7 +8,7 @@ timing_configs:
   time_offset: 0.0
   time_stop: 172800.0
   time_delta: 1.0
-  int_max_iterations: 100
+  int_max_iterations: 100.0
   start_time: "2015-01-01 00:00:00"
   timeout: 30
 
@@ -35,11 +35,16 @@ flags:
 
 
 endpoints: 
-  - name: batterySender
-    type: message
-    global: true
-    destination: envelopeReceiver
-    default_destination: envelopeReceiver
+   - name: batterySender
+     type: message
+     global: true
+     destination: envelopeReceiver
+
+   - name: batterySender2
+     type: message
+     global: true
+     destination: familyReceiver2
+
 
   
 # Subscriptions (receiving from ...)

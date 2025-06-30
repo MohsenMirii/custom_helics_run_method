@@ -8,7 +8,6 @@ Created on Wed Jun 07 16:40:30 2025
 from BaseFederate import BaseFederate
 import helics as h
 from FederateConfig import TimingConfigs
-from multiprocessing import Pool
 
 
 class ValueDrivenType(BaseFederate):
@@ -19,46 +18,31 @@ class ValueDrivenType(BaseFederate):
         h.helicsFederateEnterExecutingMode(self.fed)
         
         timing_config = TimingConfigs(**self.federate_config.timing_configs)
-        max_iterations = timing_config.int_max_iterations
-        granted_time = 0.0
-        requested_time = 0.0
-        granted_time = h.helicsFederateRequestTime(self.fed, max_iterations)
-        start_time = 0.0
-        small_increasement_step = 0.5
+
+        max_iterations = timing_config.int_max_iterations        
+
+        requested_time = h.HELICS_TIME_MAXTIME
         
+        granted_time = h.helicsFederateRequestTime(self.fed, requested_time)
+        
+        key, sub = next(iter(self.subscriptions.items()))
+        
+        # while h.helicsFederateGetState(self.fed) == h.HELICS_STATE_EXECUTION:
         while granted_time < max_iterations:
+
             
-            print(f"***************** iteration {granted_time} ********************")
+            print("*********************************************************************************")
             print(f"request time is {requested_time}")
             print(f"granted time is {granted_time}")            
-           
-            # Reset event flag at start of each iteration
-            has_event = False
-
-            # Check subscriptions for updates
-            if self.subscriptions:
-                for key, sub in self.subscriptions.items():
-                    if h.helicsInputIsUpdated(sub):
-                        has_event = True
-                        value = h.helicsInputGetDouble(sub)
-                        print(f"{self.federate_config.name}: Received {key} = {value} at {granted_time}")
-                        # Process event immediately (no parallel pool needed for event-driven)
-                        self.process_event(key, value, granted_time)           
             
-            
-            # Event-driven time request logic
-            if has_event or granted_time == 0.0:            
-                # Advance time
-                granted_time = h.helicsFederateRequestTime(self.fed, requested_time)            
-                requested_time = granted_time
-            else:
-                start_time = start_time + small_increasement_step
-                requested_time = start_time
-                granted_time = h.helicsFederateRequestTime(self.fed, requested_time)            
+            while h.helicsInputIsUpdated(sub):
+                value = h.helicsInputGetDouble(sub)
+                print(f"{self.federate_config.name}: Received {key} = {value} at {granted_time}")
+                self.process_event(key, value, granted_time) 
                 
-            
-            
-   
+
+            granted_time = h.helicsFederateRequestTime(self.fed, requested_time)
+                              
   
     
     def process_event(self, key, value, time):

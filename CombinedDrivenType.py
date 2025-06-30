@@ -13,92 +13,82 @@ from FederateConfig import TimingConfigs
 
 class CombinedDrivenType(BaseFederate):
     def run_federate(self):
-        
-        # Enter execution mode
-        h.helicsFederateEnterExecutingMode(self.fed)
-        
-        timing_config = TimingConfigs(**self.federate_config.timing_configs)
-        max_iterations = timing_config.int_max_iterations
-        granted_time = 0.0
-        requested_time = 0.0
-        granted_time = h.helicsFederateRequestTime(self.fed, requested_time)
-        start_time = 0.0
-        small_increasement_step = 0.5
-        
-        
-        while granted_time < max_iterations:
-            
-            print("*********************************************************************************")        
-            # print(f"***************** iteration {requested_time} ********************")
-            print(f"request time is {requested_time}")
-            print(f"granted time is {granted_time}")
-            
-            # if granted_time > 3.0:
-            #     raise Exception("Fake Exceptions to test its impact on the performance of other federates !")
+       
+       # Enter execution mode
+       h.helicsFederateEnterExecutingMode(self.fed)
+       
+       timing_config = TimingConfigs(**self.federate_config.timing_configs)
 
+       max_iterations = timing_config.int_max_iterations        
 
-            # Reset event flag at start of each iteration
-            has_event = False
+       requested_time = h.HELICS_TIME_MAXTIME
+       
+       granted_time = h.helicsFederateRequestTime(self.fed, requested_time)
+       
+       ep_name, ep = next(iter(self.endpoints.items()))
 
-            # ----------------------------
-            # 1. Check Endpoints for Messages
-            # ----------------------------
-            if self.endpoints:
-                for ep_name, endpoint in self.endpoints.items():
-                    while h.helicsEndpointHasMessage(endpoint):
-                        msg = h.helicsEndpointGetMessage(endpoint)
-                        msg_time = h.helicsMessageGetTime(msg)
+       key, sub = next(iter(self.subscriptions.items()))
+
+       
+       # # while h.helicsFederateGetState(self.fed) == h.HELICS_STATE_EXECUTION:
+       # while granted_time < max_iterations:
+            
+       #      print("*********************************************************************************")
+       #      print(f"request time is {requested_time}")
+       #      print(f"granted time is {granted_time}")
+            
+           
+       #      while h.helicsEndpointHasMessage(ep) or h.helicsInputIsUpdated(sub):
+       #          msg = h.helicsEndpointGetMessage(ep)
+       #          data = h.helicsMessageGetString(msg)
+       #          source = h.helicsMessageGetOriginalSource(msg) 
                 
-                        # Only process messages for current or past time
-                        if msg_time <= granted_time:
-                            has_event = True
-                            source = h.helicsMessageGetSource(msg)
-                            data = h.helicsMessageGetString(msg)
-                            print(f"Endpoint[{ep_name}] Received: {data} from {source}")
-                        else:
-                            # Return future-dated messages to queue
-                            h.helicsEndpointSendMessageRaw(endpoint, source, data, msg_time)
-                        break
-            
-            
-            
-            # ----------------------------
-            # 2. Check Subscriptions for Updates
-            # ----------------------------
+       #          #if not data:
+       #          print(f"Received Message: {data} From: {source} At: {granted_time}")
                 
-            # Check subscriptions for updates
-            if self.subscriptions:
-                for key, sub in self.subscriptions.items():
-                    if h.helicsInputIsUpdated(sub):
-                        has_event = True
-                        value = h.helicsInputGetDouble(sub)
-                        print(f"{self.federate_config.name}: Received {key} = {value} at {granted_time}")
-                        # Process event immediately (no parallel pool needed for event-driven)
-                        self.process_event(key, value, granted_time) 
-            
-            # ----------------------------
-            # 3. Handle Publications if Events Occurred
-            # ----------------------------
-            # if has_event or granted_time == 0:
-            #     if self.publications:
-            #         for pub_name, publication in self.publications.items():
-            #             pub_value = granted_time
-            #             h.helicsPublicationPublishDouble(publication, pub_value)
-            #             print(f"Published {pub_name} = {pub_value}")
+       #          value = h.helicsInputGetDouble(sub)
+       #          #if not value:
+       #          print(f"{self.federate_config.name}: Received {key} = {value} at {granted_time}")
                 
-            
-            
-            # # Event-driven time request logic
-            # if has_event or granted_time == 0.0:            
-            #     # Advance time
-            #     granted_time = h.helicsFederateRequestTime(self.fed, requested_time)            
-            #     requested_time = granted_time
-            # else:
-            #     granted_time = h.helicsFederateRequestTime(self.fed, requested_time)      
-            #     requested_time = granted_time
-            
-            granted_time = h.helicsFederateRequestTime(self.fed, requested_time)            
-            requested_time = granted_time
+
+       #      granted_time = h.helicsFederateRequestTime(self.fed, requested_time)
+       
+       while granted_time < max_iterations:
+           print("*********************************************************************************")
+           print(f"request time is {requested_time}")
+           print(f"granted time is {granted_time}")
+           
+           # Create a function to check if any endpoint has messages or any subscription is updated
+           def has_messages_or_updates():
+               # Check all endpoints
+               for ep in self.endpoints.values():
+                   if h.helicsEndpointHasMessage(ep):
+                       return True
+                   
+               # Check all subscriptions
+               for sub in self.subscriptions.values():
+                   if h.helicsInputIsUpdated(sub):
+                       return True
+                   
+               return False
+    
+           # Main processing loop
+           while has_messages_or_updates():
+               # Process all endpoints first
+               for ep_name, ep in self.endpoints.items():
+                   while h.helicsEndpointHasMessage(ep):
+                       msg = h.helicsEndpointGetMessage(ep)
+                       data = h.helicsMessageGetString(msg)
+                       source = h.helicsMessageGetOriginalSource(msg)
+                       print(f"Received Message from {ep_name}: {data} From: {source} At: {granted_time}")
+        
+               # Then process all subscriptions
+               for key, sub in self.subscriptions.items():
+                   if h.helicsInputIsUpdated(sub):
+                       value = h.helicsInputGetDouble(sub)
+                       print(f"{self.federate_config.name}: Received {key} = {value} at {granted_time}")
+                       
+           granted_time = h.helicsFederateRequestTime(self.fed, requested_time)
             
     
     def generate_output(self, publication_key, time):

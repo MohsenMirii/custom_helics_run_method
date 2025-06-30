@@ -27,7 +27,7 @@ flags:
   rollback: false
   forward_compute: true
   event_triggered: true
-  single_thread_federate: true
+  single_thread_federate: false
   ignore_time_mismatch_warnings: false
   force_logging_flush: true
   dumplog: false
@@ -40,6 +40,11 @@ endpoints:
     type: message
     global: true
     destination: 
+  - name: familyReceiver2
+    type: message
+    global: true
+    destination: 
+
 
 
 # Subscriptions (receiving from HeatPump)
